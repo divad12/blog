@@ -322,6 +322,52 @@ article img, article video, article .flash-video {
 
 
 /* =============================================================================
+   Code Blocks - Stolen from Octopress
+   ========================================================================== */
+
+.mono, pre, code, tt, p code, li code {
+    font-family: Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+}
+
+pre {
+    background: none repeat scroll left top #002B36;
+    border: 1px solid #073642;
+    border-radius: 0.4em 0.4em 0.4em 0.4em;
+    color: #93A1A1;
+    font-size: 14px;
+    line-height: 1.45em;
+    margin-bottom: 2.1em;
+    overflow: auto;
+    padding: 0.5em;
+    width: 720px;
+}
+
+p code, li code {
+    background: none repeat scroll 0 0 whitesmoke;
+    border: 1px solid #DDDDDD;
+    border-radius: 0.4em 0.4em 0.4em 0.4em;
+    color: #333;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin: -1px 0;
+    padding: 0 0.3em;
+}
+
+.highlight .lineno, html .gist .gist-file .gist-syntax .gist-highlight .line-numbers {
+    background: none repeat scroll left top #073642;
+    border-right: 1px solid #00232C;
+    box-shadow: -1px 0 #083E4B inset;
+    /*font-size: 13px;*/
+    line-height: 1.5em;
+    padding: 0.5em 0.8em;
+    text-align: right;
+    text-shadow: 0 -1px #021014;
+    margin-left: -0.5em;
+}
+
+
+/* =============================================================================
    Non-semantic helper classes
    Please define your styles before this section.
    ========================================================================== */
