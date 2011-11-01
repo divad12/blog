@@ -248,7 +248,7 @@ nav {
   float: right;
   font-family: "Lucida Grande", Helvetica, san-serif;
   font-size: 1.5em;
-  padding-left: 10px;
+  padding-left: 8px;
 }
 
 nav li {
@@ -283,6 +283,8 @@ nav .centre {
   text-transform: uppercase;
   font-weight: bold;
   background-color: rgba(64, 130, 195, 0.1);
+  margin-left: 1px;
+  margin-right: 1px;
   color: #555;
 }
 
@@ -303,11 +305,19 @@ footer {
   clear: both;
 }
 
+article {
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #AAA;
+  margin-bottom: 60px;
+}
+
 article img, article video, article .flash-video {
     -moz-box-sizing: border-box;
     border: 0.5em solid white;
     border-radius: 0.3em 0.3em 0.3em 0.3em;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
