@@ -1,2 +1,2 @@
 pygments: true
-exclude: [ tom-posts, html5 ]
+markdown: rdiscount
