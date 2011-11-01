@@ -303,7 +303,12 @@ footer {
   clear: both;
 }
 
-
+article img, article video, article .flash-video {
+    -moz-box-sizing: border-box;
+    border: 0.5em solid white;
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
 
 
 /* =============================================================================
