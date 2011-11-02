@@ -235,6 +235,11 @@ h1 a, h1 a:visited {
   color: inherit;
 }
 
+h2 {
+  margin-bottom: -10px;
+  padding-bottom: 0px;
+}
+
 p.meta {
   color: #666;
   letter-spacing: 0.1em;
@@ -316,8 +321,18 @@ article img, article video, article .flash-video {
     border: 0.5em solid white;
     border-radius: 0.3em 0.3em 0.3em 0.3em;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
-    margin-top: 10px;
-    margin-bottom: 10px;
+}
+
+
+/* =============================================================================
+   Specific content
+   ========================================================================== */
+
+#showdown-swords {
+  border-radius: 0 0 0 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: -5px;
 }
 
 
@@ -332,7 +347,7 @@ article img, article video, article .flash-video {
 pre {
     background: none repeat scroll left top #002B36;
     border: 1px solid #073642;
-    border-radius: 0.4em 0.4em 0.4em 0.4em;
+    border-radius: 0.4em 0.4em 0 0;
     color: #93A1A1;
     font-size: 14px;
     line-height: 1.45em;
