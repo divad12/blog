@@ -78,7 +78,7 @@ And that's it! \\(h(z)\\) is the probability estimate that logistic regression s
   
 The tricky bit is in determining the values of the weight vector \\(\textbf{w}\\) &mdash; that is, training logistic regression so that \\(h\\), aka. the hypothesis function in machine learning terminology, gives us a good probability estimate. For brevity I'll spare you the details, but suffice to know that there are plenty of pre-written libraries to do that.
 
-So that begs the question, which features did we use?
+So that raises the question, which features did we use?
 
 - `ewma_3` and `ewma_10` &mdash; Exponentially-weighted moving average. This is just math-talk for an average where we give greater weight to more recent values. It's handy because it can be implemented recursively as \\( S\_t = \alpha \times y + (1 - \alpha) \times S\_{t-1} \\), where \\(\alpha\\) is the weighting factor, \\(y\\) is the most recent value, and \\(S\_{t-1}\\) is the previous exponential moving average. We set \\(\alpha\\) to 0.333 and 0.1 for `ewma_3` and `ewma_10` respectively.
 - `current_streak` &mdash; This turned out to be a rather weak signal and we'll be discarding it in favour of other features in the future.
