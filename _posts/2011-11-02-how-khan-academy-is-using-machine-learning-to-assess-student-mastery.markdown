@@ -6,7 +6,7 @@ title: How Khan Academy is using Machine Learning to Assess Student Mastery
 
 The Khan Academy is well known for its extensive library of over 2600 video lessons. It should also be known for its rapidly-growing set of now 225 exercises &mdash; [outnumbering stitches on a baseball](https://khan-academy.geckoboard.com/dashboard/9820993B8EEAB10E) &mdash; with close to 2 million problems done each day.
 
-To determine when a student has finished a certain exercise, we award _proficiency_ to a user who has answered at least 10 problems in a row correctly &mdash; known as a _streak_. Proficiency manifests itself as a gold star, a green patch on teachers' dashboard, a requirement for some badges (eg. gain 3 proficiencies), and a bounty of "energy" points. Basically, it means we think you've mastered the concept and can move on in your quest to know everything.
+To determine when a student has finished a certain exercise, we award _proficiency_ to a user who has answered at least 10 problems in a row correctly &mdash; known as a _streak_. Proficiency manifests itself as a gold star, a green patch on teachers' dashboards, a requirement for some badges (eg. gain 3 proficiencies), and a bounty of "energy" points. Basically, it means we think you've mastered the concept and can move on in your quest to know everything.
 
 It turns out that the streak model has serious flaws.
 
@@ -76,7 +76,7 @@ $$ h(z) = \frac{1}{1+e&#94;{-z}} $$
 
 And that's it! \\(h(z)\\) is the probability estimate that logistic regression spits out.
   
-The tricky bit is in determining the values of the weight vector \\(\textbf{w}\\) &mdash; that is, training logistic regression so that \\(h\\), aka. the hypothesis function in machine learning terminology, gives us a good probability estimate. For brevity I'll spare you the details, but suffice to know that there are plenty of pre-written libraries to do that.
+The tricky bit is in determining the values of the weight vector \\(\textbf{w}\\) &mdash; that is, training logistic regression so that \\(h\\), aka. the hypothesis function in machine learning terminology, gives us a good probability estimate. For brevity I'll spare you the details, but suffice to know that there are plenty of existing libraries to do that.
 
 So that raises the question, which features did we use?
 
