@@ -495,4 +495,12 @@ Do you want to make 0.1% improvements in ad click-thru rates for the rest of you
 Also, if you were wondering, we are not based in the UK, Canada, or Australia... my Canadian heritage compels me to spell "-our" and "-ise" when it's not code. :P
 
 
+---
+
+### Update (Nov 3, 2 am PST)
+Wow, I did not expect this much of a response for my first actual blog post. Thank you all for your feedback!
+
+There's some interesting discussion on [Hacker News](http://news.ycombinator.com/item?id=3187350) and [Reddit](http://www.reddit.com/r/programming/comments/lxsjj/how_khan_academy_is_using_machine_learning_to/).
+
+
 <script src="https://d3eoax9i5htok0.cloudfront.net/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
