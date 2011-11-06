@@ -259,7 +259,9 @@ The graph above shows the results over time, so you can see when trends have sta
 
 Now what you've been waiting for, our current statistics (5 am PST, Nov. 2) show that, for the new model, we have:
 
-- 20.8% more proficiencies earned:
+<ul>
+<li> 20.8% more proficiencies earned: </li>
+</ul>
 
 <div id="proficiencies-earned-chart"></div>
 <script>
@@ -288,7 +290,7 @@ Now what you've been waiting for, our current statistics (5 am PST, Nov. 2) show
   });
 </script>
 
-- 15.7% more new exercises attempted:
+<ul> <li> 15.7% more new exercises attempted: </li> </ul>
 
 <div id="new-exercises-chart"></div>
 <script>
@@ -317,7 +319,11 @@ Now what you've been waiting for, our current statistics (5 am PST, Nov. 2) show
   });
 </script>
 
-- 4.4 less problems done (26% less) per proficiency:
+<ul>
+<li>
+4.4 less problems done (26% less) per proficiency:
+</li>
+</ul>
 
 <div id="problems-per-proficiency-chart"></div>
 <script>
@@ -449,9 +455,11 @@ Now what you've been waiting for, our current statistics (5 am PST, Nov. 2) show
   });
 </script>
 
-- P(do another problem | just answered incorrectly) not affected
-- 11.7% more proficiencies earned for the hard problems
-- 14.8% more proficiencies earned for the easy problems
+<ul>
+  <li>P(do another problem | just answered incorrectly) not affected</li>
+  <li>11.7% more proficiencies earned for the hard problems</li>
+  <li>14.8% more proficiencies earned for the easy problems</li>
+</ul>
   
 In high level terms, we increased overall interest &mdash; more new exercises attempted, fewer problems done per proficiency &mdash; without lowering the bar for proficiency &mdash; P(next problem correct | just gained proficiency) was roughly the same for both groups. Further, it seemed that overall learning, as measured by the distribution of accuracies obtained, went up slightly under the new model.
 
