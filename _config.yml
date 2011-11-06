@@ -1,2 +1,9 @@
 pygments: true
-markdown: rdiscount
+markdown: maruku
+
+maruku:
+  use_tex:    true
+  use_divs:   false
+  png_engine: blahtex
+  png_dir:    images/latex
+  png_url:    /images/latex/

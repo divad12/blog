@@ -32,7 +32,7 @@ and when full:
 
 This gave us greater freedom to experiment with different underlying models without disrupting the interface. 
 
-Conversations with the team led me to conceive of applying machine learning to predict the likelihood of getting the next problem correct, and use that as the basis for a new proficiency model. Basically, if we think you're more than \\(t\\)% likely to get the next problem correct, for some threshold \\(t\\), we'll say you're proficient.
+Conversations with the team led me to conceive of applying machine learning to predict the likelihood of getting the next problem correct, and use that as the basis for a new proficiency model. Basically, if we think you're more than $t$% likely to get the next problem correct, for some threshold $t$, we'll say you're proficient.
 
 I started off by hacking together a naive Bayes binary classifier modified to give a probability estimate. I trained this on a few days' worth of problem logs, and initial results were promising &mdash; the most striking being that fewer problem were needed to attain the same level of _accuracy_.
 
@@ -40,16 +40,16 @@ What do I mean by accuracy? We define it as
 
 $$ P(\text{next problem correct} | \text{just gained proficiency}) $$
 
-which is just notation desperately trying to say "_Given that_ we just gained proficiency, _what's the probability of_ getting the next problem correct?"
+which is just notation desperately trying to say "*Given that* we just gained proficiency, _what's the probability of_ getting the next problem correct?"
 
-However, naive Bayes is typically used for _classification_ &mdash; the task of determining which discrete category a data point belongs to &mdash; rather than for _regression_ &mdash; returning a continuous value (in our case, a probability estimate in \\([0,1]\\)).
+However, naive Bayes is typically used for _classification_ &mdash; the task of determining which discrete category a data point belongs to &mdash; rather than for _regression_ &mdash; returning a continuous value (in our case, a probability estimate in $[0,1]$).
 
 So, our full-time volunteer Jace, who is much more versed in statistics and machine learning, used R to quickly prototype and evaluate different machine learning algorithms and feature sets. R is the de-facto programming language for statistical computing and comes pre-packaged with data analysis and machine learning tools.
 
 To evaluate the different algorithms, input features, and thresholds, we came up with some metrics to gauge for desirable characteristics:
 
 - **Mean problems done to reach proficiency** &mdash; ideally we like to minimize this so that students can spend less time rote grinding on problems they know well, and move on to other concepts.
-- **\\(P(\text{next problem correct} | \text{just gained proficiency})\\)** &mdash; Unfortunately, this is hard to correctly measure in our offline data set due to the streak-of-10 bias: students may loosen up after they gain proficiency and spend less time on subsequent problems.
+- **$P(\text{next problem correct} | \text{just gained proficiency})$** &mdash; Unfortunately, this is hard to correctly measure in our offline data set due to the streak-of-10 bias: students may loosen up after they gain proficiency and spend less time on subsequent problems.
 - **Proficiency Rate** &mdash; The percent of proficiencies attained per user-exercise pair. Again, this is hard to measure because of the streak bias.
 - **Confusion matrix for predicted next problem correct** &mdash; This is for comparing binary classifiers on their accuracy in predicting the outcome of any answer in a user's response history. We build up the [confusion matrix](http://en.wikipedia.org/wiki/Confusion_matrix), and from that extract [two valuable measures](http://en.wikipedia.org/wiki/Sensitivity_and_specificity) of the performance of a binary classifier.
 
@@ -62,29 +62,29 @@ We tested various models, including naive Bayes, support vector machines, a simp
 
 Logistic regression is usually used as a classifier that gives a reasonable probability estimate of each category &mdash; exactly our requirement. It's so simple, let's derive it.
 
-Let's say we have the values of \\(n\\) input features (eg. percent correct), and we stuff them into a vector \\(\textbf{x}\\). Let's say we also happen to know how much each feature makes it more likely that the user is proficient, and stuff those weights into a vector \\(\textbf{w}\\). We can then take the weighted sum of the input features, plus a pre-determined constant \\(w\_0\\) to correct for any constant bias, and call that \\(z\\):
+Let's say we have the values of $n$ input features (eg. percent correct), and we stuff them into a vector $\textbf{x}$. Let's say we also happen to know how much each feature makes it more likely that the user is proficient, and stuff those weights into a vector $\textbf{w}$. We can then take the weighted sum of the input features, plus a pre-determined constant $w_0$ to correct for any constant bias, and call that $z$:
 
-$$ z = w\_0 + \sum\_{i=1}&#94;n w\_ix\_i $$
+$$ z = w_0 + \sum_{i=1}^n w_ix_i $$
 
-Now if we set \\(x\_0 = 1\\), we can write that compactly as a linear algebra dot product:
+Now if we set $x_0 = 1$, we can write that compactly as a linear algebra dot product:
 
-$$ z = \mathbf{w}&#94;T\mathbf{x} $$
+$$ z = \mathbf{w}^T\mathbf{x} $$
 
-Already, you can see that the higher \\(z\\) is, the more likely the user is to be proficient. To obtain our probability estimate, all we have to do is "shrink" \\(z\\) into the interval \\((0,1)\\). We want negative values of \\(z\\) to map into \\((0, 0.5)\\) and positive values to fall in \\([0.5, 1)\\). We can do this by plugging \\(z\\) into a sigmoid function &mdash; in particular, we'll use the logistic function:
+Already, you can see that the higher $z$ is, the more likely the user is to be proficient. To obtain our probability estimate, all we have to do is "shrink" $z$ into the interval $(0,1)$. We want negative values of $z$ to map into $(0, 0.5)$ and positive values to fall in $[0.5, 1)$. We can do this by plugging $z$ into a sigmoid function &mdash; in particular, we'll use the logistic function:
 
-$$ h(z) = \frac{1}{1+e&#94;{-z}} $$
+$$ h(z) = \frac{1}{1+e^{-z}} $$
 
-And that's it! \\(h(z)\\) is the probability estimate that logistic regression spits out.
+And that's it! $h(z)$ is the probability estimate that logistic regression spits out.
   
-The tricky bit is in determining the values of the weight vector \\(\textbf{w}\\) &mdash; that is, training logistic regression so that \\(h\\), aka. the hypothesis function in machine learning terminology, gives us a good probability estimate. For brevity I'll spare you the details, but suffice to know that there are plenty of existing libraries to do that.
+The tricky bit is in determining the values of the weight vector $\textbf{w}$ &mdash; that is, training logistic regression so that $h$, aka. the hypothesis function in machine learning terminology, gives us a good probability estimate. For brevity I'll spare you the details, but suffice to know that there are plenty of existing libraries to do that.
 
 So that raises the question, which features did we use?
 
-- `ewma_3` and `ewma_10` &mdash; Exponentially-weighted moving average. This is just math-talk for an average where we give greater weight to more recent values. It's handy because it can be implemented recursively as \\( S\_t = \alpha \times y + (1 - \alpha) \times S\_{t-1} \\), where \\(\alpha\\) is the weighting factor, \\(y\\) is the most recent value, and \\(S\_{t-1}\\) is the previous exponential moving average. We set \\(\alpha\\) to 0.333 and 0.1 for `ewma_3` and `ewma_10` respectively.
+- `ewma_3` and `ewma_10` &mdash; Exponentially-weighted moving average. This is just math-talk for an average where we give greater weight to more recent values. It's handy because it can be implemented recursively as $ S_t = \alpha \times y + (1 - \alpha) \times S_{t-1} $, where $\alpha$ is the weighting factor, $y$ is the most recent value, and $S_{t-1}$ is the previous exponential moving average. We set $\alpha$ to 0.333 and 0.1 for `ewma_3` and `ewma_10` respectively.
 - `current_streak` &mdash; This turned out to be a rather weak signal and we'll be discarding it in favour of other features in the future.
-- `log_num_done` &mdash; \\(\log(\text{number of problems done})\\). We don't try to predict until at least one problem has been done.
-- `log_num_missed` &mdash; \\(\log(\text{number of problems missed} + 1)\\)
-- `percent_correct` &mdash; \\(\frac{\text{number of problems correct}}{\text{number problems done}}\\)
+- `log_num_done` &mdash; $\log(\text{number of problems done})$. We don't try to predict until at least one problem has been done.
+- `log_num_missed` &mdash; $\log(\text{number of problems missed} + 1)$
+- `percent_correct` &mdash; $\frac{\text{number of problems correct}}{\text{number problems done}}$
 
 As for the proficiency threshold, we chose 94% based on our metrics.
 
@@ -469,7 +469,7 @@ This is just the end of the beginning for us. We wish to investigate and possibl
 - On a similar note, could we define a fitness function that takes into account both accuracy and student frustration, and find the optimal time to tell the student to move on? Could this allow us to maximize student learning by maximizing accuracy across many exercises?
 - Model improvements. Here are some things we still need to try:
   - Incorporate more features, such as time spent per problem, time since last problem done, and user performance on similar exercises.
-  - Experiment with non-linear feature transformations and combinations. Eg. \\(\frac{ewma}{\log(1-ewma)}\\)
+  - Experiment with non-linear feature transformations and combinations. Eg. $\frac{\text{ewma}}{\log(1-\text{ewma})}$
   - Along with the above, apply regularization to prevent overfitting (thanks [Andrew Ng and ml-class](http://www.ml-class.org/)!)
   - Train and use separate models for the first 5 problems vs. those after that.
 
@@ -501,6 +501,3 @@ Also, if you were wondering, we are not based in the UK, Canada, or Australia...
 Wow, I did not expect this much of a response for my first actual blog post. Thank you all for your feedback!
 
 There's some interesting discussion on [Hacker News](http://news.ycombinator.com/item?id=3187350) and [Reddit](http://www.reddit.com/r/programming/comments/lxsjj/how_khan_academy_is_using_machine_learning_to/).
-
-
-<script src="https://d3eoax9i5htok0.cloudfront.net/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
