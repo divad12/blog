@@ -248,6 +248,47 @@ p.meta {
   margin-top: -1.5em;
 }
 
+div#main {
+  float: left;
+  width: 690px;
+  font-family: Palatino, Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
+  padding-right: 50px;
+}
+
+footer {
+  clear: both;
+}
+
+article {
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #AAA;
+  margin-bottom: 60px;
+}
+
+article img, article video, article .flash-video {
+    -moz-box-sizing: border-box;
+    border: 0.5em solid white;
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+img.maruku-png {
+  -moz-box-sizing: none;
+  border: none;
+  border-radius: none;
+  box-shadow: none;
+}
+
+.maruku-equation img.maruku-png {
+  margin-left: 30px;
+}
+
+
+/* =============================================================================
+   Nav Bar
+   ========================================================================== */
+
 nav {
   display: block;
   float: right;
@@ -298,40 +339,16 @@ nav a:hover .centre {
   color: #000;
 }
 
-div#main {
-  float: left;
-  width: 690px;
-  font-family: Palatino, Georgia, "Times New Roman", Times, serif;
-  line-height: 1.5;
-  padding-right: 50px;
-}
-
-footer {
-  clear: both;
-}
-
-article {
-  padding-bottom: 20px;
-  border-bottom: 1px dashed #AAA;
-  margin-bottom: 60px;
-}
-
-article img, article video, article .flash-video {
-    -moz-box-sizing: border-box;
-    border: 0.5em solid white;
-    border-radius: 0.3em 0.3em 0.3em 0.3em;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
-}
-
-img.maruku-png {
-  -moz-box-sizing: none;
-  border: none;
-  border-radius: none;
-  box-shadow: none;
-}
-
-.maruku-equation img.maruku-png {
-  margin-left: 30px;
+nav .centre.gradient {
+  height: 150px;
+  /* TODO: Use Sass or Less or whatnot */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ECF3F9), to(#FFF)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #ECF3F9, #FFF); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(top, #ECF3F9, #FFF); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, #ECF3F9, #FFF); /* IE10 */
+  background-image:      -o-linear-gradient(top, #ECF3F9, #FFF); /* Opera 11.10+ */
+  background-image:         linear-gradient(top, #ECF3F9, #FFF);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ECF3F9', EndColorStr='#FFF'); /* IE6-IE9 */
 }
 
 
