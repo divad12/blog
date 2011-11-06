@@ -30,13 +30,13 @@ and when full:
 
 ![New progress bar full](/images/new-streak-bar-full.png)
 
-This gave us greater freedom to experiment with different underlying models without disrupting the interface. 
+This gave us greater freedom to experiment with different underlying models without disrupting the interface.
 
 Conversations with the team led me to conceive of applying machine learning to predict the likelihood of getting the next problem correct, and use that as the basis for a new proficiency model. Basically, if we think you're more than $t$% likely to get the next problem correct, for some threshold $t$, we'll say you're proficient.
 
 I started off by hacking together a naive Bayes binary classifier modified to give a probability estimate. I trained this on a few days' worth of problem logs, and initial results were promising &mdash; the most striking being that fewer problem were needed to attain the same level of _accuracy_.
 
-What do I mean by accuracy? We define it as 
+What do I mean by accuracy? We define it as
 
 $$ P(\text{next problem correct} | \text{just gained proficiency}) $$
 
@@ -75,7 +75,7 @@ Already, you can see that the higher $z$ is, the more likely the user is to be p
 $$ h(z) = \frac{1}{1+e^{-z}} $$
 
 And that's it! $h(z)$ is the probability estimate that logistic regression spits out.
-  
+
 The tricky bit is in determining the values of the weight vector $\textbf{w}$ &mdash; that is, training logistic regression so that $h$, aka. the hypothesis function in machine learning terminology, gives us a good probability estimate. For brevity I'll spare you the details, but suffice to know that there are plenty of existing libraries to do that.
 
 So that raises the question, which features did we use?
@@ -259,6 +259,10 @@ The graph above shows the results over time, so you can see when trends have sta
 
 Now what you've been waiting for, our current statistics (5 am PST, Nov. 2) show that, for the new model, we have:
 
+<noscript>
+  <strong>Please enable JavaScript for pretty charts.</strong>
+</noscript>
+
 <ul>
 <li> 20.8% more proficiencies earned: </li>
 </ul>
@@ -289,6 +293,9 @@ Now what you've been waiting for, our current statistics (5 am PST, Nov. 2) show
     }]
   });
 </script>
+<noscript>
+  <blockquote> Proficiencies earned per user: 2.4205 for streak and 2.9237 for accuracy </blockquote>
+</noscript>
 
 <ul> <li> 15.7% more new exercises attempted: </li> </ul>
 
@@ -318,6 +325,9 @@ Now what you've been waiting for, our current statistics (5 am PST, Nov. 2) show
     }]
   });
 </script>
+<noscript>
+  <blockquote> New exercises attempted per user: 2.9843 for streak vs. 3.4533 for accuracy </blockquote>
+</noscript>
 
 <ul>
 <li>
@@ -351,6 +361,9 @@ Now what you've been waiting for, our current statistics (5 am PST, Nov. 2) show
     }]
   });
 </script>
+<noscript>
+  <blockquote> Problems done per proficiency: 16.8 for streak vs. 12.4 for accuracy </blockquote>
+</noscript>
 
 - Essentially the same accuracy at proficiency:
 
@@ -380,6 +393,9 @@ Now what you've been waiting for, our current statistics (5 am PST, Nov. 2) show
     }]
   });
 </script>
+<noscript>
+  <blockquote> Accuracy - P(next problem correct | just gained proficiency): 0.951 for streak vs. 0.949 for accuracy </blockquote>
+</noscript>
 
 - Higher accuracy attained among a set of 3 pre-chosen easy problems. Jace came up with this statistic to gauge any actual differences in learning. The basic idea is: If accuracy as determined by logistic regression is a good approximation of competence, then higher attained accuracies would be indicative of greater competence. Note the precipitous drop at 94% for the accuracy model &mdash; this is due to the proficiency threshold set at 94% for logistic regression, so once a user reaches that level, we tell them to move on. (A streak of 10 with no wrong answers nets an accuracy of 96.7%.)
 
@@ -417,6 +433,15 @@ Now what you've been waiting for, our current statistics (5 am PST, Nov. 2) show
     }]
   });
 </script>
+<noscript>
+  <blockquote>
+    <p> Please enable JavaScript.</p>
+
+    <p> Easy Problems - Distribution of Accuracy Attained [% of Users, Accuracy Attained] </p>
+    <p> Streak: [[0.85, 0.1064], [0.9, 0.1052], [0.92, 0.1029], [0.94, 0.0973], [0.96, 0.0844]] </p>
+    <p> Accuracy: [[0.85, 0.1207], [0.9, 0.1200], [0.92, 0.1195], [0.94, 0.1181], [0.96, 0.0272]] </p>
+  </blockquote>
+</noscript>
 
 - Slightly higher accuracy attained for a set of 10 pre-chosen hard problems. Going above and beyond the call of duty seems much less popular here, among accuracy model participants.
 
@@ -454,13 +479,22 @@ Now what you've been waiting for, our current statistics (5 am PST, Nov. 2) show
     }]
   });
 </script>
+<noscript>
+  <blockquote>
+    <p> Please enable JavaScript.  </p>
+
+    <p> Easy Problems - Distribution of Accuracy Attained [% of Users, Accuracy Attained] </p>
+    <p> Streak: [[0.85, 0.0464], [0.9, 0.0433], [0.92, 0.0395], [0.94, 0.0326], [0.96, 0.0193]] </p>
+    <p> Accuracy: [[0.85, 0.0473], [0.9, 0.0441], [0.92, 0.0407], [0.94, 0.0392], [0.96, 0.0025]] </p>
+  </blockquote>
+</noscript>
 
 <ul>
   <li>P(do another problem | just answered incorrectly) not affected</li>
   <li>11.7% more proficiencies earned for the hard problems</li>
   <li>14.8% more proficiencies earned for the easy problems</li>
 </ul>
-  
+
 In high level terms, we increased overall interest &mdash; more new exercises attempted, fewer problems done per proficiency &mdash; without lowering the bar for proficiency &mdash; P(next problem correct | just gained proficiency) was roughly the same for both groups. Further, it seemed that overall learning, as measured by the distribution of accuracies obtained, went up slightly under the new model.
 
 Optimistically, we hypothesise that our gains are from moving students quicker off exercises they're good at, while making them spend more time on concepts in which they need more practice. To confirm or deny this...
