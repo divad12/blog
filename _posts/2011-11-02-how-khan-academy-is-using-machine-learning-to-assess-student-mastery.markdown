@@ -540,6 +540,48 @@ Also, if you were wondering, we are not based in the UK, Canada, or Australia...
 ---
 
 ### Update (Nov 3, 2 am PST)
-Wow, I did not expect this much of a response for my first actual blog post. Thank you all for your feedback!
+Thank you all for your suggestions and feedback!
 
 There's some interesting discussion on [Hacker News](http://news.ycombinator.com/item?id=3187350) and [Reddit](http://www.reddit.com/r/programming/comments/lxsjj/how_khan_academy_is_using_machine_learning_to/).
+
+
+<h3 id="update-2011-11-12">Update (Nov 12)</h3>
+Having ran the experiment for more than two weeks now, we analysed 10 days' data to see if longer-term knowledge retention was affected. It turns out that students are slightly more likely to answer correctly after taking a break under the new model:
+
+<div id="retention-rate-chart"></div>
+<script>
+  new Highcharts.Chart({
+    chart: {
+      renderTo: 'retention-rate-chart',
+      type: 'bar',
+      height: 300
+    },
+    credits: { enabled: false },
+    title: {
+      text: 'Knowledge retention after 2 days break'
+    },
+    xAxis: {
+      categories: ['P(next correct | proficient and took break)', 'P(next wrong | not proficient and took break)']
+    },
+    yAxis: {
+      endOnTick: false
+    },
+    series: [{
+      name: 'Streak',
+      data: [0.861, 0.273]
+    }, {
+      name: 'Accuracy',
+      data: [0.875, 0.283]
+    }]
+  });
+</script>
+<noscript>
+  <blockquote>
+    <p> P(next correct | proficient and took break) = 0.861 for streak, 0.875 for accuracy </p>
+    <p> P(next wrong | not proficient and took break) = 0.273 for streak, 0.283 for accuracy </p>
+  </blockquote>
+</noscript>
+
+These results are encouraging. It shows that the new model attempts to address one of the core problems with the streak &mdash; the variability of student success rates after taking a break &mdash; while at the same time increasing proficiency rates. Thus, we have reason to conclude that the accuracy model is just a better model of student proficiency.
+
+This information gave us the confidence to roll out from 10% to 100% of users. We have now officially launched the logistic regression proficiency model site-wide!
