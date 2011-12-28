@@ -1,0 +1,419 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>
+    
+      KA 2011 December Exercises Data
+    
+  </title>
+
+  <meta name="description" content="David Hu's website">
+  <meta name="author" content="David Hu">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+  <link rel="icon" href="/favicon.ico" >
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  <script src="/js/highcharts.js"></script>
+</head>
+<body>
+
+<div id="container">
+  <header>
+
+  </header>
+
+  <div id="main" role="main">
+    <!-- TODO: Use HTML 5 article tag. Test on IE. -->
+<article id="post">
+  <h1>Exercise Data from 2011 December logs</h1>
+  <p class="meta"> 01 Dec 2011 - 13 Dec 2011 </p>
+
+  <h2>Graphs</h2>
+
+<div id='students' /><script>
+  new Highcharts.Chart({
+    chart: {
+      renderTo: 'students',
+      type: 'bar',
+      height: 4000
+    },
+    legend: { enabled: false },
+    credits: { enabled: false },
+    title: {
+      text: '# Students'
+    },
+    yAxis: {
+      title: {
+        text: '# Students'
+      }
+    },
+    xAxis: {
+      categories: ["number_line", "addition_1", "number_line_2", "number_line_3", "addition_2", "multiplication_0.5", "addition_3", "properties_of_numbers_1", "subtraction_1", "multiplication_1", "arithmetic_word_problems_1", "subtraction_2", "reading_tables_1", "adding_decimals", "addition_4", "division_0.5", "adding_negative_numbers", "telling_time_0.5", "multiplication_1.5", "measuring_angles", "multiplication_2", "understanding_decimals_place_value", "properties_of_numbers_2", "division_1", "recognizing_rays_lines_and_line_segments", "reading_tables_2", "subtraction_3", "place_value", "telling_time", "arithmetic_word_problems_2", "counting_1", "adding_and_subtracting_negative_numbers", "division_1.5", "distributive_property", "reading_bar_charts_1", "subtraction_4", "rounding_whole_numbers", "subtracting_decimals", "prime_numbers", "multiplication_3", "recognizing_conic_sections", "division_2", "reading_line_charts_1", "angle_types", "arithmetic_challenge", "axis_of_symmetry", "absolute_value", "significant_figures_1", "recognizing_fractions_0.5", "rounding_numbers", "counting_2", "multiplication_4", "adding_and_subtracting_decimals_word_problems", "exponents_1", "comparing_absolute_values", "order_of_operations", "division_3", "adding_fractions_with_common_denominators", "multiplying_decimals", "recognizing_fractions", "pre-algebra_challenge", "ordering_negative_numbers", "ratio_word_problems", "prime_factorization", "graphing_points", "negative_number_word_problems", "simplifying_fractions", "equivalent_fractions", "greatest_common_divisor", "fraction_word_problems_1", "multiplying_and_dividing_negative_numbers", "writing_expressions_1", "adding_fractions", "equivalent_fractions_2", "angles_1", "estimation_with_decimals", "division_4", "linear_equations_1", "subtracting_fractions_with_common_denominators", "exponents_2", "multiplying_fractions", "chain_rule_1", "ordering_fractions", "subtracting_fractions", "slope_of_a_line", "geometry_1", "one_step_equations", "least_common_multiple", "linear_equations_3", "triangle_types", "dividing_fractions", "dividing_decimals_1", "divisibility_0.5", "algebra_challenge", "one_step_equations_0.5", "exponent_rules", "linear_equations_2", "comparing_fractions_1", "complementary_angles", "graphing_points_2", "adding_and_subtracting_fractions", "expressing_ratios_as_fractions", "complementary_and_supplementary_angles", "inequalities_on_a_number_line", "scientific_notation", "units", "simplifying_radicals", "exponents_3", "mean_median_and_mode", "dividing_decimals", "converting_decimals_to_percents", "converting_decimals_to_fractions_1", "probability_1", "ordering_numbers", "converting_fractions_to_decimals", "linear_equations_4", "quadrilateral_types", "percentage_word_problems_1", "comparing_fractions_2", "supplementary_angles", "line_graph_intuition", "exploring_mean_and_median", "solid_geometry", "writing_proportions", "converting_mixed_numbers_and_improper_fractions", "converting_decimals_to_fractions_2", "functions_1", "one_step_inequalities", "limits_1", "logarithms_1", "angles_2", "graphing_linear_equations", "vertical_angles", "parallel_lines_1", "degrees_to_radians", "trigonometry_challenge", "triangle_angles_1", "dividing_decimals_2", "evaluating_expressions_1", "divisibility", "pythagorean_theorem_1", "fractions_cut_and_copy_1", "exponents_4", "converting_percents_to_decimals", "distributive_property_with_variables", "vertical_angles_2", "rate_problems_0.5", "logarithms_2", "corresponding_angles", "solving_for_the_y-intercept", "adding_subtracting_mixed_numbers_1", "systems_of_equations", "similar_triangles_1", "interpreting_linear_equations", "evaluating_expressions_2", "adding_and_subtracting_polynomials", "parallel_lines_2", "trigonometry_1", "adding_and_subtracting_radicals", "converting_between_slope_intercept_and_standard_form", "graphing_inequalities", "functions_2", "converting_repeating_decimals_to_fractions_1", "alternate_interior_angles", "alternate_exterior_angles", "radians_to_degrees", "linear_inequalities", "writing_expressions_2", "quadrilateral_angles", "parabola_intuition_1", "solving_for_the_x-intercept", "angles_of_a_polygon", "congruent_triangles_1", "compound_inequalities", "solving_quadratics_by_factoring", "domain_and_range_0.5", "congruency_postulates", "unit_circle", "equation_of_a_line", "multiplying_radicals", "distance_formula", "limits_2", "plugging_in_values", "same_side_interior_angles", "completing_the_square_1", "fractions_cut_and_copy_2", "multiplying_expressions_1", "derivative_intuition", "absolute_value_equations", "age_word_problems", "derivatives_1", "multiplying_polynomials", "quadratic_equation", "line_relationships", "even_and_odd_functions", "graphing_systems_of_equations", "graphs_of_sine_and_cosine", "congruent_triangles_2", "solving_for_a_variable", "same_side_exterior_angles", "direct_and_inverse_variation", "midpoint_formula", "pythagorean_theorem_2", "radians_and_degrees", "average_word_problems", "triangle_inequality_theorem", "product_rule", "radical_equations", "trigonometry_2", "inscribed_angles_1", "converting_repeating_decimals_to_fractions_2", "trig_identities_1", "quotient_rule", "rate_problems_1", "domain_of_a_function", "special_derivatives", "adding_vectors", "power_rule", "arithmetic_word_problems", "parabola_intuition_2", "inverses_of_functions", "graphing_inequalities_2", "graphing_systems_of_inequalities", "dependent_probability", "functions_3", "inverse_trig_functions", "shifting_and_reflecting_functions", "point_slope_form", "new_definitions_1", "percentage_word_problems_2", "lhopitals_rule", "equation_of_a_circle_1", "completing_the_square_2", "herons_formula", "scaling_vectors", "systems_of_equations_with_substitution", "angle_bisector_theorem", "inscribed_angles_2", "inscribed_angles_3", "new_definitions_2", "expressions_with_unknown_variables_2", "expressions_with_unknown_variables", "systems_of_equations_with_elimination_0.5", "equation_of_an_ellipse", "range_of_a_function", "solutions_to_systems_of_equations", "equation_of_a_hyperbola", "rate_problems_2", "parabola_intuition_3", "kinematic_equations", "systems_of_equations_with_elimination", "equation_of_a_circle_2", "graphing_systems_of_inequalities_2"]
+    },
+    series: [{
+      data: [77946, 70329, 60038, 56081, 44996, 41861, 41255, 40845, 40531, 38951, 36665, 35388, 33540, 32737, 32259, 31831, 31369, 29054, 28649, 26502, 26415, 25795, 25500, 25356, 25102, 24947, 24239, 24143, 23030, 22673, 20474, 19676, 19345, 18404, 18386, 18359, 17869, 17431, 16800, 16456, 16294, 16226, 15928, 15739, 15653, 15560, 15026, 14249, 14088, 13661, 12956, 12754, 12218, 12087, 11868, 11751, 11728, 11292, 10963, 10830, 10749, 10125, 9802, 9596, 9016, 8905, 8891, 8525, 8429, 8342, 8109, 7830, 7647, 7616, 7475, 7443, 7325, 7002, 6932, 6823, 6770, 6640, 6630, 6599, 6532, 6415, 6301, 6109, 6024, 6015, 5843, 5642, 5475, 5469, 5376, 5370, 5352, 5348, 5246, 5151, 5124, 5086, 4858, 4826, 4799, 4761, 4745, 4657, 4477, 4473, 4430, 4390, 4322, 4309, 4307, 4303, 4231, 4163, 4160, 4150, 4107, 3936, 3914, 3860, 3856, 3793, 3742, 3636, 3601, 3564, 3552, 3545, 3528, 3510, 3490, 3438, 3412, 3410, 3376, 3342, 3289, 3223, 3183, 3129, 2964, 2859, 2780, 2730, 2708, 2615, 2572, 2555, 2481, 2417, 2407, 2351, 2342, 2319, 2313, 2247, 2228, 2188, 2182, 2157, 2156, 2124, 2118, 2088, 2074, 2073, 2066, 2064, 2058, 2052, 2041, 2033, 2007, 1976, 1967, 1962, 1934, 1924, 1901, 1893, 1890, 1880, 1878, 1832, 1809, 1793, 1726, 1649, 1596, 1573, 1560, 1514, 1502, 1482, 1465, 1460, 1452, 1412, 1405, 1382, 1355, 1339, 1336, 1281, 1279, 1252, 1238, 1237, 1235, 1225, 1222, 1219, 1214, 1169, 1168, 1111, 1078, 1052, 1037, 1017, 1009, 996, 992, 988, 978, 914, 885, 868, 858, 830, 814, 754, 740, 735, 727, 614, 610, 604, 604, 552, 542, 540, 539, 489, 486, 475, 435, 432, 386]
+    }]
+  });
+  </script>
+  
+
+  <div id='prof-rate' /><script>
+    new Highcharts.Chart({
+      chart: {
+        renderTo: 'prof-rate',
+        type: 'bar',
+        height: 4000
+      },
+      legend: { enabled: false },
+      credits: { enabled: false },
+      title: {
+        text: 'Proficiency Rate'
+      },
+      yAxis: {
+        title: { text: 'Proficiency Rate (%)' }
+        }
+      ,
+      xAxis: {
+        categories: ["addition_2", "multiplication_0.5", "subtraction_1", "understanding_decimals_place_value", "division_0.5", "multiplication_1", "same_side_exterior_angles", "adding_and_subtracting_decimals_word_problems", "one_step_equations_0.5", "addition_1", "division_1", "multiplication_1.5", "alternate_exterior_angles", "alternate_interior_angles", "subtraction_2", "converting_decimals_to_fractions_1", "dividing_decimals_2", "corresponding_angles", "supplementary_angles", "vertical_angles", "addition_3", "division_1.5", "complementary_angles", "same_side_interior_angles", "systems_of_equations_with_elimination_0.5", "systems_of_equations_with_elimination", "special_derivatives", "solutions_to_systems_of_equations", "multiplying_and_dividing_negative_numbers", "interpreting_linear_equations", "addition_4", "subtraction_3", "subtracting_fractions_with_common_denominators", "converting_percents_to_decimals", "dividing_decimals_1", "multiplication_2", "subtraction_4", "converting_decimals_to_percents", "number_line_2", "axis_of_symmetry", "division_2", "recognizing_rays_lines_and_line_segments", "equivalent_fractions", "ordering_negative_numbers", "number_line", "recognizing_fractions_0.5", "equation_of_a_circle_1", "recognizing_conic_sections", "linear_equations_1", "linear_equations_2", "logarithms_2", "congruent_triangles_1", "angle_types", "complementary_and_supplementary_angles", "functions_1", "product_rule", "multiplication_4", "division_4", "triangle_types", "inscribed_angles_2", "reading_bar_charts_1", "telling_time_0.5", "reading_line_charts_1", "adding_negative_numbers", "comparing_fractions_1", "reading_tables_1", "recognizing_fractions", "inscribed_angles_3", "properties_of_numbers_1", "logarithms_1", "evaluating_expressions_1", "expressing_ratios_as_fractions", "power_rule", "exponents_2", "vertical_angles_2", "rate_problems_0.5", "systems_of_equations_with_substitution", "place_value", "solving_for_the_x-intercept", "congruent_triangles_2", "comparing_fractions_2", "distributive_property", "radians_and_degrees", "absolute_value", "adding_fractions_with_common_denominators", "comparing_absolute_values", "graphing_systems_of_inequalities_2", "trigonometry_2", "lhopitals_rule", "arithmetic_word_problems_2", "multiplying_radicals", "divisibility_0.5", "equivalent_fractions_2", "line_graph_intuition", "exponents_1", "greatest_common_divisor", "dividing_decimals", "derivatives_1", "exponents_4", "graphing_points", "telling_time", "multiplication_3", "properties_of_numbers_2", "rounding_whole_numbers", "parallel_lines_1", "quotient_rule", "exponents_3", "equation_of_an_ellipse", "writing_expressions_1", "reading_tables_2", "quadrilateral_angles", "one_step_equations", "exponent_rules", "point_slope_form", "converting_decimals_to_fractions_2", "multiplying_polynomials", "trigonometry_1", "adding_and_subtracting_negative_numbers", "significant_figures_1", "adding_decimals", "counting_2", "adding_and_subtracting_radicals", "writing_expressions_2", "domain_and_range_0.5", "subtracting_decimals", "parabola_intuition_1", "inequalities_on_a_number_line", "number_line_3", "similar_triangles_1", "linear_equations_3", "evaluating_expressions_2", "new_definitions_1", "arithmetic_word_problems_1", "triangle_angles_1", "estimation_with_decimals", "fractions_cut_and_copy_2", "scientific_notation", "converting_mixed_numbers_and_improper_fractions", "counting_1", "division_3", "plugging_in_values", "radians_to_degrees", "measuring_angles", "quadrilateral_types", "graphs_of_sine_and_cosine", "converting_repeating_decimals_to_fractions_1", "prime_factorization", "adding_vectors", "multiplying_fractions", "solving_quadratics_by_factoring", "equation_of_a_circle_2", "least_common_multiple", "unit_circle", "rounding_numbers", "arithmetic_word_problems", "limits_1", "limits_2", "simplifying_radicals", "derivative_intuition", "new_definitions_2", "multiplying_expressions_1", "dividing_fractions", "inscribed_angles_1", "even_and_odd_functions", "inverse_trig_functions", "angles_of_a_polygon", "writing_proportions", "adding_and_subtracting_polynomials", "prime_numbers", "range_of_a_function", "multiplying_decimals", "linear_inequalities", "negative_number_word_problems", "exploring_mean_and_median", "simplifying_fractions", "fractions_cut_and_copy_1", "expressions_with_unknown_variables", "functions_2", "inverses_of_functions", "graphing_inequalities_2", "order_of_operations", "distributive_property_with_variables", "radical_equations", "subtracting_fractions", "graphing_points_2", "triangle_inequality_theorem", "absolute_value_equations", "scaling_vectors", "one_step_inequalities", "angles_2", "midpoint_formula", "pythagorean_theorem_2", "adding_subtracting_mixed_numbers_1", "parallel_lines_2", "fraction_word_problems_1", "compound_inequalities", "completing_the_square_1", "average_word_problems", "degrees_to_radians", "ratio_word_problems", "dependent_probability", "percentage_word_problems_2", "distance_formula", "completing_the_square_2", "converting_fractions_to_decimals", "pythagorean_theorem_1", "angles_1", "parabola_intuition_2", "graphing_linear_equations", "expressions_with_unknown_variables_2", "rate_problems_2", "adding_and_subtracting_fractions", "converting_repeating_decimals_to_fractions_2", "quadratic_equation", "slope_of_a_line", "ordering_numbers", "congruency_postulates", "graphing_systems_of_inequalities", "graphing_systems_of_equations", "shifting_and_reflecting_functions", "adding_fractions", "mean_median_and_mode", "domain_of_a_function", "equation_of_a_hyperbola", "equation_of_a_line", "solving_for_the_y-intercept", "geometry_1", "trig_identities_1", "linear_equations_4", "ordering_fractions", "solid_geometry", "converting_between_slope_intercept_and_standard_form", "divisibility", "functions_3", "herons_formula", "angle_bisector_theorem", "direct_and_inverse_variation", "line_relationships", "graphing_inequalities", "solving_for_a_variable", "units", "probability_1", "arithmetic_challenge", "percentage_word_problems_1", "parabola_intuition_3", "systems_of_equations", "kinematic_equations", "chain_rule_1", "rate_problems_1", "age_word_problems", "pre-algebra_challenge", "trigonometry_challenge", "algebra_challenge"]
+      },
+      series: [{
+        data: [89.10, 88.10, 87.80, 84.40, 83.30, 82.50, 81.00, 80.10, 79.30, 78.60, 77.60, 77.40, 77.00, 76.40, 76.00, 75.00, 75.00, 74.50, 74.40, 74.10, 73.60, 72.80, 71.40, 70.20, 69.20, 69.20, 69.00, 68.50, 67.90, 67.40, 66.90, 65.80, 64.20, 63.30, 62.90, 62.70, 62.60, 61.70, 61.50, 60.60, 59.90, 59.60, 59.00, 58.60, 58.50, 57.30, 57.30, 57.10, 56.80, 56.80, 56.80, 56.80, 56.70, 56.70, 56.50, 56.10, 56.00, 55.80, 55.60, 55.60, 55.20, 55.10, 55.10, 54.70, 54.70, 54.50, 54.20, 54.20, 54.10, 53.70, 53.50, 53.30, 52.90, 52.60, 52.60, 52.40, 52.40, 51.90, 51.60, 51.60, 51.50, 51.30, 51.30, 51.20, 51.20, 51.10, 51.00, 50.70, 50.70, 50.50, 50.30, 49.80, 49.70, 49.70, 49.60, 49.50, 48.80, 48.70, 48.60, 48.40, 48.30, 48.30, 48.20, 48.20, 48.20, 48.20, 47.60, 47.60, 47.50, 47.10, 46.90, 46.80, 46.80, 46.70, 46.50, 46.50, 46.40, 46.20, 46.20, 46.00, 46.00, 45.70, 45.70, 45.70, 45.60, 45.50, 45.30, 45.00, 44.90, 44.70, 44.50, 44.50, 43.90, 43.90, 43.80, 43.80, 43.70, 43.70, 43.50, 43.30, 43.10, 43.00, 42.70, 42.60, 42.50, 42.40, 42.20, 42.20, 42.10, 42.10, 42.10, 42.00, 41.50, 41.40, 41.40, 41.30, 41.00, 40.60, 40.40, 40.40, 40.30, 39.70, 39.70, 39.40, 39.00, 38.90, 38.70, 38.70, 38.60, 38.60, 38.20, 38.10, 37.80, 37.80, 37.40, 37.10, 37.10, 36.90, 36.80, 36.70, 36.40, 36.30, 36.20, 36.10, 36.10, 36.00, 35.90, 35.90, 35.60, 35.60, 35.60, 35.50, 35.30, 35.00, 34.70, 34.60, 34.60, 34.50, 34.30, 34.20, 34.20, 34.10, 33.70, 33.70, 33.60, 33.60, 33.30, 32.70, 32.40, 32.30, 32.10, 31.60, 31.60, 31.10, 31.00, 30.60, 30.50, 30.40, 30.20, 30.00, 29.80, 29.60, 29.60, 29.30, 29.00, 28.90, 28.70, 28.30, 28.00, 27.70, 27.10, 27.10, 26.20, 26.00, 25.70, 25.70, 25.20, 23.80, 22.60, 20.50, 20.40, 19.90, 17.50, 17.40, 16.30, 16.00, 15.80, 15.00, 14.20, 14.10, 10.20, 5.90, 2.50]
+      }]
+    });
+  </script>
+
+<div id='avg-to-prof' /><script>
+  new Highcharts.Chart({
+    chart: {
+      renderTo: 'avg-to-prof',
+      type: 'bar',
+      height: 4000
+    },
+    legend: { enabled: false },
+    credits: { enabled: false },
+    title: {
+      text: 'Avg # to proficiency'
+    },
+    yAxis: {
+      title: {
+        text: 'Avg # to proficiency'
+      }
+    },
+    xAxis: {
+      categories: ["reading_bar_charts_1", "parabola_intuition_1", "subtraction_1", "vertical_angles", "addition_2", "reading_line_charts_1", "multiplication_1.5", "corresponding_angles", "number_line_2", "number_line", "dividing_decimals", "interpreting_linear_equations", "division_4", "subtraction_2", "properties_of_numbers_1", "line_graph_intuition", "alternate_exterior_angles", "systems_of_equations_with_elimination", "inscribed_angles_3", "place_value", "same_side_exterior_angles", "division_1", "alternate_interior_angles", "recognizing_fractions", "division_1.5", "dividing_decimals_1", "division_2", "power_rule", "converting_decimals_to_fractions_1", "reading_tables_1", "division_0.5", "multiplication_1", "multiplication_0.5", "dividing_decimals_2", "supplementary_angles", "recognizing_fractions_0.5", "rate_problems_0.5", "understanding_decimals_place_value", "complementary_angles", "equivalent_fractions", "complementary_and_supplementary_angles", "inscribed_angles_2", "fractions_cut_and_copy_2", "exploring_mean_and_median", "equation_of_a_circle_1", "radians_and_degrees", "divisibility_0.5", "ordering_negative_numbers", "angle_types", "converting_percents_to_decimals", "distributive_property", "graphing_points", "adding_vectors", "arithmetic_word_problems", "addition_1", "telling_time_0.5", "absolute_value_equations", "addition_3", "systems_of_equations_with_elimination_0.5", "addition_4", "subtraction_3", "radians_to_degrees", "derivative_intuition", "average_word_problems", "multiplication_4", "comparing_fractions_1", "absolute_value", "equivalent_fractions_2", "expressions_with_unknown_variables_2", "adding_and_subtracting_decimals_word_problems", "special_derivatives", "subtraction_4", "functions_1", "product_rule", "subtracting_fractions_with_common_denominators", "reading_tables_2", "measuring_angles", "parabola_intuition_2", "multiplication_2", "expressions_with_unknown_variables", "one_step_equations_0.5", "systems_of_equations_with_substitution", "adding_decimals", "same_side_interior_angles", "subtracting_decimals", "multiplying_decimals", "derivatives_1", "multiplying_polynomials", "logarithms_1", "evaluating_expressions_1", "writing_expressions_2", "arithmetic_word_problems_2", "converting_mixed_numbers_and_improper_fractions", "plugging_in_values", "adding_negative_numbers", "multiplication_3", "equation_of_a_circle_2", "radical_equations", "multiplying_and_dividing_negative_numbers", "multiplying_radicals", "expressing_ratios_as_fractions", "vertical_angles_2", "converting_decimals_to_percents", "equation_of_an_ellipse", "telling_time", "scaling_vectors", "arithmetic_word_problems_1", "inscribed_angles_1", "ordering_numbers", "graphing_points_2", "exponents_4", "recognizing_rays_lines_and_line_segments", "properties_of_numbers_2", "comparing_fractions_2", "adding_and_subtracting_polynomials", "degrees_to_radians", "rounding_whole_numbers", "new_definitions_1", "ratio_word_problems", "triangle_angles_1", "solving_quadratics_by_factoring", "adding_subtracting_mixed_numbers_1", "parallel_lines_2", "solutions_to_systems_of_equations", "one_step_equations", "inverses_of_functions", "exponents_3", "evaluating_expressions_2", "congruent_triangles_2", "division_3", "parallel_lines_1", "converting_repeating_decimals_to_fractions_1", "age_word_problems", "greatest_common_divisor", "estimation_with_decimals", "multiplying_expressions_1", "rate_problems_2", "solving_for_the_x-intercept", "quotient_rule", "axis_of_symmetry", "converting_decimals_to_fractions_2", "adding_and_subtracting_radicals", "simplifying_fractions", "rounding_numbers", "quadrilateral_angles", "new_definitions_2", "completing_the_square_2", "chain_rule_1", "fractions_cut_and_copy_1", "converting_fractions_to_decimals", "angles_2", "adding_fractions_with_common_denominators", "angles_1", "trigonometry_2", "writing_expressions_1", "adding_fractions", "inequalities_on_a_number_line", "least_common_multiple", "dividing_fractions", "graphing_systems_of_equations", "linear_inequalities", "subtracting_fractions", "scientific_notation", "angle_bisector_theorem", "functions_2", "triangle_inequality_theorem", "herons_formula", "trigonometry_1", "unit_circle", "logarithms_2", "completing_the_square_1", "lhopitals_rule", "divisibility", "linear_equations_2", "comparing_absolute_values", "angles_of_a_polygon", "point_slope_form", "limits_1", "fraction_word_problems_1", "dependent_probability", "pythagorean_theorem_1", "adding_and_subtracting_fractions", "recognizing_conic_sections", "congruent_triangles_1", "linear_equations_3", "ordering_fractions", "similar_triangles_1", "multiplying_fractions", "trig_identities_1", "linear_equations_1", "number_line_3", "percentage_word_problems_2", "adding_and_subtracting_negative_numbers", "graphs_of_sine_and_cosine", "domain_and_range_0.5", "solving_for_a_variable", "exponents_2", "counting_1", "mean_median_and_mode", "negative_number_word_problems", "equation_of_a_hyperbola", "order_of_operations", "distance_formula", "prime_numbers", "range_of_a_function", "rate_problems_1", "one_step_inequalities", "geometry_1", "prime_factorization", "midpoint_formula", "counting_2", "quadratic_equation", "equation_of_a_line", "graphing_systems_of_inequalities_2", "graphing_systems_of_inequalities", "exponents_1", "pythagorean_theorem_2", "graphing_linear_equations", "congruency_postulates", "distributive_property_with_variables", "converting_repeating_decimals_to_fractions_2", "parabola_intuition_3", "writing_proportions", "systems_of_equations", "exponent_rules", "triangle_types", "converting_between_slope_intercept_and_standard_form", "direct_and_inverse_variation", "simplifying_radicals", "solid_geometry", "kinematic_equations", "solving_for_the_y-intercept", "functions_3", "graphing_inequalities_2", "probability_1", "even_and_odd_functions", "linear_equations_4", "compound_inequalities", "shifting_and_reflecting_functions", "slope_of_a_line", "significant_figures_1", "inverse_trig_functions", "units", "graphing_inequalities", "line_relationships", "domain_of_a_function", "limits_2", "percentage_word_problems_1", "quadrilateral_types", "arithmetic_challenge", "trigonometry_challenge", "pre-algebra_challenge", "algebra_challenge"]
+    },
+    series: [{
+      data: [5.9, 6.1, 6.4, 6.7, 6.9, 6.9, 7, 7, 7, 7, 7, 7.2, 7.2, 7.3, 7.3, 7.3, 7.4, 7.5, 7.5, 7.5, 7.6, 7.6, 7.6, 7.6, 7.7, 7.7, 7.7, 7.7, 7.8, 7.8, 7.9, 7.9, 8, 8, 8, 8, 8, 8.1, 8.1, 8.1, 8.1, 8.1, 8.2, 8.2, 8.3, 8.3, 8.3, 8.4, 8.4, 8.5, 8.6, 8.6, 8.7, 8.8, 8.9, 8.9, 8.9, 9, 9, 9, 9, 9.1, 9.1, 9.2, 9.3, 9.3, 9.3, 9.3, 9.3, 9.4, 9.4, 9.4, 9.4, 9.4, 9.5, 9.6, 9.6, 9.6, 9.7, 9.7, 9.8, 9.8, 9.8, 9.9, 9.9, 9.9, 10, 10.2, 10.3, 10.3, 10.3, 10.4, 10.4, 10.5, 10.6, 10.6, 10.6, 10.6, 10.7, 10.7, 10.8, 10.9, 11.2, 11.2, 11.5, 11.5, 11.6, 11.7, 11.7, 11.8, 12, 12.1, 12.3, 12.4, 12.4, 12.4, 12.5, 12.6, 12.6, 12.7, 12.8, 12.8, 12.8, 12.9, 12.9, 12.9, 13, 13, 13.1, 13.1, 13.2, 13.2, 13.2, 13.3, 13.3, 13.3, 13.3, 13.4, 13.4, 13.5, 13.5, 13.5, 13.5, 13.6, 13.8, 13.8, 13.8, 13.8, 13.9, 13.9, 14, 14.1, 14.2, 14.3, 14.4, 14.4, 14.5, 14.5, 14.5, 14.5, 14.6, 14.6, 14.7, 14.7, 14.9, 15.1, 15.2, 15.4, 15.4, 15.5, 15.5, 15.6, 15.6, 15.9, 16, 16, 16.1, 16.1, 16.1, 16.3, 16.3, 16.3, 16.5, 16.5, 16.5, 16.5, 16.9, 16.9, 16.9, 17, 17, 17, 17.3, 17.3, 17.4, 17.4, 17.6, 17.6, 17.7, 18, 18, 18.1, 18.1, 18.2, 18.2, 18.2, 18.5, 18.6, 18.7, 18.8, 18.9, 19.1, 19.1, 19.2, 19.2, 19.3, 19.3, 19.3, 19.3, 19.6, 19.7, 20, 20.5, 20.5, 20.7, 20.9, 20.9, 20.9, 21.8, 22, 22.3, 23, 23.2, 23.4, 23.8, 24.1, 24.4, 24.7, 25.3, 25.4, 25.6, 26.5, 27, 27.1, 27.2, 27.7, 28.8, 33.3, 34.2, 46.5, 83.7, 96, 159.3]
+    }]
+  });
+</script>
+
+<div id='percent-right' /><script>
+  new Highcharts.Chart({
+    chart: {
+      renderTo: 'percent-right',
+      type: 'bar',
+      height: 4000
+    },
+    legend: { enabled: false },
+    credits: { enabled: false },
+    title: {
+      text: 'right / #total (% right)'
+    },
+    yAxis: {
+      title: {
+        text: 'right / #total (% right)'
+      }
+    },
+    xAxis: {
+      categories: ["alternate_exterior_angles", "corresponding_angles", "alternate_interior_angles", "reading_bar_charts_1", "vertical_angles", "subtraction_1", "multiplication_0.5", "interpreting_linear_equations", "addition_1", "angle_types", "number_line_2", "multiplication_1", "multiplication_1.5", "absolute_value", "addition_2", "recognizing_fractions", "number_line", "reading_line_charts_1", "division_0.5", "division_1.5", "division_1", "place_value", "properties_of_numbers_1", "subtraction_2", "converting_decimals_to_fractions_1", "reading_tables_1", "recognizing_fractions_0.5", "parabola_intuition_1", "converting_percents_to_decimals", "ordering_negative_numbers", "inscribed_angles_2", "complementary_and_supplementary_angles", "inscribed_angles_3", "understanding_decimals_place_value", "line_graph_intuition", "same_side_exterior_angles", "telling_time_0.5", "distributive_property", "dividing_decimals_2", "dividing_decimals", "complementary_angles", "recognizing_rays_lines_and_line_segments", "supplementary_angles", "subtracting_fractions_with_common_denominators", "division_2", "equivalent_fractions", "equation_of_a_circle_1", "addition_4", "fractions_cut_and_copy_2", "recognizing_conic_sections", "division_4", "addition_3", "multiplying_and_dividing_negative_numbers", "axis_of_symmetry", "rate_problems_0.5", "dividing_decimals_1", "converting_decimals_to_percents", "one_step_equations_0.5", "logarithms_1", "subtraction_3", "properties_of_numbers_2", "adding_and_subtracting_decimals_word_problems", "adding_negative_numbers", "equivalent_fractions_2", "special_derivatives", "functions_1", "multiplication_2", "subtraction_4", "arithmetic_word_problems_2", "adding_vectors", "adding_decimals", "subtracting_decimals", "graphing_points", "systems_of_equations_with_elimination", "reading_tables_2", "exploring_mean_and_median", "telling_time", "same_side_interior_angles", "comparing_fractions_1", "multiplication_4", "multiplying_radicals", "radians_and_degrees", "expressing_ratios_as_fractions", "evaluating_expressions_1", "systems_of_equations_with_elimination_0.5", "logarithms_2", "equation_of_an_ellipse", "greatest_common_divisor", "congruent_triangles_1", "rounding_whole_numbers", "parallel_lines_1", "divisibility_0.5", "exponents_4", "writing_expressions_2", "arithmetic_word_problems", "parabola_intuition_2", "congruent_triangles_2", "converting_mixed_numbers_and_improper_fractions", "adding_fractions_with_common_denominators", "converting_repeating_decimals_to_fractions_1", "derivatives_1", "inscribed_angles_1", "exponents_3", "adding_and_subtracting_radicals", "new_definitions_2", "multiplying_decimals", "multiplying_polynomials", "arithmetic_word_problems_1", "comparing_absolute_values", "solving_for_the_x-intercept", "quadrilateral_angles", "measuring_angles", "power_rule", "multiplication_3", "derivative_intuition", "comparing_fractions_2", "converting_decimals_to_fractions_2", "triangle_angles_1", "rounding_numbers", "product_rule", "triangle_types", "plugging_in_values", "counting_1", "new_definitions_1", "fractions_cut_and_copy_1", "counting_2", "arithmetic_challenge", "evaluating_expressions_2", "estimation_with_decimals", "vertical_angles_2", "lhopitals_rule", "scientific_notation", "equation_of_a_circle_2", "trigonometry_2", "dividing_fractions", "quotient_rule", "linear_equations_1", "division_3", "adding_subtracting_mixed_numbers_1", "systems_of_equations_with_substitution", "simplifying_fractions", "expressions_with_unknown_variables_2", "linear_equations_2", "triangle_inequality_theorem", "one_step_equations", "inequalities_on_a_number_line", "average_word_problems", "negative_number_word_problems", "unit_circle", "angles_2", "number_line_3", "prime_factorization", "significant_figures_1", "functions_2", "least_common_multiple", "pre-algebra_challenge", "fraction_word_problems_1", "exponent_rules", "percentage_word_problems_2", "graphing_systems_of_inequalities_2", "exponents_2", "order_of_operations", "subtracting_fractions", "congruency_postulates", "expressions_with_unknown_variables", "dependent_probability", "linear_inequalities", "exponents_1", "graphs_of_sine_and_cosine", "scaling_vectors", "radical_equations", "domain_and_range_0.5", "limits_1", "writing_expressions_1", "mean_median_and_mode", "multiplying_expressions_1", "midpoint_formula", "adding_and_subtracting_negative_numbers", "point_slope_form", "ratio_word_problems", "rate_problems_2", "angles_of_a_polygon", "solving_quadratics_by_factoring", "completing_the_square_2", "multiplying_fractions", "absolute_value_equations", "even_and_odd_functions", "prime_numbers", "adding_fractions", "range_of_a_function", "similar_triangles_1", "inverse_trig_functions", "trigonometry_challenge", "angles_1", "equation_of_a_hyperbola", "converting_repeating_decimals_to_fractions_2", "linear_equations_3", "inverses_of_functions", "distance_formula", "adding_and_subtracting_fractions", "quadrilateral_types", "ordering_numbers", "one_step_inequalities", "trigonometry_1", "herons_formula", "angle_bisector_theorem", "solid_geometry", "graphing_systems_of_equations", "completing_the_square_1", "pythagorean_theorem_2", "graphing_systems_of_inequalities", "graphing_points_2", "geometry_1", "parallel_lines_2", "graphing_inequalities_2", "simplifying_radicals", "algebra_challenge", "converting_fractions_to_decimals", "pythagorean_theorem_1", "compound_inequalities", "limits_2", "ordering_fractions", "equation_of_a_line", "functions_3", "adding_and_subtracting_polynomials", "writing_proportions", "solutions_to_systems_of_equations", "trig_identities_1", "quadratic_equation", "slope_of_a_line", "graphing_linear_equations", "domain_of_a_function", "linear_equations_4", "divisibility", "shifting_and_reflecting_functions", "units", "probability_1", "parabola_intuition_3", "solving_for_the_y-intercept", "distributive_property_with_variables", "converting_between_slope_intercept_and_standard_form", "kinematic_equations", "radians_to_degrees", "degrees_to_radians", "graphing_inequalities", "line_relationships", "solving_for_a_variable", "rate_problems_1", "systems_of_equations", "direct_and_inverse_variation", "percentage_word_problems_1", "age_word_problems", "chain_rule_1"]
+    },
+    series: [{
+      data: [98.37, 98.35, 98.14, 97.98, 97.96, 97.86, 97.18, 96.84, 96.78, 96.03, 95.86, 95.76, 95.38, 95.29, 95.10, 94.67, 94.62, 94.57, 94.20, 94.04, 93.86, 93.37, 93.36, 93.22, 93.11, 93.10, 92.39, 92.12, 92.05, 91.96, 91.67, 91.16, 90.81, 90.76, 90.62, 90.60, 90.54, 90.31, 90.16, 90.08, 89.99, 89.96, 89.86, 89.57, 89.23, 89.06, 88.99, 88.56, 88.48, 88.46, 88.39, 88.32, 88.14, 88.05, 87.95, 87.87, 87.85, 87.84, 87.74, 87.52, 87.30, 87.24, 86.94, 86.93, 86.89, 86.88, 86.79, 86.64, 86.54, 86.41, 86.28, 85.96, 85.83, 85.83, 85.80, 85.71, 85.70, 85.16, 84.97, 84.93, 84.91, 84.59, 84.36, 84.14, 83.99, 83.93, 83.80, 83.42, 83.35, 83.26, 83.25, 83.18, 83.14, 82.97, 82.82, 82.73, 82.65, 82.57, 82.48, 81.92, 81.82, 81.80, 81.77, 81.76, 81.74, 81.72, 81.58, 81.57, 81.57, 81.44, 81.36, 80.97, 80.93, 80.91, 80.84, 80.83, 80.82, 80.40, 80.07, 80.03, 79.96, 79.95, 79.83, 79.71, 79.57, 79.33, 79.33, 79.20, 79.14, 79.02, 78.97, 78.87, 78.84, 78.73, 78.72, 78.71, 78.66, 78.15, 78.14, 78.12, 78.05, 78.02, 78.01, 77.91, 77.72, 77.56, 77.43, 77.40, 77.17, 76.99, 76.82, 76.81, 76.76, 76.76, 76.75, 76.74, 76.72, 76.55, 76.52, 76.52, 76.51, 76.42, 76.40, 76.31, 76.20, 76.20, 76.08, 75.94, 75.93, 75.92, 75.75, 75.68, 75.61, 75.38, 75.36, 75.32, 75.31, 75.23, 75.03, 74.92, 74.74, 74.72, 74.61, 74.53, 74.49, 74.36, 73.95, 73.88, 73.81, 73.78, 73.75, 73.58, 73.48, 73.48, 73.43, 73.36, 73.29, 73.05, 73.01, 72.98, 72.57, 72.41, 72.18, 72.14, 72.09, 71.76, 71.72, 71.69, 71.65, 71.54, 71.49, 71.27, 71.17, 71.15, 71.12, 71.10, 70.70, 70.54, 70.45, 70.42, 70.00, 69.54, 69.37, 69.32, 68.98, 68.54, 68.51, 68.43, 68.28, 68.19, 68.14, 68.07, 67.91, 67.89, 66.41, 66.40, 66.22, 65.65, 65.58, 65.57, 64.91, 63.90, 63.70, 63.49, 62.49, 62.43, 60.29, 59.59, 59.58, 58.56, 58.35, 54.09, 51.01]
+    }]
+  });
+</script>
+
+<h2>Raw Data (Thanks Ben Komalo)</h2>
+<pre>
+Exercise	# students	Proficiency Rate	Avg # to proficiency	#right / #total (% right)
+corresponding_angles	2708	74.5%	 7.0	40263 / 40938 (98.4 %)
+alternate_exterior_angles	2156	77.0%	 7.4	28582 / 29055 (98.4 %)
+alternate_interior_angles	2157	76.4%	 7.6	31470 / 32068 (98.1 %)
+vertical_angles	3528	74.1%	 6.7	51689 / 52764 (98.0 %)
+reading_bar_charts_1	18386	55.2%	 5.9	110692 / 112971 (98.0 %)
+subtraction_1	40531	87.8%	 6.4	458810 / 468849 (97.9 %)
+multiplication_0.5	41861	88.1%	 8.0	656583 / 675613 (97.2 %)
+interpreting_linear_equations	2417	67.4%	 7.2	28156 / 29074 (96.8 %)
+addition_1	70329	78.6%	 8.9	1190846 / 1230476 (96.8 %)
+angle_types	15739	56.7%	 8.4	190260 / 198132 (96.0 %)
+number_line_2	60038	61.5%	 7.0	412400 / 430214 (95.9 %)
+multiplication_1	38951	82.5%	 7.9	461929 / 482375 (95.8 %)
+multiplication_1.5	28649	77.4%	 7.0	237173 / 248653 (95.4 %)
+absolute_value	15026	51.2%	 9.3	148264 / 155587 (95.3 %)
+addition_2	44996	89.1%	 6.9	381906 / 401591 (95.1 %)
+recognizing_fractions	10830	54.2%	 7.6	87604 / 92532 (94.7 %)
+reading_line_charts_1	15928	55.1%	 6.9	80060 / 84657 (94.6 %)
+number_line	77946	58.5%	 7.0	503572 / 532220 (94.6 %)
+division_0.5	31831	83.3%	 7.9	330191 / 350503 (94.2 %)
+division_1.5	19345	72.8%	 7.7	166148 / 176671 (94.0 %)
+division_1	25356	77.6%	 7.6	227422 / 242295 (93.9 %)
+properties_of_numbers_1	40845	54.1%	 7.3	241280 / 258441 (93.4 %)
+place_value	24143	51.9%	 7.5	130627 / 139908 (93.4 %)
+subtraction_2	35388	76.0%	 7.3	233377 / 250356 (93.2 %)
+reading_tables_1	33540	54.5%	 7.8	178673 / 191918 (93.1 %)
+converting_decimals_to_fractions_1	4390	75.0%	 7.8	33523 / 36004 (93.1 %)
+recognizing_fractions_0.5	14088	57.3%	 8.0	83139 / 89984 (92.4 %)
+parabola_intuition_1	2073	45.5%	 6.1	8048 / 8736 (92.1 %)
+converting_percents_to_decimals	3129	63.3%	 8.5	22262 / 24184 (92.1 %)
+ordering_negative_numbers	10125	58.6%	 8.4	66763 / 72597 (92.0 %)
+inscribed_angles_2	735	55.6%	 8.1	4224 / 4608 (91.7 %)
+complementary_and_supplementary_angles	4858	56.7%	 8.1	27320 / 29969 (91.2 %)
+understanding_decimals_place_value	25795	84.4%	 8.1	191506 / 211011 (90.8 %)
+inscribed_angles_3	727	54.2%	 7.5	3743 / 4122 (90.8 %)
+same_side_exterior_angles	1460	81.0%	 7.6	9740 / 10750 (90.6 %)
+line_graph_intuition	4107	49.7%	 7.3	21215 / 23410 (90.6 %)
+telling_time_0.5	29054	55.1%	 8.9	175083 / 193380 (90.5 %)
+distributive_property	18404	51.3%	 8.6	98407 / 108967 (90.3 %)
+dividing_decimals_2	3410	75.0%	 8.0	21590 / 23946 (90.2 %)
+dividing_decimals	4473	48.8%	 7.0	19058 / 21156 (90.1 %)
+recognizing_rays_lines_and_line_segments	25102	59.6%	12.1	316396 / 351724 (90.0 %)
+complementary_angles	5246	71.4%	 8.1	34364 / 38185 (90.0 %)
+supplementary_angles	4150	74.4%	 8.0	26914 / 29951 (89.9 %)
+subtracting_fractions_with_common_denominators	6932	64.2%	 9.5	48873 / 54563 (89.6 %)
+division_2	16226	59.9%	 7.7	90240 / 101130 (89.2 %)
+equivalent_fractions	8525	59.0%	 8.1	57293 / 64334 (89.1 %)
+equation_of_a_circle_1	868	57.3%	 8.3	4947 / 5559 (89.0 %)
+addition_4	32259	66.9%	 9.0	223033 / 251833 (88.6 %)
+recognizing_conic_sections	16294	57.1%	16.5	268993 / 304072 (88.5 %)
+fractions_cut_and_copy_2	1880	43.8%	 8.2	8037 / 9083 (88.5 %)
+division_4	7325	55.8%	 7.2	34902 / 39485 (88.4 %)
+addition_3	41255	73.6%	 9.0	309444 / 350350 (88.3 %)
+multiplying_and_dividing_negative_numbers	8109	67.9%	10.7	74488 / 84510 (88.1 %)
+axis_of_symmetry	15560	60.6%	13.5	184777 / 209847 (88.1 %)
+rate_problems_0.5	2780	52.4%	 8.0	14353 / 16319 (88.0 %)
+dividing_decimals_1	5642	62.9%	 7.7	31194 / 35502 (87.9 %)
+converting_decimals_to_percents	4430	61.7%	11.2	36292 / 41309 (87.9 %)
+one_step_equations_0.5	5376	79.3%	 9.8	52027 / 59226 (87.8 %)
+logarithms_1	3564	53.7%	10.3	25735 / 29330 (87.7 %)
+subtraction_3	24239	65.8%	 9.0	158909 / 181561 (87.5 %)
+properties_of_numbers_2	25500	48.2%	12.3	170509 / 195317 (87.3 %)
+adding_and_subtracting_decimals_word_problems	12218	80.1%	 9.4	96865 / 111034 (87.2 %)
+special_derivatives	1219	69.0%	 9.4	10449 / 12025 (86.9 %)
+functions_1	3742	56.5%	 9.4	23662 / 27236 (86.9 %)
+equivalent_fractions_2	7616	49.7%	 9.3	43599 / 50152 (86.9 %)
+adding_negative_numbers	31369	54.7%	10.6	237914 / 273663 (86.9 %)
+multiplication_2	26415	62.7%	 9.7	189079 / 217857 (86.8 %)
+subtraction_4	18359	62.6%	 9.4	119324 / 137723 (86.6 %)
+arithmetic_word_problems_2	22673	50.5%	10.4	137003 / 158310 (86.5 %)
+adding_vectors	1214	42.2%	 8.7	5546 / 6418 (86.4 %)
+adding_decimals	32737	46.0%	 9.8	178392 / 206769 (86.3 %)
+subtracting_decimals	17431	45.6%	 9.9	92908 / 108079 (86.0 %)
+systems_of_equations_with_elimination	435	69.2%	 7.5	2362 / 2752 (85.8 %)
+reading_tables_2	24947	47.1%	 9.6	134296 / 156518 (85.8 %)
+graphing_points	9016	48.4%	 8.6	47765 / 55651 (85.8 %)
+telling_time	23030	48.3%	11.5	148661 / 173472 (85.7 %)
+exploring_mean_and_median	3936	37.8%	 8.2	15281 / 17829 (85.7 %)
+same_side_interior_angles	1893	70.2%	 9.9	13381 / 15712 (85.2 %)
+comparing_fractions_1	5348	54.7%	 9.3	35018 / 41214 (85.0 %)
+multiplying_radicals	1962	50.3%	10.7	11865 / 13974 (84.9 %)
+multiplication_4	12754	56.0%	 9.3	78365 / 92268 (84.9 %)
+radians_and_degrees	1382	51.3%	 8.3	6923 / 8184 (84.6 %)
+expressing_ratios_as_fractions	5086	53.3%	10.8	33839 / 40112 (84.4 %)
+evaluating_expressions_1	3376	53.5%	10.3	22311 / 26517 (84.1 %)
+systems_of_equations_with_elimination_0.5	604	69.2%	 9.0	3899 / 4642 (84.0 %)
+logarithms_2	2730	56.8%	15.5	25616 / 30519 (83.9 %)
+equation_of_an_ellipse	552	47.6%	11.2	3377 / 4030 (83.8 %)
+greatest_common_divisor	8429	49.5%	13.3	65392 / 78388 (83.4 %)
+rounding_whole_numbers	17869	48.2%	12.5	119197 / 143167 (83.3 %)
+congruent_triangles_1	2058	56.8%	16.5	21083 / 25296 (83.3 %)
+parallel_lines_1	3510	48.2%	13.2	27559 / 33104 (83.2 %)
+divisibility_0.5	5475	49.8%	 8.3	30855 / 37094 (83.2 %)
+exponents_4	3183	48.6%	12.0	20391 / 24527 (83.1 %)
+writing_expressions_2	2088	45.7%	10.3	11058 / 13328 (83.0 %)
+arithmetic_word_problems	1168	41.4%	 8.8	5172 / 6245 (82.8 %)
+parabola_intuition_2	1111	32.7%	 9.6	4020 / 4859 (82.7 %)
+converting_mixed_numbers_and_improper_fractions	3856	43.7%	10.4	20870 / 25276 (82.6 %)
+congruent_triangles_2	1482	51.6%	13.1	11129 / 13466 (82.6 %)
+adding_fractions_with_common_denominators	11292	51.2%	14.1	93350 / 113184 (82.5 %)
+converting_repeating_decimals_to_fractions_1	2182	42.4%	13.2	13293 / 16227 (81.9 %)
+inscribed_angles_1	1252	39.7%	11.7	6659 / 8141 (81.8 %)
+exponents_3	4657	47.6%	13.0	32272 / 39469 (81.8 %)
+derivatives_1	1726	48.7%	10.0	9260 / 11318 (81.8 %)
+adding_and_subtracting_radicals	2313	45.7%	13.5	15047 / 18404 (81.8 %)
+new_definitions_2	614	40.4%	13.8	3618 / 4426 (81.7 %)
+multiplying_decimals	10963	38.2%	 9.9	51855 / 63456 (81.7 %)
+multiplying_polynomials	1649	46.5%	10.2	9336 / 11444 (81.6 %)
+comparing_absolute_values	11868	51.1%	16.0	116591 / 142930 (81.6 %)
+arithmetic_word_problems_1	36665	43.9%	11.6	241529 / 296086 (81.6 %)
+solving_for_the_x-intercept	2066	51.6%	13.4	15196 / 18658 (81.4 %)
+quadrilateral_angles	2074	46.9%	13.8	15122 / 18587 (81.4 %)
+measuring_angles	26502	42.7%	 9.6	135380 / 167193 (81.0 %)
+power_rule	1169	52.9%	 7.7	5410 / 6685 (80.9 %)
+multiplication_3	16456	48.3%	10.6	98316 / 121510 (80.9 %)
+derivative_intuition	1832	40.4%	 9.1	8276 / 10237 (80.8 %)
+converting_decimals_to_fractions_2	3793	46.5%	13.5	26595 / 32906 (80.8 %)
+comparing_fractions_2	4160	51.5%	12.4	31239 / 38650 (80.8 %)
+triangle_angles_1	3412	43.9%	12.7	20910 / 26009 (80.4 %)
+rounding_numbers	13661	41.4%	13.6	85870 / 107248 (80.1 %)
+triangle_types	6015	55.6%	20.9	75388 / 94286 (80.0 %)
+product_rule	1336	56.1%	 9.4	7741 / 9673 (80.0 %)
+plugging_in_values	1901	43.1%	10.5	9764 / 12213 (79.9 %)
+counting_1	20474	43.5%	17.6	156781 / 196391 (79.8 %)
+new_definitions_1	978	44.5%	12.6	5528 / 6935 (79.7 %)
+fractions_cut_and_copy_1	3223	37.1%	13.9	18995 / 23871 (79.6 %)
+counting_2	12956	46.0%	18.9	112396 / 141682 (79.3 %)
+arithmetic_challenge	15653	17.5%	46.5	162895 / 205340 (79.3 %)
+evaluating_expressions_2	2407	44.5%	13.0	16686 / 21068 (79.2 %)
+estimation_with_decimals	7443	43.8%	13.3	48409 / 61169 (79.1 %)
+vertical_angles_2	2859	52.6%	10.9	17409 / 22032 (79.0 %)
+lhopitals_rule	885	50.7%	15.6	7736 / 9796 (79.0 %)
+scientific_notation	4799	43.7%	14.7	33767 / 42816 (78.9 %)
+equation_of_a_circle_2	432	42.1%	10.6	2075 / 2632 (78.8 %)
+trigonometry_2	1279	50.7%	14.3	9862 / 12527 (78.7 %)
+quotient_rule	1235	48.2%	13.4	8284 / 10525 (78.7 %)
+linear_equations_1	7002	56.8%	17.0	73030 / 92840 (78.7 %)
+dividing_fractions	5843	39.7%	14.5	39264 / 49881 (78.7 %)
+division_3	11728	43.3%	13.1	74905 / 95845 (78.2 %)
+systems_of_equations_with_substitution	754	52.4%	 9.8	4394 / 5625 (78.1 %)
+adding_subtracting_mixed_numbers_1	2572	35.3%	12.8	13753 / 17601 (78.1 %)
+simplifying_fractions	8891	37.4%	13.5	53852 / 68997 (78.0 %)
+linear_equations_2	5352	56.8%	15.9	51759 / 66352 (78.0 %)
+expressions_with_unknown_variables_2	610	32.3%	 9.3	2137 / 2739 (78.0 %)
+triangle_inequality_theorem	1339	36.0%	15.1	8180 / 10499 (77.9 %)
+one_step_equations	6301	46.8%	12.9	48066 / 61843 (77.7 %)
+inequalities_on_a_number_line	4826	45.3%	14.5	35555 / 45844 (77.6 %)
+negative_number_word_problems	8905	37.8%	18.0	65489 / 84608 (77.4 %)
+average_word_problems	1355	34.5%	 9.2	5224 / 6747 (77.4 %)
+unit_circle	1976	41.5%	15.4	13718 / 17776 (77.2 %)
+angles_2	3552	35.6%	14.0	20158 / 26182 (77.0 %)
+significant_figures_1	14249	46.2%	25.6	170127 / 221641 (76.8 %)
+prime_factorization	9596	42.2%	18.7	80667 / 105023 (76.8 %)
+number_line_3	56081	45.0%	17.0	465247 / 605651 (76.8 %)
+functions_2	2188	36.9%	14.9	13370 / 17419 (76.8 %)
+pre-algebra_challenge	10749	10.2%	96.0	143474 / 186963 (76.7 %)
+least_common_multiple	6109	42.0%	14.5	41663 / 54287 (76.7 %)
+fraction_word_problems_1	8342	34.7%	16.1	55169 / 71907 (76.7 %)
+exponent_rules	5370	46.8%	20.7	55062 / 71927 (76.6 %)
+percentage_word_problems_2	914	34.1%	17.0	5224 / 6827 (76.5 %)
+graphing_systems_of_inequalities_2	386	51.0%	19.2	3620 / 4731 (76.5 %)
+exponents_2	6823	52.6%	17.6	64607 / 84438 (76.5 %)
+subtracting_fractions	6599	36.1%	14.6	40184 / 52595 (76.4 %)
+order_of_operations	11751	36.4%	18.1	96414 / 126168 (76.4 %)
+congruency_postulates	2007	30.5%	19.3	14702 / 19267 (76.3 %)
+expressions_with_unknown_variables	604	37.1%	 9.7	2430 / 3189 (76.2 %)
+dependent_probability	1017	34.2%	16.3	5759 / 7558 (76.2 %)
+linear_inequalities	2118	38.1%	14.6	13235 / 17397 (76.1 %)
+scaling_vectors	814	35.9%	11.5	4065 / 5354 (75.9 %)
+graphs_of_sine_and_cosine	1502	42.5%	17.3	11198 / 14747 (75.9 %)
+exponents_1	12087	49.6%	19.3	133257 / 175466 (75.9 %)
+radical_equations	1281	36.2%	10.6	5970 / 7881 (75.8 %)
+domain_and_range_0.5	2033	45.7%	17.4	16732 / 22110 (75.7 %)
+limits_1	3601	41.3%	16.1	28150 / 37229 (75.6 %)
+writing_expressions_1	7830	47.5%	14.4	63232 / 83881 (75.4 %)
+mean_median_and_mode	4477	29.6%	17.7	29579 / 39250 (75.4 %)
+multiplying_expressions_1	1878	40.3%	13.3	11597 / 15396 (75.3 %)
+midpoint_formula	1412	35.6%	18.8	9338 / 12399 (75.3 %)
+adding_and_subtracting_negative_numbers	19676	46.2%	17.3	197831 / 262953 (75.2 %)
+point_slope_form	988	46.7%	16.1	7377 / 9832 (75.0 %)
+ratio_word_problems	9802	34.2%	12.6	50323 / 67168 (74.9 %)
+rate_problems_2	489	32.1%	13.3	2240 / 2997 (74.7 %)
+angles_of_a_polygon	2064	38.9%	16.0	14085 / 18850 (74.7 %)
+solving_quadratics_by_factoring	2041	42.1%	12.8	12171 / 16313 (74.6 %)
+multiplying_fractions	6770	42.1%	16.9	56746 / 76184 (74.5 %)
+completing_the_square_2	858	33.7%	13.8	4238 / 5686 (74.5 %)
+absolute_value_equations	1809	35.9%	 8.9	7726 / 10390 (74.4 %)
+prime_numbers	16800	38.6%	18.2	142439 / 192807 (73.9 %)
+even_and_odd_functions	1560	39.4%	24.1	18630 / 25194 (73.9 %)
+similar_triangles_1	2481	44.9%	16.9	22099 / 29964 (73.8 %)
+range_of_a_function	542	38.6%	18.2	3801 / 5152 (73.8 %)
+adding_fractions	7647	29.8%	14.4	39630 / 53690 (73.8 %)
+inverse_trig_functions	996	39.0%	26.5	9818 / 13344 (73.6 %)
+trigonometry_challenge	3438	 5.9%	83.7	22077 / 30043 (73.5 %)
+angles_1	7475	33.3%	14.2	38932 / 52986 (73.5 %)
+equation_of_a_hyperbola	539	29.3%	18.0	2763 / 3763 (73.4 %)
+converting_repeating_decimals_to_fractions_2	1238	31.6%	19.7	8150 / 11110 (73.4 %)
+linear_equations_3	6024	44.7%	16.5	50276 / 68600 (73.3 %)
+inverses_of_functions	1078	36.8%	12.9	5995 / 8207 (73.0 %)
+distance_formula	1934	33.7%	18.1	12963 / 17756 (73.0 %)
+adding_and_subtracting_fractions	5124	31.6%	16.3	30114 / 41266 (73.0 %)
+quadrilateral_types	4231	42.6%	34.2	66432 / 91540 (72.6 %)
+ordering_numbers	4309	30.6%	11.7	19358 / 26734 (72.4 %)
+one_step_inequalities	3636	35.6%	18.5	25478 / 35299 (72.2 %)
+trigonometry_1	2319	46.4%	15.4	18760 / 26004 (72.1 %)
+herons_formula	830	25.7%	15.2	3358 / 4658 (72.1 %)
+angle_bisector_theorem	740	25.7%	14.7	3032 / 4225 (71.8 %)
+solid_geometry	3914	27.1%	22.0	24937 / 34768 (71.7 %)
+graphing_systems_of_equations	1514	30.2%	14.5	7629 / 10642 (71.7 %)
+completing_the_square_1	1890	34.6%	15.5	10980 / 15325 (71.6 %)
+pythagorean_theorem_2	1405	35.5%	19.3	10069 / 14074 (71.5 %)
+graphing_systems_of_inequalities	1037	30.4%	19.2	6279 / 8783 (71.5 %)
+graphing_points_2	5151	36.1%	11.8	27342 / 38363 (71.3 %)
+parallel_lines_2	2342	35.0%	12.8	11315 / 15903 (71.2 %)
+geometry_1	6415	28.7%	18.6	40338 / 56677 (71.2 %)
+simplifying_radicals	4745	40.6%	21.8	42488 / 59762 (71.1 %)
+graphing_inequalities_2	1052	36.7%	23.4	9150 / 12865 (71.1 %)
+algebra_challenge	5469	 2.5%	159.3	36496 / 51623 (70.7 %)
+converting_fractions_to_decimals	4307	33.6%	13.9	22335 / 31662 (70.5 %)
+pythagorean_theorem_1	3289	33.6%	16.3	20889 / 29651 (70.4 %)
+compound_inequalities	2052	34.6%	24.7	19876 / 28224 (70.4 %)
+limits_2	1924	41.0%	28.8	22531 / 32187 (70.0 %)
+ordering_fractions	6630	27.7%	16.5	39192 / 56362 (69.5 %)
+equation_of_a_line	1967	29.0%	19.1	12123 / 17477 (69.4 %)
+functions_3	1009	26.0%	23.2	6924 / 9989 (69.3 %)
+adding_and_subtracting_polynomials	2351	38.7%	12.4	14890 / 21587 (69.0 %)
+writing_proportions	3860	38.7%	20.5	31221 / 45554 (68.5 %)
+solutions_to_systems_of_equations	540	68.5%	12.9	5042 / 7359 (68.5 %)
+trig_identities_1	1237	28.3%	16.9	7476 / 10925 (68.4 %)
+quadratic_equation	1596	31.1%	19.1	11086 / 16237 (68.3 %)
+slope_of_a_line	6532	31.0%	25.4	61682 / 90462 (68.2 %)
+graphing_linear_equations	3545	32.4%	19.3	27419 / 40242 (68.1 %)
+domain_of_a_function	1222	29.6%	27.7	10570 / 15528 (68.1 %)
+linear_equations_4	4303	28.0%	24.4	35064 / 51635 (67.9 %)
+divisibility	3342	26.2%	15.6	18350 / 27030 (67.9 %)
+units	4761	20.4%	27.0	27893 / 42006 (66.4 %)
+shifting_and_reflecting_functions	992	30.0%	25.3	7231 / 10888 (66.4 %)
+probability_1	4322	19.9%	23.8	27616 / 41705 (66.2 %)
+solving_for_the_y-intercept	2615	28.9%	23.0	19143 / 29189 (65.6 %)
+parabola_intuition_3	486	16.3%	20.0	1544 / 2352 (65.6 %)
+distributive_property_with_variables	2964	36.3%	19.6	25949 / 39576 (65.6 %)
+converting_between_slope_intercept_and_standard_form	2247	27.1%	20.9	14583 / 22468 (64.9 %)
+kinematic_equations	475	15.8%	22.3	1841 / 2881 (63.9 %)
+radians_to_degrees	2124	43.0%	 9.1	10615 / 16664 (63.7 %)
+degrees_to_radians	3490	34.3%	12.4	18129 / 28555 (63.5 %)
+graphing_inequalities	2228	22.6%	27.1	15358 / 24576 (62.5 %)
+line_relationships	1573	23.8%	27.2	10696 / 17132 (62.4 %)
+solving_for_a_variable	1465	20.5%	17.4	6986 / 11588 (60.3 %)
+systems_of_equations	2555	16.0%	20.5	10412 / 17476 (59.6 %)
+rate_problems_1	1225	14.2%	18.2	3495 / 5865 (59.6 %)
+direct_and_inverse_variation	1452	25.2%	20.9	8155 / 13926 (58.6 %)
+percentage_word_problems_1	4163	17.4%	33.3	25078 / 42975 (58.4 %)
+age_word_problems	1793	14.1%	13.2	5045 / 9327 (54.1 %)
+chain_rule_1	6640	15.0%	13.8	19453 / 38138 (51.0 %)
+</pre>
+
+</article>
+
+  <footer>
+
+  </footer>
+</div> <!--! end of #container -->
+
+
+
+
+</body>
+</html>
