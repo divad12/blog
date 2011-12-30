@@ -5,14 +5,14 @@ title: On my Internship at Khan Academy
 
 ---
 
-# proficiency model intro
+## proficiency model intro
 1.5 minutes
 
-Once upon a time on the internet, there was rage. Sir Rage was learning geometry on Khan Academy -- and was on his tenth problem, correctly answering the previous 9 -- when he forgot to multiply pi by 2 and got it wrong. Now, to be considered proficient and move on, one had to get a streak of 10 right answers in a row. Having now to restart from the very beginning, with all his prior progress erased, brought his rage to a boil. F7U12, he hissed.
+Once upon a time on the internet, there was rage. Sir Rage was learning geometry on Khan Academy --- and was on his tenth problem, correctly answering the previous 9 --- when he forgot to multiply pi by 2 and got it wrong. Now, to be considered proficient and move on, one had to get a streak of 10 right answers in a row. Having now to restart from the very beginning, with all his prior progress erased, brought his rage to a boil. F7U12, he hissed.
 
 There were other problems, and an analysis performed by comrade Jace, a full-time volunteer, revealed that those students who take 10 problems to get a streak had a much greater chance of answering correctly after a break, over those who took 30 problems to get a streak.
 
-These are but two problems with the streak -- requiring users to do too many problems to attain proficiency -- false negatives -- and wrongly letting through users who may need more practice -- false positives.
+These are but two problems with the streak --- requiring users to do too many problems to attain proficiency --- false negatives --- and wrongly letting through users who may need more practice --- false positives.
 
 Since those dark ages, we've trashed the streak.
 
@@ -37,7 +37,7 @@ So, does this tale end happily ever after? Not yet. This is just the first step 
 
 ---
 
-# Things I did
+## Things I did
 1.5 min
 
 Here's some other interesting things spawned by my internship at Khan Academy.
@@ -62,23 +62,23 @@ However, I really believe that smarter and more prolific interns have accomplish
 
 ---
 
-# Awesome things about working at KA
+## Awesome things about working at KA
 
 [2 min]
 
 But you know what, it's much more interesting to talk about why you should be an intern at Khan Academy than what I did.
 
-## The ship and her crew
+### The ship and her crew
 
 Ship. Ship. Ship. Ship. Ship. Ship. Ship. Ship. [low mmmmm-ushroom] Mushroom. [higher] Mushroom. Our culture is shipping: fast iterations and continuous deployment. To see your last hour's work on the live site in 3 minutes, making an impact on millions of users, is an exhilarating, addictive feeling. I had the freedom to do this any time of any day of the week. As long as I got stuff done, how long I worked or when I came in was immaterial.
 
-The crew has been very supportive and helpful. For example, Google App Engine had no A/B split-testing framework, so comrade Bengineer Kamens built one in a weekend and open-sourced it on GitHub. It has led to all those juicy statistics I've been telling you and is a joy to use. We actively code review every non-trivial commit in an effort to maintain a clean, readable, and consistent code base. I've learned a lot from this team, including machine learning, UI design, good coding practices, blog post writing, and -- of course -- all the languages and technologies we use. Also, John Resig is famous.
+The crew has been very supportive and helpful. For example, Google App Engine had no A/B split-testing framework, so comrade Bengineer Kamens built one in a weekend and open-sourced it on GitHub. It has led to all those juicy statistics I've been telling you and is a joy to use. We actively code review every non-trivial commit in an effort to maintain a clean, readable, and consistent code base. I've learned a lot from this team, including machine learning, UI design, good coding practices, blog post writing, and --- of course --- all the languages and technologies we use. Also, John Resig is famous.
 
-As an intern, you're going to be given massive amounts of autonomy, and with that, massive amounts of responsibility. We've all made inch-by-inch improvements anywhere on the site because we saw a need and just did it. You're an integral part of the core team of a non-profit startup -- make decisions, flesh out projects, shape the company, and directly affect the future of Khan Academy. You're not just responsible for awesome code. You're not just responsible for awesome features. What we want to accomplish by doing this is to help our users learn and ultimately make the world a better place.
+As an intern, you're going to be given massive amounts of autonomy, and with that, massive amounts of responsibility. We've all made inch-by-inch improvements anywhere on the site because we saw a need and just did it. You're an integral part of the core team of a non-profit startup --- make decisions, flesh out projects, shape the company, and directly affect the future of Khan Academy. You're not just responsible for awesome code. You're not just responsible for awesome features. What we want to accomplish by doing this is to help our users learn and ultimately make the world a better place.
 __writing john cormack's piece of brilliant code?__
 
 
-## Perks
+### Perks
 
 It's a lot of responsibility, but we have fun doing it. We're just a few blocks away from Laser Tag. Every Wednesday, we have intense board game nights. Being in downtown Mountain View, we're surrounded by a mountain of food and are close to Silicon Valley meet-ups. We pay very well for interns, competitive with large companies such as Facebook.  We have weekly picnics with Sal Khan and the entire team, and you may get to have 1-on-1 walks with Sal to discuss mathematics, your views on education, ask him questions, anything.
 
@@ -87,7 +87,7 @@ Another cool thing is that we're completely open-sourced on GitHub and Kiln and 
 We also get to visit nearby schools who have adopted Khan Academy, and it feels great to see a change you made directly benefiting users.
 
 
-## Impact
+### Impact
 
 Users. As a non-profit organization, that is and always will be our number one priority. Not shareholders, not search engines, not profits, and certainly not TechCrunch. We have over 100 million video views and close to 2 million problems done per day.
 
@@ -113,7 +113,7 @@ Education is a pillar that underlies modern achievements and quality of life. We
 
 ---
 
-# conclusion
+## conclusion
 [20 seconds]
 
 If we want to make this dream a reality, we need the help of motivated, talented developers who get things done. So I ask of you, what do you look for in an internship? Work with talented developers? Experience and learning? Money? Food and events? Make friends and have fun? Challenging technical problems? Impact?
@@ -123,7 +123,7 @@ Comrade Zoidberg says, why not Khan Academy?
 Thank you Khan Academy for an awesome internship, and I hope you, dear viewer, may have that experience too.
 
 
-# one more thing
+## one more thing
 [20 seconds]
 
 Oh wait a minute, there is one more thing. We just got a flying shark that will eat you up if you look at it wrong! It actually swims through the air. The shark is not a lie.
