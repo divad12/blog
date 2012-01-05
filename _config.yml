@@ -1,6 +1,6 @@
 pygments: true
 markdown: maruku
-exclude: [deploy.sh]
+exclude: [deploy.sh,.ignore/]
 
 maruku:
   use_tex:    true
