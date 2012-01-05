@@ -206,6 +206,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 body {
   color: #111;
   font-size: 1.1em;
+  background: white url(http://cssdesk.com/images/bg-white.png);
 }
 
 #container {
