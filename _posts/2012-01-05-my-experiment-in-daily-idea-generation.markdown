@@ -4,7 +4,7 @@ title: My Experiment in Daily Idea Generation
 cssPaths: ["/css/ideas-list.css"]
 ---
 
-I've always had the fear that, should I ever want to do a startup after I graduate (and enter the real world), I wouldn't have an idea that I wanted to passionately pursue. So, for about a year or so, I've been passively maintaining a list of any idea I get, recording in a Google Doc anytime something interesting pops into my head. With about 40 items on that list, there wasn't anything that hadn't been done that I thought was particularly compelling. Then, one day, a meta-idea popped into my head: what if I spent 10 minutes every morning _actively_ generating ideas, writing down any thought I get in a stream-of-consciousness, unfiltered fashion? I could just cut back my morning Reddit + Hacker News + RSS reading.
+I've long had the fear that, should I ever want to do a startup, I wouldn't have an idea that I wanted to passionately pursue. So, for about a year, I've been passively maintaining a list of any idea that pops into my head as a Google Doc. With about 40 items on that list, there wasn't anything that hadn't been done that I thought was particularly compelling. Then, one day, a meta-idea popped into my head: what if I spent 10 minutes every morning _actively_ generating ideas, writing down any thought I get in a stream-of-consciousness, unfiltered fashion? I could just cut back my morning Reddit + Hacker News + RSS reading.
 
 Would there be anything interesting? How many would I get? Would the volume trickle off after a few days? Would it increase the rate of passive ideas that pop into my head? Would it nurture my creativity and engender greater right-brain activity (whatever that means)? I was curious.
 
@@ -18,7 +18,7 @@ By the end, I accumulated a total of 286 ideas over 29 days:
 
 ## All ideas
 
-This is the raw list of my stream-of-consciousness writing, with some points edited to be clearer.
+This is the raw list of my stream-of-consciousness writing, with some points edited to be clearer. (See below for my favourites.)
 
 <p>
     <div id="all-ideas">
@@ -63,7 +63,7 @@ I picked some items that particularly interest me, whether it's because I would 
   Also in need is a consistent and high-quality set of tutorials for CS students to prepare them for industry and teach things that might not be taught in school: introduce Linux; Vim; Git and GitHub; JS; Firebug or Chrome dev tools; Python or Ruby; C or C++; a functional language; Makefile and a shell; unit testing; Apache or Nginx; DNS; setting up a server; a web framework; where / how to ask for help; how to debug; blogging and communicating; resume + interviewing; etc.
 - On any given term, half of all Waterloo co-op students are working while half are studying on campus. With over 100 per term working in California, we need a **bike sharing program for Silicon Valley interns**!
 - **Conversation**: Suggest topics from what you have talked about previously, your interests, news. Mobile app to find similarities between two users and suggests topics based on those, or find people near you that you maybe interested in talking to.
-- Malware / **virus to force-upgrade IE users** or install Chrome frame (I won't be doing this but I hope somebody will :)
+- Malware / **virus to force-upgrade IE users** or install Chrome frame (I won't be doing this but maybe somebody will :)
 - **Pro-tips** mobile app: eg. "Avoid that side trail", find interesting stories near you, number of deaths near you, closest death near you. Around your neighbourhood / city: Where to eat, best place for haircut, where to get X, where Y hangs out, etc.
 - **Mobile app for** ml-class or ai-class or other **Stanford online courses**
 - Remote-activated **middle finger lights** on side or back of car: Would be fun to make and serve a noble purpose --- that of expressing my thorough indignation at the offending party regardless of time of day --- but alas, I don't have a car and can't drive.
