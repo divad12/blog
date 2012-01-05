@@ -44,7 +44,7 @@ Frequently-occurring words:
 I picked some items that particularly interest me, whether it's because I would find it fun to work on or wish it existed:
 
 - **Challenge Accepted**: users pay to see stunts / dares (eg. eat X chili peppers, hop on one foot while X and Y for Z distance). Acceptors upload video proof which is judged by community or moderators. Money refunded if no acceptors.
-- **Productivity**: Did I work today? Report computer usage: # of lines of code written, # of commits, what sites visited, what apps used, email usage, Reddit, terminal, chat, gaming, etc. Generate report and graphs of all this, compare with previous days. Set quotas; will warn and eventually block usage of time-wasters. Enter your commit message _before_ coding -- automatically sets this as your status message for teammates to see.
+- **Productivity**: Did I work today? Report computer usage: # of lines of code written, # of commits, what sites visited, what apps used, email usage, Reddit, terminal, chat, gaming, etc. Generate report and graphs of all this, compare with previous days. Set quotas; will warn and eventually block usage of time-wasters. Enter your commit message _before_ coding --- automatically sets this as your status message for teammates to see.
 - **Karma**: Aggregate all of it! GitHub, StackOverflow, Reddit, Hacker News, Twitter followers, Facebook likes, etc. Stats for total followers, following, graphs, etc. Add another layer of game mechanics, interesting achievements, and badges! Follow your friends and beat them! Leaderboards.
 - What are **similar people doing**, reading, or working on? Eg. What do HN readers, standing-desk users, Cubans, GEB readers, rock climbers, terminally-ill, etc. like to do? What are their age groups, ethnicities, hobbies, other characteristics? (eg. Reads Reddit? Have a blog? Contributing to StackOverflow? Doing a startup? Working at tech company? Have read book X? Age histogram? Played piano?) You fill out detailed profile and answer questions. Recommends what you could do. Recursively see what people doing each recommended item like to do. Find similar people near me or friends going to same events, and suggest / facilitate going together.
 - Problem: I **need help finishing** what I started
@@ -66,9 +66,9 @@ I picked some items that particularly interest me, whether it's because I would 
 - Malware / **virus to force-upgrade IE users** or install Chrome frame (I won't be doing this but I hope somebody will :)
 - **Pro-tips** mobile app: eg. "Avoid that side trail", find interesting stories near you, number of deaths near you, closest death near you. Around your neighbourhood / city: Where to eat, best place for haircut, where to get X, where Y hangs out, etc.
 - **Mobile app for** ml-class or ai-class or other **Stanford online courses**
-- Remote-activated **middle finger lights** on side or back of car: Would be fun to make and serve a noble purpose -- that of expressing my thorough indignation at the offending party regardless of time of day -- but alas, I don't have a car and can't drive.
+- Remote-activated **middle finger lights** on side or back of car: Would be fun to make and serve a noble purpose --- that of expressing my thorough indignation at the offending party regardless of time of day --- but alas, I don't have a car and can't drive.
 - **Watch TV shows together over internet** with live chat, polls, predictions, etc.
-- Collaborative **brainstorming**: Real-time with upvotes, game mechanics, and karma. Optionally, will show images and word associations to inspire you.
+- **Collaborative brainstorming**: Real-time with upvotes, game mechanics, and karma. Optionally, will show images and word associations to inspire you.
 - **Git rebase GUI**: drag-and-drop where to move branch; visually select a range of commits to squash into one commit
 - **Study aids**: collaboratively-created formula sheets. Allow forking, customizing notation, upvotes, customizations for classes. Cheat-sheet creator for a class. User-contributed mnemonics ("Every Good Boy Deserves Fudge") for every subject (eg. anatomy) and every formula.
 - **Word this sentence** in a certain style: eg. Victorian England, gangsta, Southern, lawyerese. How would they say it? User-contributed + game mechanics + upvotes. Would be fun to train a machine learning algorithm (similar to training translation software).
@@ -82,10 +82,10 @@ I picked some items that particularly interest me, whether it's because I would 
 
 ## Noteworthy experiment observations
 
-- It seemed to me that I had more thoughts -- thus likely more ideas -- after waking up to a good night's sleep.
+- It seemed to me that I had more thoughts --- thus likely more ideas --- after waking up to a good night's sleep.
 - The inspiration for many ideas came from recent happenings. Many times my thought process would start with recounting recent events and thinking if there were any associated problems.
-- The previous point suggests that it may make more sense to actually record _problems_ instead of or in addition to ideas -- I've been taught that there are many different ways of solving a problem, but focusing on a possible solution too early may blind one from other solutions.
-- One cool thing was that the rate of passive ideas definitely increased. After a few weeks, I noticed that ideas would just pop into my head during my daily 40-minute bike rides to and from my internship -- I was _not_ actively generating ideas, but they would come while I was relaxed and having other thoughts. I estimate that, on average, 1-2 ideas per day came in this manner.
+- The previous point suggests that it may make more sense to actually record _problems_ instead of or in addition to ideas --- I've been taught that there are many different ways of solving a problem, but focusing on a possible solution too early may blind one from other solutions.
+- One cool thing was that the rate of passive ideas definitely increased. After a few weeks, I noticed that ideas would just pop into my head during my daily 40-minute bike rides to and from my internship --- I was _not_ actively generating ideas, but they would come while I was relaxed and having other thoughts. I estimate that, on average, 1-2 ideas per day came in this manner.
 
 ## Now it's your turn
 

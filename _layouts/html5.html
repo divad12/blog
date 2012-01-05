@@ -30,9 +30,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script src="/js/highcharts.js"></script>
 
+  <link rel="stylesheet" href="/css/ideas-list.css" type="text/css" />
+
+  <!-- TODO: (ask Mack): How to get cssPaths to work smoothly on index.html for-loop? -->
   {% for path in page.cssPaths %}
-    <link rel="stylesheet" href="{{ path }}" type="text/css" />
+    <!--<link rel="stylesheet" href="{{ path }}" type="text/css" />-->
   {% endfor %}
+
 </head>
 <body>
 
