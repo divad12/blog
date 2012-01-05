@@ -1,0 +1,111 @@
+#all-ideas > ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#all-ideas > ul > li {
+  margin: 3px 0 0 0;
+  -webkit-box-shadow: 0 0 3px black;
+  -moz-box-shadow: 0 0 3px black;
+  box-shadow: 0 0 3px black;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#all-ideas > ul > li > *:first-child {
+  padding: 3px 10px;
+  margin: 0 0;
+}
+
+#all-ideas > ul > li.expanded > *:first-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+#all-ideas > ul > li > *:first-child:before {
+  content: "\25B8\00a0\00a0";
+}
+
+#all-ideas > ul > li.expanded > *:first-child:before {
+  content: "\25BE\00a0\00a0";
+}
+
+#all-ideas ul ul {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  background-color: rgba(0,0,0,0.05);
+  margin: 0;
+}
+
+#all-ideas > ul > li > *:first-child:hover {
+  background-color: rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+#all-ideas .bar {
+  background-color: rgba(0, 150, 0, 0.2);
+  z-index: 1;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+#all-ideas .preamble {
+  background-color: rgba(150, 0, 0, 0.2);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: inherit;
+  padding-left: 27px;
+  width: 133px;
+}
+
+#all-ideas .sub-heading {
+  left: 170px;
+  padding: inherit;
+  padding-left: 10px;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  top: 0;
+  bottom: 0;
+}
+
+#all-ideas .button {
+  display: inline-block;
+  margin-right: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 1px black;
+  -moz-box-shadow: 0 0 1px black;
+  box-shadow: 0 0 1px black;
+  padding: 5px;
+}
+
+#all-ideas .button:hover {
+  background: #AAA;
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#all-ideas .button, #all-ideas > ul > li > *:first-child {
+  background: #DDD;
+  background: rgba(0, 0, 0, 0.1)
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.2)));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+  background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+  background: linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+  -webkit-transition: all 0.1s ease-in-out;  /* Saf3.2+, Chrome */
+  -moz-transition: all 0.1s ease-in-out;  /* FF4+ */
+  -ms-transition: all 0.1s ease-in-out;  /* IE10? */
+  -o-transition: all 0.1s ease-in-out;  /* Opera 10.5+ */
+  transition: all 0.1s ease-in-out;
+}
