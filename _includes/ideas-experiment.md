@@ -1,0 +1,315 @@
+- Tue Nov. 15
+  - Dream or sleeping patterns (this was just the first thing on my mind when I woke up to get me writing)
+  - Anonymous love messages - FB app?
+  - Open-sourced UserVoice (feature requests & questions forum)
+  - Are you working? Monitor computer usage: # of lines of code written, what sites visited, breakdown, what apps you used
+  - Vim plugin: show how a document or code was created. Show all insertions / deletions, commands used. (Show off your Vim skills.)
+  - Browser history analytics: time spent, histogram, scrolling behaviour, \# of words read
+  - What to buy friends? FB app? Public wish list.
+  - What should I build? Voting. Private / public. Champion ideas.
+- Wed Nov. 16
+  - "I'm sleeping" notifications -- chat, email, phone
+  - Public shaming service for productivity. I will X or owe everybody $20.
+  - Computer usage analytics: hours per program, file sizes, interactions, etc.
+  - Git analytics: commits / day, which hours, lines of code, etc.
+  - Learn a language morning cards / alarm clock
+  - Wiki: summary (tl;dr) of _everything_: articles, books, movies, shows, news (with multiple granularity: days, weeks, months). For the impatient.
+  - Meme tracker: keep updated on new memes (eg. for Reddit) or ways of saying things (eg. "redundant X is redundant", "y u no", "le \*", etc.)
+  - Top news or Reddit distilled to a newsletter
+  - Learning protocol / specification; universal learner's profile. API specs.  (like OpenSocial for students)
+  - Who are you most compatible with? FB app?
+  - Programming wiki: JS, CSS, _any language_. Good examples, usage, advice, links to references, StackOverflow questions, collaboratively created, threaded comments w/ upvotes? Seeded (eg. with MDN)?
+  - Open-source / wiki code snippets, recipes, etc. Eg. iterate over each line of file, in every language.
+- Thu Nov. 17
+  - (4 Khan Academy ideas (where I was interning at the time))
+  - Global ideas; people submit their issues / problems they would pay to have solved
+  - "You're going to be late" automatic notifier on calendars
+- Fri Nov. 18
+  - Nutritional info daily: scan products' barcodes (or enter manually) what you're eating in a day. Stats, recommendations, are you healthy?
+  - What similar people are doing / reading / working
+  - Real-time Reddit: stories being submitted, upvotes generated
+  - Am I wasting my time? Daily email usage, chat, Reddit, terminal, gaming.  Histograms.
+  - Mall / store item locator. Insert what you want. Gives short Hamiltonian path. Recommendations, ads.
+  - Learn from coding master. Get paid to coach.
+  - Virtual pair-programming over internet.
+  - What are my friends doing? eg. Visiting LA, watching which movies, seeing which concerts, go to Startup Weekend. Recommendations. Meetups. Organize trips or bring together groups going to same event.
+  - directory / wiki of failed attempts / ideas
+- Sat Nov. 19
+  - Where did you buy that / what is that product? Take picture or scan barcode. Gives links.
+  - Mobile app: need to be where at what time (checks with GPS). If not, server publicly shames you (posts on your twitter, FB, etc.).
+  - Something between PaaS and SaaS: you give data schema, can just write client-side app. Server only for data persistence + external requests.
+  - Restaurants: where do I eat today? Recommendations (proximity and favour unvisited places), ads.
+  - API: translate a word into multiple languages and make pretty Wordle-like motif
+  - Google image search with upvotes
+- Sun Nov. 20
+  - Simplified / pretty UI for weather. Single line graph for temperature & precipitation; zoom in and out
+  - Self-diagnose: answer quiz about lots of health-related signals (eg. age, sex, conditions, etc.). Tells probability of various forms of cancer, depression, various diseases.
+  - JS plugin: quote expander for long text. Replace long / less important text with intro sentence or a pre-written summary; click to expand
+  - Chrome extension for reading level of Reddit / HN articles
+  - Person info gatherer: that person's Wikipedia article, LinkedIn, FB, blog, what known for, phone #s, locations, etc.
+  - How arrogant is this writer / blog? ML or voting
+  - Particle filter algorithm demo in JS
+  - Public shaming: web scraping or write script. "David's blog did not have a new article by date." API for GitHub, web, social, etc.
+  - Culture wiki: travelling to / migrating to new country? Learn social norm, fairy tales, popular movies, people, how to act, etc.
+  - Article recommendations based on what you like / dislike. Use Reddit info?
+  - Beginning {programmer,engineering,electrician,doctor,painter,etc.}: what to learn? What skills are most useful in industry? What tools are used?
+  - Goals web: Bayes net. eg. "I want to work at Google". Lists possible prereqs (what did other people do before accomplishing certain goal?) Click prereqs to recursively get their prereqs. Get your own personalized path to goal. Infer structure and probabilities from user input. Eg. Are you a prof?  What did you do before / to become one?
+  - What do similar people do? Eg. What do HN readers, standing-desk users, Cubans, GEB readers, rock climbers, terminally-ill, etc. like to do? What are their age groups, ethnicities, hobbies, other characteristics? (eg.  Reads Reddit? Have a blog?  Contributing to StackOverflow? Doing a startup? Working at tech company? Have read book X? Age histogram?  Played piano?) You fill out detailed profile / answer questions like 20Q. Recommends what you could do. Recursively see what people doing each recommended item like to do.
+  - Wallpaper rotates between top daily submissions to /r/wallpapers or /r/earthporn or other source
+- Mon Nov. 21
+  - Alternatives to: software, other things. Function clusters. Ratings, Feature charts. Reviews. Network. Use X if doing Y, etc.
+  - Problem: need help finishing what I started
+  - Commentary on non-fiction books. Criticisms, summaries, wiki errata.  Community annotations.
+  - Atheist, evolution, etc. arguments, common rebuttals/responses, appropriate counter-rebuttals. Rebuttals to common misbeliefs. Arguments flowchart to convince somebody of X.
+  - Online UML creator
+  - Online (JS) data visualization: dumb simple straight copy+paste, or input data in cells or chart. WYSIWYG configuration. Output appropriate charts, get permalink to output, produce HighCharts (or other JS charting software) code.
+  - Pair picture slideshows to music: slide transitions match sounds in music; slide mood matches tempo/pitch/loudness; find appropriate music for givens slides; find appropriate pictures for given music
+  - Wikipedia road map: most linked articles, visualize links as web
+  - Distinctions Venn diagram: enter two keyword / phrases. Uses Wikipedia / Google / some API to find similarities and differences
+  - Online PDF editor: annotations, form fields, etc.
+  - HN / Reddit auto-submit. Go to sleep; will automatically submit article at optimal pick-up time
+  - Map of HN readers, Redditors, etc. for each article. Links between stories commented by the same user
+- Tue Nov. 22
+  - Code for academic papers: open-source implementations
+  - App feedback / usage: Post screenshots, videos, playback IDK! etc. (I've forgotten what I meant when I initially wrote this now.)
+  - Do I have bad breath meter
+  - Blue light filter (software or physical): For reading phones at night, etc. (Flux)
+  - JobVite for seekers: Recommendations, where to apply, resume hosting, checklists, what other jobs seekers are doing, common qualifications / keywords of other seekers, etc.
+  - Given some website, outputs a packaged theme: colour scheme, font scheme, templates, CSS, design elements, widgets, etc. Make it easy to copy another website's design
+  - Dumb simple one-click easy-to-use program for SSH forwarding to access Pandora, other US-only services elsewhere
+  - Reddit picture viewer (with captions): Collage of pictures
+  - Q&A or discussion forum on any webpage or Wikipedia page. Common misconceptions? Browser extension?
+  - LaTeX-as-a-service on a server: will compile LaTeX for you; API (because LaTeX is a pain to setup)
+  - Design critiques: people can comment on webpage. Possibly automatically check against design guidelines? Lint / page-speed for design.
+- Wed Nov. 23
+  - Mistake database: document every mistake you've made. People upvote. Good for learning a new language, technology, skill, coding contests, etc. (eg.  Python's default args evalled once; JS closure-in-for-loop gotcha)
+  - Joke database: upvotes, etc.
+  - Talk topics: enter what you like / have talked about; suggests other ones
+  - Re-word sentences: Here's what I want to say. What's the best way of wording it?
+  - Number range trivia app: Estimate a certain number (eg. # of lions). See who's the closest. Histogram of other users' estimates, mean, etc.
+  - Apps for common board games: apples-to-apples, Pictionary, etc.
+  - Ping-pong ball-collecting robot (for training on a bucket of balls)
+  - Can I get into university X? ML? Enter marks, extracurriculars, etc. to determine which programs / schools suitable and probability of acceptance.  User voting?
+  - Career choice. ML (do a quiz; answer 20Q questions) suggestions. Ask existing professionals.
+  - What tools / libraries / framework is it built with? Tries to automatically detect? Wiki?
+  - Aggregate karma: GitHub, StackOverflow, Reddit, HN, Twitter followers, etc. Total followers, following, etc. Another layer of game mechanics, interesting challenges, and badges! Follow your friends! Leaderboards.
+  - Share interesting code / one-liners (like Commandlinefu for any language)
+  - Share how you solved technical challenge
+  - Open-source or user-contributed API dictionary
+  - Make Google search results link directly to result instead of redirect
+  - Critique platform: Upload any media (eg. pictures, videos, links, text, etc.). People annotate with critiques (eg. more whitespace here, change to this font, this colour, redesign like this, etc.). StackOverflow-like game mechanics. Offer monetary bounties?
+  - Decision-making platform: What are your criteria, budget, needs, etc. ML or user-contributed w/ voting and StackOverflow game mechanics.
+  - Bike-sharing for interns
+  - Share browser bookmarks + aggregate stats, recommendations, etc.
+- Thu Nov. 24
+  - Warning, prompts, reminders to go to sleep: alarm clock for sleeping.
+  - Quiz you on knowledge of a programming language. Warns you if dangerously lacking; shows percentile? Suggests articles / books / gives tips to fill you in on crucial gaps in your knowledge.
+  - Random app ideas generator? Eg. {social,photo-sharing} for {neighbours,music lovers}. Markov chains?
+  - Improve this line of code / how to write this more idiomatically / code reviews
+  - what's the term for "concept" (like /r/tipofmytongue) or fill in the blank: "blah blah ____ blah". ML or user-contributed w/ game mechanics
+  - Check for updates on page. If there are, refreshes or just replace with new content with minimal visible reflowing or show some indication
+  - Lure theists / beliefs in certain things: Asks questions. User does quiz.  Question by question, a contradiction is built up, or slowly lead to more ridiculous things.
+  - Write comments in code. Will find related StackOverflow posts. Prevent you doing stupid things such as parse user-provided HTML with regex.
+  - What apps + tools should I use? For programmers, musicians, designers, etc. Aggregates what people use. Create your own usesthis profile, find similar ppl, have nice page to link to from your blog, etc.
+- Fri Nov. 25
+  - Haiku-ify: Take sentence (or paragraph or article), convert to Haiku or other poem
+  - What can I get for X dollars?
+  - Pandora client for Mac - free version
+  - Lint all - lint a directory (detect file types)
+  - Mercurial / Git pre-submit linter
+  - Tutorial or wiki for beginning programmers on everything: introduces Linux, Vim, Git, JS, Firebug or Chrome dev tools, Python or Ruby, C or C++, a functional language, Makefile, Apache or Nginx, DNS, setting up a server, a web framework, where / how to ask for help, how to debug, etc. (things not always taught in school but useful in industry)
+  - Travel app: checklists, itineraries, games, weather, etc.
+  - Someone lonely / wants conversation near you
+  - Go eat lunch with somebody close by (for those who don't want to eat alone)
+  - Create fake FB wall posts for screenshotting (to submit to Reddit (like /r/atheism))
+  - Mistake database with regexes to capture it. Lint existing or new code.
+  - Malware / virus to force-upgrade IE users or install Chrome frame
+  - Browser upgrade for old people: Chrome but with IE icon (or look?), auto-import settings and bookmarks, really really easy setup.
+  - Pro-tips around your neighbourhood / city. Where to eat, best place for haircut, when garbage truck comes around, where to get X, where Y hangs out, etc.
+  - Jimmy Wales "A personal appeal" banner parody / creator
+- Sat Nov 26
+  - Am I sleeping? Mobile app + alarm. If sleeping notifies others and updates chat client statuses
+  - Arbitrarily-detailed math proofs: click each step to expand into more steps, and so on
+  - Game: take short sentence and recursively replace words with definitions.  Guess the original word / phrase
+  - Get real-world colour in RGB (mobile camera app)
+  - Find top colours: Compare any two (or two similar colours): ask which one is prettier. Or ask which one is the more canonical "green". Ask which colour goes better with another one. Game mechanics to create aggregate info for colour designers.
+  - Comparison test of prettiness: Side-by-side display two different versions, ask people which one they prefer.
+  - Idiom linter: linter replaces common code constructs with their more idiomatic or more efficient forms (or more correct ways, but prompts first): eg. if (a) return true; else return false; --> return a;
+  - Happy birthday personalized Google / homepage
+  - Mobile app for ml-class or ai-class or other Stanford online courses
+  - Mandatory knowledge every person must know: eg. instinctive drowning response, Heimlich manoeuvre, etc. Quizzes you
+  - "Hip" tracker -- what's trendy right now (Google search trends or Twitter or upvotes). Comparisons of common things, eg. languages or frameworks
+  - Wiki for most idiomatic way to do a common task X in every language (eg. file I/O, print a line, regex test, etc.)
+- Sun Nov. 27 (at Yosemite today :)
+  - Yelp-like tips (eg. best menu item, do X) (take highlights / common parts) of reviews for everything: eg. Places, tourist attractions
+  - Simultaneous wake-up: alarm keeps ringing if all parties are not awake (or just notifies if other party has hit snooze or has not cancelled alarm)
+  - Bear / wildlife detector / mapper
+  - Documents for every location / place to visit: maps, rules, brochures, etc.
+  - Common mapping software for parks / indoor places / fairs
+  - Travel itinerary for different places
+  - Get to sleep app: plays a boring lecture with monotonous voice; boring book; soothing sounds
+  - Interesting stories about the places / things near you
+  - App: extremely simple and easy-to-understand open-source / wiki instructions for everything: microwaves, cars, various hardware, etc.
+  - Remote-activated middle finger lights on side / back of car
+  - Next rest stop app (for road trips)
+  - Mechanical / animatronic dog to scare away burglars
+  - Synchronize car stereos (or phones or other devices): like lots of boomboxes / speakers
+- Mon Nov. 28
+  - Water or calorie consumption estimate: walk this far / do this exercise this long. How much energy depleted?
+  - Number of deaths at certain locations. Mobile app? Closest death to you.
+  - Motivational stuff: pictures, videos, etc.
+  - Mobile app: voice notes
+  - Dictation software: write by dictating. Shows you guessed text along with audio recordings, make it very very easy to edit misguesses. Voice commands for editing.
+  - Am I healthy? Enter sleeping hours, exercise types & times, eating, drinking, washroom breaks, etc. Tells how healthy you are compared to others, what you should be doing to improve, what you are at risk of
+  - Infographic / size viewer creator. I can't visualize extreme numbers.  Express numbers in other things / forms, such as number of Plutos to make up mass of Earth, probability of death from wolf attack, number of books to stack to how high, number of times around the Earth, etc.
+- Tue Nov. 29
+  - Productivity: only allow certain apps to run for a specified time. Blocks Reddit, HN, etc. after a while. Enforced rate of text entry or something to force you to do work.
+  - Build-a-web app TopCoder / contracting. Modularize components, eg. contest to design logo, contest to write code for this tiny component, this API, etc.
+  - Safety tips website with micromorts info (probability of death)
+  - Scan product barcode (or take picture) at store; get reviews
+  - Watch TV show together over internet with live chat, polls, predictions, etc.
+  - Enforce reasonable tab order on forms: left-to-right to bottom-right
+  - Tool updates: new tools, plugins, reviews, etc.
+  - What software do you use? Updates you on software your friends starts using or similar people, or trending new software or alternatives replacing incumbents
+- Wed Nov. 30
+  - Post your standing desk setup picture (or just desk + monitor setup). List products / hardware + price
+  - Life hacks website: number of people doing it, upvotes / downvotes, reviews, cautions, related profiles to you, related hacks
+  - jQuery Earth globe plugin
+  - Motivational Growl messages: On Reddit too much? Reminds you to work on day's most important tasks. When you open computer, shows you what you should be doing today (from your task list) in very big text in middle of screen.  Occasional reminders throughout the day
+  - Who do I look like? Faces database or closest matching celebrity
+  - Drag + drop tangrams app (probably exists)
+  - What is it like in place X? Temperature, web cam, traffic, weather, etc.
+  - Markov chain twitter messages
+  - "What hipsters are using now" descriptions of new technologies, used by whom, switching from, comparisons, etc.
+- Thu Dec. 1
+  - Little known facts about me
+  - What does it sound like / media library
+  - Gift picker: answer quiz about person, suggests gifts
+  - Brainstorming tool: As you enter ideas, will show images / word associations to inspire you
+  - What would you rather do? 2 difficult scenarios: eg. Break arm or leg
+  - Anonymous email sending (definitely exists)
+  - Shared logins: Use service X together, split the bill
+  - Discussion aggregator: all comments about a site / page from HN, Reddit, Twitter, etc. (So blog authors don't need to update with links to discussion on HN, etc.). Plugin so blog authors can put it on their page, separated by section. Or browser extension to see comments on other sites on any webpage.
+  - HN / Reddit Wordle, aggregate stats, time trends, interesting visualizations, etc.
+  - Anonymous love messages / compliments -- anybody can create a page (or add to existing one) for any real person, and write positive things for that person. Donations
+  - Upvote anything at any granularity: highlight chunks of text or quotable sentences and just upvote those, or pictures or parts of pictures. Discuss anything on any webpage
+  - Public webpage / website like / upvote directory.
+- Fri Dec. 2
+  - Word games online: write one word / three words or 1 sentence of story.  Other continue it
+  - Conventional way / idioms of doing X in Y
+  - Translate code into story (literate programming)
+  - CSS generate from WYSIWYG editor
+  - Real-life snakes and ladders (use slides?)
+  - Mobile app: Pro-tips at certain locations. eg. Avoid that side trail
+  - Which usernames / emails are mostly taken? Suggestions. User-contributed ideas?
+  - Better diff (more context / side-by-side) for GitHub
+  - Gifts exchange (some illegible word)
+  - Secret Santa for everything, eg. birthdays
+  - Checklists for everything. User-submitted, customize (or fork) for self or company, etc. (eg. Web service pre-launch)
+- Sat Dec. 3
+  - New website / web app launches
+  - jQuery animation generator. WYSIWYG UI.
+  - Draw stick figures; they will battle and interact with each other.  Different sizes / weapons have different characteristics (but limited ink?).  Draw and save your army; battle with others
+  - Beautiful CGI landscape + music (eg. glider through game like Skyrim) People can contribute to beautiful landscape
+  - jQuery element explosion / text letter-by-letter explosion plugin
+  - Blog article --> game: different letters / words are different enemies with different characteristics. Certain letters / features are obstacles / part of the map. Browser extension?
+  - See what other people (or aggregate history) are doing on the site: their cursor positions, clicks, etc. Live chat with other visitors? (eg. on article that have just hit HN / Reddit)
+  - Video comments to articles: easy and painless, one-click record with webcam
+  - Live article discussions: live chat and Google+ hangouts? Popular HN / Reddit articles
+  - Game mechanics for life (Make real life as addictive as WoW or Second Life)
+- Sun Dec. 4
+  - Visualize your bill / spendings: Histogram, categorize, timeline, etc.
+  - Company that helps people live a nomadic lifestyle: arrange lodgings, language mentor, etc.
+  - HN / Reddit daily paper newspaper, delivery
+  - Short story / article writing contest (like TopCoder)
+  - Multiple collaborators writing by expanding: Click a word or sentence, make that into a story (flesh it out)
+  - Food roulette: Random restaurant near you
+  - Stay in touch: Randomly connects you with a friend you haven't talked to for some time, updates you on what they're up to
+  - Online virtual browsing of real stores. 3D, look like actual store?
+  - Behind the scenes website: How article was written (with actual edits and such), how was web app made, course prepared, etc. Show granular steps.
+- Mon Dec. 5
+  - Git rebase GUI (inspired from one of Mack's ideas)
+  - Game: everybody contributes to a drawing. Add in details, colour, etc.  (Optional penis / obscenities filtering)
+  - Pictures on timeline + music with text experience: customize & send to loved one (like very customized e-card)
+  - Reliable thorough useful modular formula sheets. Allow forking, customizing by changing notation, collaborating, upvotes. Cheat-sheet creator for a class.
+  - Audio / voice journal
+  - Make time predictions about tasks. Eg. finish blog post by 9 pm / in 3 hours. Occasional reminders, see histogram, prediction accuracy / biases.  Convert to time card with hours worked. Google Calendar integration
+  - Disputes / comfort levels / satisfaction in relationships. Tell your partner complaints or choose common ones, fill out survey, etc.
+  - Public "I love you" messages: lots of customization: theme, background, uploads, font, etc. (like about.me)
+  - "My greatest wish is to ..." (fill in blank) with upvotes, FB likes, etc.
+- Tue Dec. 6
+  - App that monitors your bank transactions, emails, etc. for anomalous or fraudulent activity
+  - TopCoder for designers (or just use upvotes)
+  - What words come to mind for this book / movie / show / etc. ? Tagging, Wordle. Find similar things by tags?
+  - Submit your fantasy. Upvotes. Actors will act them out
+  - Aggregate everything you need to catch up on: eg. HN, Reddit, chat logs, email, Twitter, FB, code review, various app notifications
+  - Learn from an expert: screencasts of professionals doing / making something with audio commentary
+  - Draw shapes + colour --> generate CSS 3
+  - Platform for free educational videos made by professionals in field. Upvotes.
+  - Word this sentence in a certain style: Victorian England, cowboy, gangsta, Southern, etc. How would they say it? ML or upvotes or both?
+- Wed Dec. 7
+  - Reddit link bait title generator
+  - Intuition for equation: graphs of it, adjust values of parameters and see effect; incrementally applies transformations and see what graphs / table of values looks like at each stage
+  - Reddit joke explainer / updates you on new memes / inside jokes (possible duplicate Nov. 16)
+  - "Concretely": What are practical applications of various theoretical tools / equations? Why am I learning this / what concretely is this useful for?
+  - Is that design stolen / what other sites share that design / code
+  - Site to replace interview phone screens: three coding questions, interviewer can watch sped-up version of how code was written later
+  - Interview technique: give a few commit messages. Have them code those
+  - Problems database: what bothers you in life? Upvotes
+  - Shared, anonymous FB, twitter, G+ accounts. Use to comment anonymously on public posts
+- Thu Dec. 8
+  - Alarm for going to sleep: audio reminders, air strike sirens, etc.  Interrupts computer eventually
+  - Opposing viewpoints comment site or plugin. Rebuttals to arguments. Show how many support or oppose given topic; show most upvoted argument, most upvoted rebuttal, etc.
+  - Conversation topics: enter what you plan to talk about. Suggests others, top news, etc. Recommendations based on other users
+  - Line-by-line commenting on other sites. Plugin or central site. Like MS Word or Google Docs commenting (possible duplicate Dec. 1)
+  - Programming language "pop quizzes": contests, vote on which questions you liked, winners get karma?
+  - Bike-mounted radar / laser-rage finder. Warns you of incoming traffic
+  - Age-guessing game. Upload your photo + age, see what others think.  Guessers get karma for close guesses
+  - Mnemonics: eg. "Every Good Boy Deserves Fudge" but for _every_ subject.  Eg. anatomy, every formula
+  - Set bash prompt to emoticon (eg. table-flipping) or informative indication depending on current directory, # of files, some custom script, presence of version control directories, etc.
+- Fri Dec. 9
+  - Users flag telemarketers' phone #s, software in phone blocks or warns of them
+  - Alternative uses for common household items. Eg. pipe cleaners can be used for cleaning pipes, cylindrical CD holders can be used as bagel holders
+  - "What I should have said" post original conversation, but add what would have been much better response / comeback. Upvotes, other suggestions
+  - Bike-mounted smartphone holder
+  - "Challenge Accepted" - people pay to see stunts / dares (eg. eat X chili peppers, hop on one foot while X and Y for Z distance). Acceptors upload video proof and judged by community or moderators? Money refunded if no acceptors.
+  - "Thank you": public thanks or shaming people
+  - Video Q&A: upvote questions, then go directly to part of video where it's answered
+- Sat Dec. 10
+  - Debate anything: hangouts / chat rooms just for debate
+  - Tracking / sharing with neighbours: list what you have / can offer
+  - What tools do you use at work? For hobbies? Aggregate stats
+  - Think you can improve something? Upload "before" and "after" images.  Improve designs, UI, etc. Commenting & voting
+  - What is your P(death | some time range)? Enter your activities. Tells at what times / doing what you are most likely to die. Also enter any activity, eg. 5 hours flying, and equate that to something else, eg. X time in car
+  - Get large / small #s in terms of other things. Eg. lifetimes of the universe, something vivid / shocking (possible duplicate Nov. 28)
+  - Review any item in restaurant menu: query where is best burrito? Sort by most popular item at any restaurant
+  - Crowdsource decision making: state your scenario, lists pros & cons.  Others can add discussion + voting (comments are colour-coded to show which side you support) (possible duplicate (similar) Nov. 23)
+  - Your quirks, and who else shares it (eg. smelling books, touching tongue)
+- Sun Dec. 11
+  - Revision control blame that finds when line of code was originally added, ignore displacements, whitespace, etc. Or shows timeline of that line of code through history and every change that was made to it.
+  - Vim plugin that finds documentation of function or language feature (on ctrl-k?)
+  - Find similarities between you and someone else --> gives talk topics (mobile NFC app)
+  - Mutual / collaborative brainstorming. Real-time, upvotes? Time limit?  Winner? (Most upvotes)
+  - Enter Git commit message before working. Get analytics (eg. time taken), automatically sets that as status message to teammates
+  - Which is better: anyone can upload 2 images, set a custom question, customize # of views / demographics, etc. (possible duplicate Nov. 26)
+- Mon Dec. 12
+  - Culture characteristics. Venn diagrams
+  - Bash prompt creator: apply colours to ranges, special fields (current directory, hostname, time, etc.), useful Unicode symbols. WYSIWYG UI.
+  - Collaboratively created CSS / JS bugs and quirks test pages with demos.  Upvotes, comments for workarounds.
+  - Place wagers on show outcomes. Polls.
+  - Post-Christmas gift bartering / trading (possible duplicate Dec. 2)
+  - Creative gift ideas wiki
+  - Image --> auto slice, HTML, CSS
+  - Simulated "Cash Cab" in taxis just for fun (just trivia game, no prize money)
+  - Ghost you: See your jogging, biking, race progress (where you were at that time) on previous day / best day. Mobile app with GPS
+  - Mobile app that finds strangers around you that you might want to talk to.  Finds common interests, or pre-defined criteria for matches
+- Tue Dec. 13
+  - Take article, write it in style of some author or other article. (eg. Zed Shaw) ML or crowdsourced
+  - Software to implement "stop in the middle" technique to avoid procrastination. Gives you 5-min warning, lets you write reminders of how you were planning to finish, then stops you (less barrier to returning to work on it)
+  - Work bartering: I'll program something in exchange for you designing or drawing something. More efficient allocation of resources
+  - Visiting a city? Enter time in city, finds what's interesting, etc. Gives TSP-tour of places you would find more interesting
+  - Recommendations for places to visit. Attractions, landmarks, cities, countries, etc. Traveller's profile
+  - What are people getting each other? Enter gift + recipient details. Power recommendations, ads, etc. (possible duplicate (similar) Dec. 1)
+  - Public ideas for A/B testing. Write description, people submit ideas, upvotes, and receive karma or money based on # of conversions of suggested alternative
+  - Get IP address of all sites in browser history, or as you visit sites
+  - FB automatic location changer

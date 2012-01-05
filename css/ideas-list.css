@@ -47,7 +47,7 @@
 }
 
 #all-ideas .bar {
-  background-color: rgba(0, 150, 0, 0.2);
+  background-color: rgba(0, 120, 0, 0.15);
   z-index: 1;
   height: auto;
   top: 0;
@@ -58,7 +58,7 @@
 }
 
 #all-ideas .preamble {
-  background-color: rgba(150, 0, 0, 0.2);
+  background-color: rgba(120, 0, 0, 0.15);
   top: 0;
   bottom: 0;
   left: 0;
