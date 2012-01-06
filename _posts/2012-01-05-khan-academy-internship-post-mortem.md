@@ -27,13 +27,7 @@ Well, we developed a machine learning algorithm that takes into account two weig
 
 Now, we make you do only 5 problems on what you know well, but give you the chance to do more practice where it's actually needed.
 
-For two weeks we tested on 10% of users, and found that the new model had
-
-21% more proficiencies,
-
-16% more exercises attempted,
-
-and a reduction from about 17 problems done per proficiency to 12.
+For two weeks we tested on 10% of users, and found that the new model had 21% more proficiencies, 16% more exercises attempted, and a reduction from about 17 problems done per proficiency to 12.
 
 <img src="/images/ka-internship/ka-ml-results.png" alt="Screenshot of blog post: results" width="680"/>
 
@@ -46,11 +40,11 @@ So, does this tale end happily ever after? Not yet. This is the first step in ou
 
 ## Things I did
 
-Here's some other things spawned by my internship.
+Here's some other things my internship spawned.
 
 <img src="/images/ka-internship/thumbs/things-i-did.jpg" alt="Some highlights of my internship" width="680"/>
 
-To endlessly fascinate, we now have a dashboard of exercise usage statistics mixed in with random trivia!
+To endlessly fascinate, we now have a [dashboard of exercise usage statistics](https://khan-academy.geckoboard.com/dashboard/9820993B8EEAB10E) mixed in with random trivia!
 
 In our iterative attempts to improve the streak, we started with a constant acceleration, momentum model, but decided to just launch a UI change to abstract away the streak and appear more forgiving. For the model changes, we wanted to use the statistical findings on our data and address the type I and II errors. That seemed like a promising application of machine learning, so I trained a Naive Bayes classifier which yielded interesting results. Comrade Jace then joined forces to produce the logistic regression model that we launched.
 
@@ -62,7 +56,7 @@ I built a UI to go through review problems, which are proficient exercises that 
 
 Comrade Jace and I also collaborated to produce a 55% increase in hint usage.
 
-Now, I really hope the other interns make videos of what they did too, such as building the framework that powers all our exercises with comrade John.
+Now, I really hope the other interns make videos of what they did too, such as building the [framework that powers all our exercises](https://github.com/Khan/khan-exercises/) with comrade John.
 
 ## Awesome things about working at KA
 
@@ -78,11 +72,11 @@ Our naval culture is one of fast iterations and continuous deployment. To see yo
 
 <img src="/images/ka-internship/thumbs/laptop.jpg" alt="Deploying on my laptop" width="680"/>
 
-The helpful crew has been helpful. For example, Google App Engine had no A/B testing framework, so comrade Bengineer Kamens built one in a weekend. We code review all non-trivial commits to maintain a clean and consistent code base. I've learned a lot here, such as ML, UI design, good coding practices, blog post writing, and all the technologies we use. Also, comrade John Resig is famous.
+The helpful crew has been helpful. For example, Google App Engine had no A/B testing framework, so [comrade Bengineer Kamens built one](https://github.com/kamens/gae_bingo) in a weekend. We code review all non-trivial commits to maintain a clean and consistent code base. I've learned a lot here, such as ML, UI design, good coding practices, blog post writing, and all the technologies we use. Also, [comrade John Resig](http://en.wikipedia.org/wiki/John_Resig) is famous!
 
 <img src="/images/ka-internship/thumbs/happy-crying.jpg" alt="Happy rage face" width="680"/>
 
-Interns are given massive amounts of autonomy, and with that, responsibility. You're an integral part of the core team of a non-profit startup --- make decisions, flesh out projects, and shape the future of Khan Academy. You're not just responsible for awesome code. You're not just responsible for awesome features. Thru doing these things we want to make the world a better place by redefining education.
+Interns are given massive amounts of autonomy, and with that, responsibility. You're an integral part of the core team of a non-profit startup --- make decisions, flesh out projects, and shape the future of Khan Academy. You're not just responsible for awesome code. You're not just responsible for awesome features. Through doing these things we want to make the world a better place by redefining education.
 
 <img src="/images/ka-internship/thumbs/challenge-accepted.jpg" alt="Challenge accepted" width="680"/>
 
@@ -93,7 +87,7 @@ It's a lot of responsibility, but we have fun doing it. We're just a few blocks 
 
 <img src="/images/ka-internship/thumbs/mountain-of-food.jpg" alt="Mountain of food" width="680"/>
 
-Since we're completely open-sourced, you can build up a portfolio of cool code and projects to show your mom. I got to write a blog post as part of my job, and it hitched a free ride on the Khan Academy karma train. I've received many useful and insightful comments, among which is an algorithm we're planning to use for optimal review scheduling.
+Since we're completely [open](https://github.com/Khan/)-[sourced](https://khanacademy.kilnhg.com/Repo/Website/Group/stable), you can build up a portfolio of cool code and projects to show your mom. I got to write a [blog post](/2011/11/02/how-khan-academy-is-using-machine-learning-to-assess-student-mastery.html) as part of my job, and it hitched a free ride on the Khan Academy karma train. I've received many useful and insightful comments, among which is an algorithm we're planning to use for optimal review scheduling. (Thanks commenter Johnfranklin1299!)
 
 <img src="/images/ka-internship/thumbs/karma-train.jpg" alt="All aboard the Khan Academy karma train!" width="680"/>
 
@@ -120,7 +114,7 @@ Why is learning something kids do, and not a lifelong pursuit in and of itself?
 
 Why should quality education be denied to the underprivileged?
 
-How many other Srīnivāsa Rāmānujans are out there, held back by their poverty, just waiting to be discovered?
+How many other [Srīnivāsa Rāmānujans](http://en.wikipedia.org/wiki/Srinivasa_Ramanujan) are out there, held back by their poverty, just waiting to be discovered?
 
 <img src="/images/ka-internship/thumbs/why.jpg" alt="Why rage face" width="680"/>
 
@@ -141,7 +135,7 @@ What do you look for in an internship? A talented team? Experience? Learning? Mo
 
 <img src="/images/ka-internship/thumbs/zoidberg.jpg" alt="Need an internship? Comrade Zoidberg says, why not Khan Academy?" width="680"/>
 
-Thank you Khan Academy for an awesome internship, and I hope you, dear viewer, may have that experience too.
+Thank you Khan Academy for an awesome internship, and I hope you, dear viewer, may [have that experience](http://khanacademy.org/r/jobs) too.
 
 
 ## One more thing
@@ -160,11 +154,11 @@ And, to make up for my non-existent drawing and oratory abilities, I highly reco
 
 Here's all my drawings:
 
-<img src="/images/ka-internship/thumbs/first-batch.jpg" alt="Drawings at the office" width="680"/>
+<img src="/images/ka-internship/first-batch.jpg" alt="Drawings at the office" width="680"/>
 
 <img src="/images/ka-internship/thumbs/second-batch.jpg" alt="Drawings at home" width="680"/>
 
-Here's my setup at the office, next to the legendary Vi Hart's desk:
+Here's my setup at the office, next to the legendary [Vi Hart's desk](http://www.youtube.com/watch?v=e1a6Bxc0OYQ):
 
 <img src="/images/ka-internship/thumbs/office-setup-1.jpg" alt="My video recommendations" width="680"/>
 
