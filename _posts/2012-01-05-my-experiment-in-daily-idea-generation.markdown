@@ -89,7 +89,7 @@ I picked some items that particularly interest me, whether it's because I would 
 
 ## Now it's your turn
 
-I'm not claiming any of these rambling thoughts as my IP or something silly; I wrote most of these because I truly wish they existed so that I could use them, or because I would derive enjoyment from building it. Further, I'm sure many of these have already been attempted or exist (which, of course, does not preclude another competitor).
+I'm not claiming any of these rambling thoughts; I wrote most of these because I truly wish they existed so that I could use them, or because I would derive enjoyment from building it. Further, I'm sure many of these have already been attempted or exist (which, of course, does not preclude another competitor).
 
 This technique of daily morning brainstorming can be applied to almost anything that would benefit from a list, and not just startup/project ideas. Here's some ideas:
 - research topics
