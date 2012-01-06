@@ -3,7 +3,7 @@ layout: post
 title: On my Internship at Khan Academy
 ---
 
-In true Khan Academy fashion I made a video to sum up my internship. I was not very good at emulating Sal Khan, so the video just evolved in my own style. As I became more and more sleep-deprived, I became and less and less rational, and re-recorded some parts I thought were boring. Consequently, some speech is difficult to make out, so you can just read the transcript below if you prefer.
+In true Khan Academy fashion I made a video to sum up my internship. I was not very good at emulating Sal Khan, so the video just evolved in my own style. As I became more and more sleep-deprived, I became and less and less rational, and re-recorded some parts I thought were boring. Consequently, some speech is difficult to make out, so you can just read the transcript below or enable captions.
 
 Anyway, the video is not meant to be taken too seriously; I'm not actually that crazy in real life (but I may be if sleep-deprived :P).
 
@@ -158,8 +158,16 @@ And, to make up for my non-existent drawing and oratory abilities, I highly reco
 
 ## Behind the scenes
 
-Some bonus photos of my setup:
+Here's all my drawings:
 
-At the office, next to the legendary Vi Hart's desk
+<img src="/images/ka-internship/thumbs/first-batch.jpg" alt="Drawings at the office" width="680"/>
+
+<img src="/images/ka-internship/thumbs/second-batch.jpg" alt="Drawings at home" width="680"/>
+
+Here's my setup at the office, next to the legendary Vi Hart's desk:
+
+<img src="/images/ka-internship/thumbs/office-setup-1.jpg" alt="My video recommendations" width="680"/>
+
+At home getting some more footage with my Android phone:
 
 <img src="/images/ka-internship/thumbs/home-setup-3.jpg" alt="My video recommendations" width="680"/>
