@@ -103,7 +103,7 @@ This technique of daily morning brainstorming can be applied to almost anything 
 - from a recent HN post: [things to learn](http://swanson.github.com/blog/2011/12/04/whats-on-your-learning-list.html)
 - this list itself: what to apply this technique to (then generate each of those lists!)
 
-If you're reading this blog post and others on a daily basis, then you have time to do this. Although I did this in the morning and found that a good time, you don't have to; my friend Mack tried this when he was showering, biking, or bored and came up with a respectable list after a week. Do it during any dead time, such as in transportation, and use the [method of loci](http://en.wikipedia.org/wiki/Method_of_loci) to hold on to those thoughts for recording later. I'm sure you can come up with better ideas that are more relevant to your life.
+If you're reading this blog post and others on a daily basis, then you have time to do this. Although I did this in the morning and found that a good time, you don't have to; [my friend Mack](http://mduan.com) tried this when he was showering, biking, or bored and came up with a respectable list after a week. Do it during any dead time, such as in transportation, and use the [method of loci](http://en.wikipedia.org/wiki/Method_of_loci) to hold on to those thoughts for recording later. I'm sure you can come up with better ideas that are more relevant to your life.
 
 The golden rule is to not filter yourself: switch off your analytic faculties and let your thoughts flow unhindered. It's amazing what your brain will conjure if you just let it loose with unrestrained thoughts. The platinum rule is to make something of your giant list; without action, all the ideas in the world are for nought.
 

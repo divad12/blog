@@ -3,7 +3,7 @@ layout: post
 title: On my Internship at Khan Academy
 ---
 
-In true Khan Academy fashion I made a video to sum up my internship. I was not very good at emulating Sal Khan, so the video just evolved in my own style. As I became more and more sleep-deprived, I became and less and less rational, and re-recorded some parts I thought were boring. Consequently, some speech is difficult to make out, so you can just read the transcript below or enable captions.
+In true Khan Academy fashion I made a video to sum up my internship, at the suggestion of our [lead developer Bengineer Kamens](http://bjk5.com). I was not very good at emulating Sal Khan, so the video just evolved in my own style. As I became more and more sleep-deprived, I became less and less rational, and re-recorded some parts I thought were boring. Consequently, some speech is difficult to make out, so you can just read the transcript below or enable captions.
 
 Anyway, the video is not meant to be taken too seriously; I'm not actually that crazy in real life (but I may be if sleep-deprived :P).
 
@@ -38,11 +38,11 @@ Well, it turns out that for both models accuracy is 95% after proficiency. After
 So, does this tale end happily ever after? Not yet. This is the first step in our journey to improve assessment accuracy and make users happier.
 
 
-## Things I did
+## Some other things my internship spawned
 
-Here's some other things my internship spawned.
-
+<p>
 <img src="/images/ka-internship/thumbs/things-i-did.jpg" alt="Some highlights of my internship" width="680"/>
+</p>
 
 To endlessly fascinate, we now have a [dashboard of exercise usage statistics](https://khan-academy.geckoboard.com/dashboard/9820993B8EEAB10E) mixed in with random trivia!
 
@@ -83,11 +83,11 @@ Interns are given massive amounts of autonomy, and with that, responsibility. Yo
 
 ### Perks
 
-It's a lot of responsibility, but we have fun doing it. We're just a few blocks away from Laser Tag. We have intense board game nights every week. Being in downtown Mountain View, we're surrounded by a mountain of food. We pay very well for interns, competitive with Facebook. We have weekly company picnics, and you may enjoy 1-on-1 walks with Sal to discuss mathematics, your views on education, ask him questions, anything.
+It's a lot of responsibility, but we have fun doing it. We're just a few blocks away from Laser Tag. We have intense board game nights every week. Being in downtown Mountain View, we're surrounded by a mountain of food. We pay very well for interns, competitive with Facebook. We have weekly company picnics, and you may get to have 1-on-1 walks with comrade Sal to discuss mathematics, your views on education, ask him questions, anything.
 
 <img src="/images/ka-internship/thumbs/mountain-of-food.jpg" alt="Mountain of food" width="680"/>
 
-Since we're completely [open](https://github.com/Khan/)-[sourced](https://khanacademy.kilnhg.com/Repo/Website/Group/stable), you can build up a portfolio of cool code and projects to show your mom. I got to write a [blog post](/2011/11/02/how-khan-academy-is-using-machine-learning-to-assess-student-mastery.html) as part of my job, and it hitched a free ride on the Khan Academy karma train. I've received many useful and insightful comments, among which is an algorithm we're planning to use for optimal review scheduling. (Thanks commenter Johnfranklin1299!)
+Since we're completely [open](https://github.com/Khan/)-[sourced](https://khanacademy.kilnhg.com/Repo/Website/Group/stable), you can build up a portfolio of cool code and projects to show your mom. I got to write a [blog post](/2011/11/02/how-khan-academy-is-using-machine-learning-to-assess-student-mastery.html) as part of my job, and it hitched a free ride on the Khan Academy karma train. I've received many useful and insightful comments, among which are papers on which we're planning to base our algorithm for optimal review scheduling. (Thanks commenter Johnfranklin1299!)
 
 <img src="/images/ka-internship/thumbs/karma-train.jpg" alt="All aboard the Khan Academy karma train!" width="680"/>
 
@@ -144,7 +144,7 @@ Oh wait a minute, there is one more thing. The newest member of our team is a fl
 
 <img src="/images/ka-internship/thumbs/flying-shark.jpg" alt="Flying shark chasing a bird" width="680"/>
 
-And, to make up for my non-existent drawing and oratory abilities, I highly recommend watching [Sal Khan's TED talk](http://khanacademy.org/r/tedtalk) or [Vi Hart's videos on mathematical doodling](http://youtube.com/vihart).
+And, to make up for my inability to draw or enunciate, I highly recommend watching [Sal Khan's TED talk](http://khanacademy.org/r/tedtalk) or [Vi Hart's videos on mathematical doodling](http://youtube.com/vihart).
 
 <img src="/images/ka-internship/thumbs/recommendations.jpg" alt="My video recommendations" width="680"/>
 
