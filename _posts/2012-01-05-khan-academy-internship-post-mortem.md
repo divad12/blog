@@ -7,6 +7,8 @@ In true Khan Academy fashion I made a video to sum up my internship, at the sugg
 
 Anyway, the video is not meant to be taken too seriously; I'm not actually that crazy in real life (but I may be if sleep-deprived :P).
 
+(EDIT: Yes, that is actually my voice, although I've been told it doesn't sound like what I normally sound like in real life at all.)
+
 <object width="680" height="382"><param name="movie" value="http://www.youtube.com/v/fUiHSaoXQOs?version=3&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/fUiHSaoXQOs?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="680" height="382" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
 ---
