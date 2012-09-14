@@ -12,7 +12,7 @@ Now, for software engineering students in my class, we're required to write [tec
 
 One day, it occurred to me what a great win it'd be for everyone if even a portion of this effort could be turned into public blog posts. To illustrate the potential, of the 80ish students in my class, just three blogged about their internships to my knowledge. Of those three, **all of them made the front page of Hacker News!** In fact, one was even invited to present a TEDx talk and got his next co-op through a blog post.
 
-With ideas from my classmates [Ming-Ho](http://mhyee.com/), [Jamie](http://jamie-wong.com/), and others, and my mentor [Ben Kamens of Khan Academy](http://bjk5.com/), I composed a proposal arguing why we should let students write public blog posts for their work reports:
+With ideas from some of my classmates and my mentor [Ben Kamens of Khan Academy](http://bjk5.com/), I composed a proposal arguing why we should let students write public blog posts for their work reports:
 
 
 ---
