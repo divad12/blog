@@ -205,7 +205,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 
 body {
-  color: #111;
+  color: #222;
   font-size: 1.1em;
   background: white url(http://cssdesk.com/images/bg-white.png);
 }
@@ -218,19 +218,27 @@ body {
 a, a:visited {
   color: #4082C3;
   text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
 
 a:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid #4082C3;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 h1 {
-  font-family:"Lucida Grande", Helvetica, sans-serif;
+  font-family: "Source Sans Pro", "Lucida Grande", Helvetica, sans-serif;
   margin-top: 0;
   padding-top: 0;
-  color: #111;
+  color: #222;
   font-size: 2.2em;
-  text-shadow: #CCC 1px 1px 2px;
 }
 
 h1 a, h1 a:visited {
@@ -294,7 +302,7 @@ img.maruku-png {
 nav {
   display: block;
   float: right;
-  font-family: "Lucida Grande", Helvetica, san-serif;
+  font-family: "Source Sans Pro", "Lucida Grande", Helvetica, san-serif;
   font-size: 1.5em;
   padding-left: 8px;
 }
@@ -338,7 +346,7 @@ nav .left {
 
 nav .centre {
   text-align: center;
-  width: 1em;
+  width: 0.85em;
   float: left;
   text-transform: uppercase;
   font-weight: bold;
