@@ -199,7 +199,8 @@ table { border-collapse: collapse; border-spacing: 0; }
  * background grey: FBFBFB
  * TODO: Update this
  * TODO: Divide into sections
- * TODO: Learn Sass and Compass
+ * TODO: Convert to Sass + Compass
+ * TODO: Just use absolute positioning for the centre bar
  */
 
 
@@ -303,9 +304,17 @@ nav li {
   line-height: 2;
 }
 
-nav, nav a, nav a:visited {
+nav a, nav a:visited, .nav-item {
   color: #999;
   display: block;
+  border-top: 2px solid rgba(255, 255, 255, 0);
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+  margin-top: -2px;
+  margin-bottom: -4px;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
 
 nav a:hover {
@@ -314,7 +323,11 @@ nav a:hover {
   text-decoration: none;
   color: #111;
   margin-top: -2px;
-  margin-bottom: -2px;
+  margin-bottom: -4px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 nav .left {
@@ -333,11 +346,19 @@ nav .centre {
   margin-left: 1px;
   margin-right: 1px;
   color: #555;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
 
 nav a:hover .centre {
   background-color: rgba(64, 130, 195, 0.2);
   color: #000;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 nav .centre.gradient {
