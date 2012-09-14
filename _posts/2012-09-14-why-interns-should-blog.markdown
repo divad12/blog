@@ -68,7 +68,8 @@ Thank you for your time and consideration!
 
 I've received a response that the old work report format is being reworked to be less rigid, which is great to hear. However, there'll have to be more work done to have the blog post proposal fleshed out and accepted, but at least one professor likes the idea. We'll see where it goes.
 
-It saddens me to see student effort expended on school assignments that are designed for the ease of evaluation. Leaving public artifacts is a great way to not only provide natural incentives, but to allow for unbounded creativity and enrich the world at the same time. I sincerely wish that this would encourage more students who might have been thinking about blogging to blog.
+<!--It saddens me to see student effort expended on school assignments that are designed for the ease of evaluation.-->
+Leaving public artifacts is a great way to not only provide natural incentives, but to allow for unbounded creativity and enrich the world at the same time. I sincerely wish that this would encourage more students who might have been thinking about blogging to blog.
 
 If you have any anecdotes about blog posts, or what I could do to convince my school, I'd love to hear them!
 
