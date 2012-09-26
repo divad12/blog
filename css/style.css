@@ -208,6 +208,7 @@ body {
   color: #222;
   font-size: 1.1em;
   background: white url(http://cssdesk.com/images/bg-white.png);
+  background-attachment: fixed;
 }
 
 #container {

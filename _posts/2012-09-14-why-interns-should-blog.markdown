@@ -10,7 +10,7 @@ At the University of Waterloo in Canada, all engineering students enroll in a co
 
 Now, for software engineering students in my class, we're required to write [technical work reports](http://softeng.uwaterloo.ca/Current/work_report_guidelines.htm) that usually ends up being 20 to 30 pages or longer, for four co-op terms. The goal is to assess judgement and writing ability, but the format is very rigid and unsuitable for many development internships.
 
-One day, it occurred to me what a great win it'd be for everyone if even a portion of this effort could be turned into public blog posts. To illustrate the potential, of the 80ish students in my class, just three blogged about their internships to my knowledge. Of those three, **all of them made the front page of Hacker News!** In fact, one was even invited to present a TEDx talk and got his next co-op through a blog post.
+One day, it occurred to me what a great win it'd be for everyone if even a portion of this effort could be turned into public blog posts. To illustrate the potential, of the 80ish students in my class, just three blogged about their internships to my knowledge. Of those three, all of them made the front page of Hacker News! In fact, one was even invited to present a TEDx talk and got his next co-op through a blog post.
 
 With ideas from some of my classmates and my mentor [Ben Kamens of Khan Academy](http://bjk5.com/), I composed a proposal arguing why we should let students write public blog posts for their work reports:
 
