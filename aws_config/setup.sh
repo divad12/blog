@@ -17,7 +17,7 @@
 # Bail on any errors
 set -e
 
-CONFIG_DIR=$HOME/blog/aws_setup
+CONFIG_DIR=$HOME/blog/aws_config
 
 cd $HOME
 
