@@ -2,6 +2,6 @@ server {
   listen       80;
   server_name  _;
   location / {
-    root /home/david/blog/;
+    root /home/david/blog/_site/;
   }
 }
