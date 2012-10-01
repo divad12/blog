@@ -36,13 +36,6 @@ echo "Copying dotfiles"
 git clone https://github.com/divad12/dotfiles.git || ( cd dotfiles && git pull )
 ( cd dotfiles && ./symlink.sh )
 
-echo "Setting up blog"
-git clone https://github.com/divad12/blog.git || ( cd blog && git pull )
-sudo gem install jekyll
-sudo gem install rdiscount
-sudo apt-get install -y blahtexml
-jekyll
-
 echo "Installing nginx"
 sudo apt-get install -y nginx
 sudo rm -f /etc/nginx/sites-enabled/default
@@ -50,3 +43,7 @@ sudo ln -sfnv $CONFIG_DIR/etc/nginx/sites-available/blog \
   /etc/nginx/sites-available/blog
 sudo ln -sfnv /etc/nginx/sites-available/blog /etc/nginx/sites-enabled/blog
 sudo service nginx restart
+
+echo "Deploying blog"
+mkdir -p www/resume
+./deploy.sh
