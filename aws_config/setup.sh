@@ -36,6 +36,11 @@ echo "Copying dotfiles"
 git clone https://github.com/divad12/dotfiles.git || ( cd dotfiles && git pull )
 ( cd dotfiles && ./symlink.sh )
 
+echo "Syncing blog code"
+git clone https://github.com/divad12/blog.git || ( cd blog && git pull )
+sudo gem install jekyll
+sudo apt-get install -y blahtexml
+
 echo "Installing nginx"
 sudo apt-get install -y nginx
 sudo rm -f /etc/nginx/sites-enabled/default
