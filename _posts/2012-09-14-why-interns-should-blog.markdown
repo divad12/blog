@@ -3,9 +3,6 @@ layout: post
 title: Why Interns should Blog
 ---
 
-
-I've been fighting to have my university let interns blog.
-
 At the University of Waterloo in Canada, all engineering students enroll in a co-op program ("co-op" is Canadian for internship). We alternate between four months of work and four months of study, graduating after five years with eight study terms and up to six co-op terms (two years of work experience)! Consequently, there's usually Waterloo interns at many tech companies in Canada and the USA.
 
 Now, for software engineering students in my class, we're required to write [technical work reports](http://softeng.uwaterloo.ca/Current/work_report_guidelines.htm) that usually ends up being 20 to 30 pages or longer, for four co-op terms. The goal is to assess judgement and writing ability, but the format is very rigid and unsuitable for many development internships.
