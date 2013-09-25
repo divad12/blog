@@ -3,7 +3,7 @@ layout: post
 title: Announcing Numbers API
 ---
 
-tl;dr: Check out [Numbers API](http://numbersapi.com) for interesting facts about numbers and [pretty graphs of usage stats](/2012/03/05/announcing-numbers-api.html#time-histograms) below.
+tl;dr: Check out [Numbers API](http://numbersapi.com) for interesting facts about numbers.
 
 Back when I was [interning at Khan Academy a few months ago](/2011/11/02/how-khan-academy-is-using-machine-learning-to-assess-student-mastery.html), my intro project was to create a dashboard for exercise statistics. Among the [variety of graphs and widgets](https://khan-academy.geckoboard.com/dashboard/9820993B8EEAB10E) was one that reported a factoid about the number of shipped exercises, such as "We now have more exercises than the number of years Harriet the Galápagos tortoise lived (1830–2006)."
 
@@ -19,8 +19,8 @@ Mack, on the other hand, started hunting for content. I believe he used LXML to 
 
 This is just the beginning. Time-permitting, we are also thinking of extracting and paraphrasing interesting facts from the Guinness World Records, almanacs, numbers in nature, statistics, number of works by famous artists, etc.
 
-I'm just starting to work on generating some juicy charts based on our API logging. Here's some pretty charts of API usage statistics (currently mostly from numbersapi.com itself):
-
+<!--Here's a charts of API usage statistics:-->
+<!--
 <div id="time-histograms"> </div>
 <script>
     $.get('http://numbersapi.com/type-time-highcharts', function(data) {
@@ -53,57 +53,7 @@ I'm just starting to work on generating some juicy charts based on our API loggi
 <noscript>
     Please enable JavaScript to see charts.
 </noscript>
-
-<div id="number-histograms"> </div>
-<script>
-    $.get('http://numbersapi.com/type-number-highcharts', function(data) {
-        $.each(data, function(type, values) {
-
-            // Because Maruku is dumb
-            var lt = String.fromCharCode(60);
-            var gt = String.fromCharCode(62);
-
-            var divId = type + '-number-histogram';
-            $(lt + 'div id="' + divId + '"' + gt).appendTo($('#number-histograms'));
-
-            // Process values into good form for highcharts
-            values = values.sort(function(lhs, rhs) {
-                return rhs[1] - lhs[1];
-            }).slice(0, 20);
-            var data = $.map(values, function(elem) { return elem[1]; });
-            var categories = $.map(values, function(elem) { return elem[0]; });
-            if (type === 'date') {
-                categories = $.map(categories, function(elem) {
-                    if (elem === 'random') return elem;
-                    return (new Date(2004, 0, elem)).toString().substr(0, 10);
-                });
-            }
-
-            new Highcharts.Chart({
-                chart: {
-                    renderTo: divId,
-                    type: 'bar',
-                    height: 400
-                },
-                legend: { enabled: false },
-                credits: { enabled: false },
-                title: { text: 'Number usage histogram for ' + type },
-                series: [{
-                    name: 'name',
-                    data: data
-                }],
-                yAxis: {
-                    title: { text: 'Requests' },
-                },
-                xAxis: {
-                    categories: categories
-                }
-            });
-
-        });
-    });
-</script>
-
+-->
 
 Have fun, and we can't wait to know how you'll be using these number facts! We ask only that you be gentle to our server.
 
