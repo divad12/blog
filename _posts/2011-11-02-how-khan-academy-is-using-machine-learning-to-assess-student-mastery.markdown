@@ -3,6 +3,9 @@ layout: post
 title: How Khan Academy is using Machine Learning to Assess Student Mastery
 ---
 
+See discussion on [Hacker News](http://news.ycombinator.com/item?id=3187350) and [Reddit](http://www.reddit.com/r/programming/comments/lxsjj/how_khan_academy_is_using_machine_learning_to/).
+
+---
 
 The Khan Academy is well known for its extensive library of over 2600 video lessons. It should also be known for its rapidly-growing set of now 225 exercises &mdash; [outnumbering stitches on a baseball](https://khan-academy.geckoboard.com/dashboard/9820993B8EEAB10E) &mdash; with close to 2 million problems done each day.
 
