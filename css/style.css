@@ -295,6 +295,12 @@ img.maruku-png {
   margin-left: 30px;
 }
 
+blockquote {
+    margin-left: 0;
+    padding-left: 30px;
+    border-left: 6px solid #DDD;
+}
+
 
 /* =============================================================================
    Nav Bar
