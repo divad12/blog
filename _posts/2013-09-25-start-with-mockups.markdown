@@ -29,7 +29,7 @@ This has been a lesson we've learned during my internships at [Sift Science](htt
 
 > For any major additions to the UI, please always draw some quick mockups on paper first. And by draw, I mean scrawl, scratch, barf graphite onto paper, whatever you want. This is not art. You will not be judged on how pretty it looks &mdash; I promise you. Mockups are purely meant to define interaction and layout &mdash; not visual styling/design.
 >
-> The purpose of a mockup is to be able to very quickly iterate on UI concepts, before it gets much more difficult to change once committed to code (not to mention reluctance &mdash; it's much easier for someone to give you feedback for big changes on a 5-minute mockup than on beautiful shiny working code and UI).
+> The purpose of a mockup is to be able to very quickly iterate on UI concepts, before it gets much more difficult to change once committed to code. It's also much easier for someone to give you feedback for big changes on a 5-minute mockup than on beautiful shiny working code and UI.
 >
 > Another advantage of starting with low-fidelity mockups is that it focuses time and attention on trying different layouts and interactions, instead of refining one and being stuck at a local maximum.
 >
