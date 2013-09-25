@@ -161,5 +161,12 @@
   <script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
 <![endif]-->
 
+<!-- Open links to other domains in new window -->
+<script>
+  $(document.links).filter(function() {
+      return this.hostname != window.location.hostname;
+  }).attr('target', '_blank');
+</script>
+
 </body>
 </html>
