@@ -228,7 +228,7 @@ a, a:visited {
 }
 
 a:hover {
-  border-bottom: 1px solid #4082C3;
+  border-bottom: 1px solid;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
@@ -237,15 +237,19 @@ a:hover {
 
 h1 {
   font-family: "Source Sans Pro", "Lucida Grande", Helvetica, sans-serif;
-  margin-top: 0;
+  margin: 0;
   padding-top: 0;
   color: #444;
   font-size: 42px;
-  font-weight: 300;
+  line-height: 1.2;
 }
 
 h1 a, h1 a:visited {
   color: inherit;
+}
+
+h1 a:hover {
+  border-bottom-width: 2px;
 }
 
 h2 {
@@ -258,7 +262,7 @@ p.meta {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 18px;
-  margin-top: -24px;
+  margin-top: 2px;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
@@ -275,9 +279,6 @@ footer {
 }
 
 article {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #CCC;
-  margin-bottom: 60px;
   font-size: 20px;
 }
 
@@ -286,6 +287,13 @@ article img, article video, article .flash-video {
     border: 0.5em solid white;
     border-radius: 0.3em 0.3em 0.3em 0.3em;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+.article-divider {
+  border: 0;
+  border-bottom: 1px solid #CCC;
+  width: 50%;
+  margin: 50px auto 80px auto;
 }
 
 img.maruku-png {
@@ -360,7 +368,6 @@ nav .centre {
   text-align: center;
   width: 0.85em;
   float: left;
-  text-transform: uppercase;
   font-weight: bold;
   background-color: rgba(64, 130, 195, 0.1);
   margin-left: 1px;
