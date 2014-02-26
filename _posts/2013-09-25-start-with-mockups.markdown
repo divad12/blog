@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Start with mockups
+title: Start with Mockups
 ---
 
 My friends and I are working on a side project &mdash; [a course planning website for our university](http://uwflow.com). We decide to add a new feature that involves some UI work. My friend goes off to hack on it. 300 lines of code later, he's done part of the UI and shows it to us. Here's what it looks like:
@@ -19,7 +19,7 @@ So, we agreed to scrap the first prototype and redo most of the UI. We were regr
 
 How could we have averted this?
 
-## Start with mockups
+## Start with Mockups
 
 We didn't need 300 lines of code to figure that out. With a rough 5-minute sketch, we could engage in the same level of discussion.
 
@@ -62,4 +62,4 @@ Notice the misbehaving, _untrained_ puppy in the upper-right.
 
 The puppy has been trained into a fraud-fighting dog!
 
-I hope that shows you can be devoid of artistic skills and still draw mockups. :)
+I hope that shows you can be devoid of artistic skills and still draw mockups.
