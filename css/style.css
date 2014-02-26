@@ -205,10 +205,11 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 
 body {
-  color: #222;
-  font-size: 1.1em;
-  background: white url(http://cssdesk.com/images/bg-white.png);
-  background-attachment: fixed;
+  color: #444;
+  background: white;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #container {
@@ -238,8 +239,9 @@ h1 {
   font-family: "Source Sans Pro", "Lucida Grande", Helvetica, sans-serif;
   margin-top: 0;
   padding-top: 0;
-  color: #222;
-  font-size: 2.2em;
+  color: #444;
+  font-size: 42px;
+  font-weight: 300;
 }
 
 h1 a, h1 a:visited {
@@ -252,17 +254,18 @@ h2 {
 }
 
 p.meta {
-  color: #666;
-  letter-spacing: 0.1em;
+  color: #555;
+  letter-spacing: 1px;
   text-transform: uppercase;
-  font-size: 0.9em;
-  margin-top: -1.5em;
+  font-size: 18px;
+  margin-top: -24px;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
 div#main {
   float: left;
   width: 690px;
-  font-family: Palatino, Georgia, "Times New Roman", Times, serif;
+  font-family: "PT Serif", Palatino, Georgia, "Times New Roman", Times, serif;
   line-height: 1.5;
   padding-right: 50px;
 }
@@ -273,8 +276,9 @@ footer {
 
 article {
   padding-bottom: 20px;
-  border-bottom: 1px dashed #AAA;
+  border-bottom: 1px solid #CCC;
   margin-bottom: 60px;
+  font-size: 20px;
 }
 
 article img, article video, article .flash-video {
@@ -310,8 +314,9 @@ nav {
   display: block;
   float: right;
   font-family: "Source Sans Pro", "Lucida Grande", Helvetica, san-serif;
-  font-size: 1.5em;
+  font-size: 24px;
   padding-left: 8px;
+  font-weight: 300;
 }
 
 nav li {
