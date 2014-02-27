@@ -80,14 +80,9 @@ The first few months after launch were a really exciting time. We had 450 sign-u
   <img src="/images/flow-focus-group-feedback.jpg" width="400" alt="Flow focus group feedback" />
 </div>
 
-
-
 To seed our ratings and reviews, we scraped sources including official, publicly-released course critiques. Terrance hosted a "beer and review night" -- a social event where we gave out beer in exchange for ratings and reviews -- at the VeloCity residence.
 
 We also ran a raffle contest, giving out a Nexus 7 and some other goodies. This effectively doubled our ratings and reviews. If you're a Flow user, that's why you (still) get points for reviewing courses.
-
-- the name... we tried to rebrand, but everyone already knew as as flow
-- agree it doens't have to do with planning courses... tidbit about name evoking images for females
 
 ## Today
 
@@ -159,7 +154,7 @@ What did we learn from this project? A lot. But that's a blog post for another d
 
 ## Footnotes
 
-&#91;1\] Also known as the Fourth Year Design Project, this is a 3-course sequence where Software Engineering students at Waterloo work on a single project in teams of 3-4 over the span of 16 months. Instead of a purely educational school project, we thought of this as the perfect opportunity to do a startup while we were still in school, and get course time and credit at the same time.
+&#91;1\] Also known as the Fourth Year Design Project, this is a 3-course sequence where Software Engineering students at Waterloo work on a single project in teams of 3-4 over the span of 16 months. Instead of a purely educational school project, we thought of this as the perfect opportunity to do a startup while we were still in school (and get course time and credit at the same time).
 
 
 Jamie is one of the most competent programmers I've worked with, but we just _had_ to ask him Fizz Buzz. You know. Just in case. We also asked him his favourite type of questions, HR questions like "what's your greatest weakenss".
