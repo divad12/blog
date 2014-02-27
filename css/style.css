@@ -253,6 +253,7 @@ h1 a:hover {
 }
 
 h2 {
+  margin-top: 40px;
   margin-bottom: -10px;
   padding-bottom: 0px;
 }
@@ -293,7 +294,7 @@ article img, article video, article .flash-video {
   border: 0;
   border-bottom: 1px solid #CCC;
   width: 50%;
-  margin: 50px auto 80px auto;
+  margin: 80px auto 160px auto;
 }
 
 img.maruku-png {
@@ -311,6 +312,15 @@ blockquote {
     margin-left: 0;
     padding-left: 30px;
     border-left: 6px solid #DDD;
+}
+
+li > p {
+  margin: 0;
+}
+
+li > ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 
@@ -333,12 +343,9 @@ nav li {
 }
 
 nav a, nav a:visited, .nav-item {
+  border-bottom: 0;
   color: #999;
   display: block;
-  border-top: 2px solid rgba(255, 255, 255, 0);
-  border-bottom: 2px solid rgba(255, 255, 255, 0);
-  margin-top: -2px;
-  margin-bottom: -4px;
   -webkit-transition: all 0.1s ease-out;
   -moz-transition: all 0.1s ease-out;
   -o-transition: all 0.1s ease-out;
@@ -346,16 +353,13 @@ nav a, nav a:visited, .nav-item {
 }
 
 nav a:hover {
-  border-top: 2px solid #555;
-  border-bottom: 2px solid #555;
+  border-bottom: 0;
   text-decoration: none;
-  color: #111;
-  margin-top: -2px;
-  margin-bottom: -4px;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  color: black;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
 
 nav .left {
@@ -369,10 +373,10 @@ nav .centre {
   width: 0.85em;
   float: left;
   font-weight: bold;
-  background-color: rgba(64, 130, 195, 0.1);
+  background-color: #F5F5F5;
   margin-left: 1px;
   margin-right: 1px;
-  color: #555;
+  color: #777;
   -webkit-transition: all 0.1s ease-out;
   -moz-transition: all 0.1s ease-out;
   -o-transition: all 0.1s ease-out;
@@ -380,23 +384,22 @@ nav .centre {
 }
 
 nav a:hover .centre {
-  background-color: rgba(64, 130, 195, 0.2);
-  color: #000;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  color: black;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
 
 nav .centre.gradient {
   height: 150px;
   /* TODO: Use Sass or Less or whatnot */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ECF3F9), to(#FFF)); /* Saf4+, Chrome */
-  background-image: -webkit-linear-gradient(top, #ECF3F9, #FFF); /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background-image:    -moz-linear-gradient(top, #ECF3F9, #FFF); /* FF3.6 */
-  background-image:     -ms-linear-gradient(top, #ECF3F9, #FFF); /* IE10 */
-  background-image:      -o-linear-gradient(top, #ECF3F9, #FFF); /* Opera 11.10+ */
-  background-image:         linear-gradient(top, #ECF3F9, #FFF);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#F5F5F5), to(#FFF)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #F5F5F5, #FFF); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(top, #F5F5F5, #FFF); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, #F5F5F5, #FFF); /* IE10 */
+  background-image:      -o-linear-gradient(top, #F5F5F5, #FFF); /* Opera 11.10+ */
+  background-image:         linear-gradient(top, #F5F5F5, #FFF);
             filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ECF3F9', EndColorStr='#FFF'); /* IE6-IE9 */
 }
 
