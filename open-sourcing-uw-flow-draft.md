@@ -155,6 +155,14 @@ Thanks to everyone who gave us a shot. Thank you for rating courses, writing rev
 
  We agree with pretty much all points.
 
+ Also, here's a picture of the three of us who started this at YCombinator:
+
+<img src="/images/david-mack-sandy-yc.jpg" width="680" alt="David, Mack, and Sandy at YCombinator" />
+
+... fixing things we broke the previous night.
+
+
+
  [Mack]: https://github.com/mduan
  [Sandy]: https://github.com/jswu
  [Jamie]: http://jamie-wong.com
