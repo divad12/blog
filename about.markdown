@@ -5,6 +5,6 @@ title: About Me
 
 # {{ page.title }}
 
-I'm David Hu, a human being currently living on Earth (address: Solar System, Milky Way Galaxy, Local Group, the universe). I was born after the Big Bang and before the heat death of the universe.
+Hi, I'm David, a human being currently living on Earth.
 
-More precisely, David is a Software Engineering student at the University of Waterloo in Canada, and is currently interning at the Khan Academy.
+More precisely, I'm Software Engineering student at the University of Waterloo in Canada. I've interned twice at Khan Academy, twice at Google, and twice at Sift Science (a machine learning startup).
