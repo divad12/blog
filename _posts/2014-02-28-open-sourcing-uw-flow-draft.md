@@ -13,7 +13,7 @@ Here's some highlights:
   - Last year, users made 480K searches.
   - In total, users have contributed 47K ratings and reviews.
 - Who made this:
-  - Development: [Mack][], [Sandy][], [Jamie][], and I
+  - Development: [Mack][], [Sandy][], [Jamie][], and me
   - Marketing: [Terrance][] and [Shubham][] (Sept. 2012 - April 2013)
 - We're open-sourcing with the permissive MIT license because we want anyone to be able to fork and host this for their school.
 - Check out [the code on GitHub](https://github.com/UWFlow/rmc), and come talk to us in [our public chat room](https://www.hipchat.com/gAUVWHvA3)!
