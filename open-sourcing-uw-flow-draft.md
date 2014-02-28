@@ -135,15 +135,14 @@ We'll still be the primary maintainers of Flow for a while, but we'll be gradual
 
 [Justin][] is a second-year Software Engineering student who's done lots of open-source and interned at Shopify. [Kartik][] is a second-year Physics student who's the co-founder of TrySignal and maintainer of uWaterloo's OpenData API.
 
-Thanks to everyone who gave us a shot. Thank you for rating courses, writing reviews, making searches, sharing schedules, giving us feedback, or just reading this far.
-
-In the next month, you can expect:
+Oh, and a few things coming up soon:
 
 - Email logins! We're thinking of you, non-Facebook friends.
 - We'll be boothing at the [SE Capstone Symposium](https://uwaterloo.ca/engineering/events/software-engineerings-capstone-design-symposium) on March 21 in DC. Drop by and say hi!
 - Secret surprise.
 
-Our favourite part about building Flow is that it help us and it helps our peers. We hope that continues into the foreseeable future.
+Thanks to everyone who gave us a shot. Thank you for rating courses, writing reviews, making searches, sharing schedules, giving us feedback, or just reading this far.
+
 
 <hr class="article-divider">
 
@@ -151,7 +150,7 @@ Our favourite part about building Flow is that it help us and it helps our peers
 
 &#91;1\] Also known as the Fourth Year Design Project, this is a 3-course sequence where Software Engineering students at Waterloo work on a single project in teams of 3-4 over the span of 16 months. Instead of a purely educational school project, we thought of this as the perfect opportunity to do a startup while we were still in school (and get course time and credit at the same time).
 
-&#91;2\] Although Jamie is one of the most competent programmers I've worked with, and we've pair-programmed in ACM contest practices, I just _had_ to ask him Fizz Buzz anyway. You know. Just in case. We also asked him his favourite interview question ever: "What's your greatest weakness?" If you ever interview him, make sure to ask him questions like that.
+&#91;2\] Although Jamie is one of the most competent programmers I've worked with, and we've pair-programmed in ACM contest practices, we just _had_ to ask him Fizz Buzz anyway. You know. Just in case. We also asked him his favourite interview question ever: "What's your greatest weakness?" If you ever interview him, make sure to ask him questions like that.
 
 &#91;3\] Here's the email Harj sent us:
 > I'm sorry to say we decided not to fund you guys. It was a tough decision because we enjoyed meeting you and it's clear you're good programmers.  Our concern is that while you've build good software, we couldn't see how you'll be able to acquire enough users to grow this into the kind of large, independent company that investors are hoping to fund.  We think it would be best if you finished college and in the meantime worked on projects because they were interesting rather than trying to come up with a startup idea right now. That approach actually often leads to better startup ideas anyway and we'd encourage you to reapply again in the future, we'd be happy to hear from you.
