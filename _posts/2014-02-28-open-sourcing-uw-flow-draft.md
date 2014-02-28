@@ -131,7 +131,7 @@ So over the past few days and months, we've prepared the codebase to be open-sou
 
 ## What's next?
 
-Although we're graduating, we'll still be the primary maintainers of Flow for a while.  But, we'll be on the lookout for active contributors whom we can gradually off responsibilities -- review pull requests, ensure the site stays up, and ensure Flow stays up to date -- and can transition to be primary maintainers.
+Although we're graduating, we'll still be the primary maintainers of Flow for a while. But, we'll be on the lookout for active contributors to whom we can gradually hand off responsibilities -- review pull requests, ensure the site stays up, ensure Flow stays up to date, and, eventually, take over as primary maintainers.
 
 Oh, and a few things coming up soon:
 
