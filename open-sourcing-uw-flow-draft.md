@@ -13,7 +13,7 @@ Here's some highlights:
   - Last year, users made 480K searches.
   - In total, users have contributed 47K ratings and reviews.
 - Who made this:
-  - Development: [Mack][], [Sandy][], [Jamie][], and some guy
+  - Development: [Mack][], [Sandy][], [Jamie][], and I
   - Marketing: [Terrance][] and [Shubham][] (Sept. 2012 - April 2013)
 - We're open-sourcing with the permissive MIT license because we want anyone to be able to fork and host this for their school.
 - Check out [the code on GitHub](https://github.com/UWFlow/rmc), and come talk to us in [our public chat room](https://www.hipchat.com/gAUVWHvA3)!
@@ -22,7 +22,7 @@ Read on for how we started and why we're open-sourcing.
 
 ## How we started
 
-Two years ago, I met up with two friends to hack on a side project with these goals:
+Two years ago, I met up with Mack and Sandy to hack on a side project with these goals:
 
 - Launch fast and iterate
 - Make something useful
@@ -57,7 +57,7 @@ We were fortunate to have some awesome people join us. Two students in the Accou
 
 ## Launch
 
-We first launched after two weeks of coding. It was an embarrasing MVP to just our Software Engineering class of 80 students. A few weeks after that, we launched to the 1500-strong Accounting faculty, and then a few weeks later, to the entire campus.
+We first launched after two weeks of coding. It was an embarrassing MVP to just our Software Engineering class of 80 students. A few weeks after that, we launched to the 1500-strong Accounting faculty, and then a few weeks later, to the entire campus.
 
 To get the word out, we tried all sorts of things:
 
@@ -90,11 +90,11 @@ We've found that our biggest traffic gains came from announcing new, useful feat
 
 ## Business?
 
-Though we had some good traction, Flow didn't really work out as a monetizable business. We interviewed at YCombinator, but didn't get further. &#91;3\]
+Though we had some good traction, Flow didn't really work out as a monetizable business. We were fortunate to have won a pitch contest from Waterloo's [Velocity startup incubator](http://velocity.uwaterloo.ca/), and we are thankful for all the assistance and mentorship they've provided us. We also interviewed at YCombinator, but didn't get further. &#91;3\]
 
 We realized we weren't enamoured with selling to universities -- we wanted to build things our users would love. We didn't want Flow to turn into mandate-ridden enterprise bloatware that would alert you every 20 minutes to ask if you don't want to be logged out. Or sell that in Powerpoint presentations to "decision makers" who wouldn't be the end-users.
 
-We thought about possibly serving the expanding online courses market, but our core userbase was college students on campus. We did not have the heart to pivot and abandon them.
+We thought about possibly serving the exploding online courses market, but our core userbase was college students on campus. We did not have the heart to pivot and abandon them.
 
 Neither did the idea of squeezing money from students greatly appeal to us -- whether that's through ads (that we never even look at ourselves), or through textbooks (that we haven't bought since being clueless first-years).
 
@@ -155,7 +155,7 @@ Thanks to everyone who gave us a shot. Thank you for rating courses, writing rev
 
  We agree with pretty much all points.
 
- Also, here's a picture of the three of us who started this at YCombinator:
+ Also, here's a picture of us at YCombinator:
 
 <img src="/images/david-mack-sandy-yc.jpg" width="680" alt="David, Mack, and Sandy at YCombinator" />
 
@@ -169,4 +169,4 @@ Thanks to everyone who gave us a shot. Thank you for rating courses, writing rev
  [Justin]: http://j-li.net/
  [Kartik]: http://kartikt.com/
  [Terrance]: https://twitter.com/TerranceKwok
- [Shubham]: https://twitter.com/Shubham
+ [Shubham]: https://medium.com/@Shubham
