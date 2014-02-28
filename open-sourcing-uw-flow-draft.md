@@ -13,7 +13,7 @@ Here's some highlights:
   - Last year, users made 480K searches.
   - In total, users have contributed 47K ratings and reviews.
 - Who made this:
-  - Development: Mack, Sandy, and I since Sept. 2012; Jamie since Nov. 2012
+  - Development: [Mack][], [Sandy][], [Jamie][], and some guy
   - Marketing: Terrance and Shubham (Sept. 2012 - April 2013)
 - We're open-sourcing with the permissive MIT license because we want anyone to be able to fork and host this for their school.
 - Check out [the code on GitHub](https://github.com/UWFlow/rmc), and come talk to us in [our public chat room](https://www.hipchat.com/gAUVWHvA3)!
@@ -30,7 +30,7 @@ Two years ago, I met up with two friends to hack on a side project with these go
 
 The idea was to also use this as our engineering capstone project &#91;1\], as well as potentially be a business that we could continue after we graduate. We could get course credit for doing a startup while still in school!
 
-Over the next few months, we came up with about 300 ideas. But, nothing stuck. Nothing met all our criteria _and_ we'd be dying to work on everyday for the next two years.
+Over the next few months, we came up with about 300 ideas. But, nothing stuck. Nothing met all our criteria _and_ that we'd be dying to work on everyday for the next two years.
 
 Four months later, we finally agreed on something. We all hated planning courses — choosing the classes and professors that would make up your next term's timetable. Taken from Sandy's standard pitch:
 
@@ -42,22 +42,22 @@ Perfect. We'll build it.
 
 ## Development
 
-We started coding in September 2012. The majority of the work was done in the first two months. In an effort to launch early, we made sacrifices:
+We started coding in September 2012. Much of the work was done in the first two months. In an effort to launch early, we made sacrifices:
 
 - Skipped class
 - [Stayed up all night](https://github.com/UWFlow/rmc/graphs/punch-card)
 - Aggressively cut features
 - Used up all of our assignment grace days
 
-Of these, I regret the all-nighters. They helped with hitting deadlines (such as course enrollment periods), but were damaging to our health, happiness, and long-term productivity.
+Of these, I regret the all-nighters. They helped with hitting deadlines (such as course enrollment periods), but were harmful to our health, happiness, and long-term productivity.
 
 Our tech stack and codebase came to be heavily influenced by where we had interned -- in particular, Khan Academy and ContextLogic. We borrowed practices, technologies, tools, and coding styles. We owe Flow to those internship experiences.
 
-We were fortunate to have some awesome people join us. Two students in the Accounting faculty whom we met at the VeloCity residence, Terrance and Shubham, volunteered to help us out with growth and marketing. Two months after we started coding, our classmate and good friend Jamie ask to join us to form our engineering capstone project team.
+We were fortunate to have some awesome people join us. Two students in the Accounting faculty whom we met at the VeloCity residence, Terrance and Shubham, volunteered to help us out with growth and marketing. Two months after we started coding, our classmate and good friend Jamie asked to join us to form our engineering capstone project team.
 
 ## Launch
 
-We first launched after two weeks of development -- an embarrasing MVP to our Software Engineering class of 80 students. A few weeks after that, we launched to the 1500-strong Accounting faculty, and then a few weeks later, to the entire campus.
+We first launched after two weeks of coding. It was an embarrasing MVP to just our Software Engineering class of 80 students. A few weeks after that, we launched to the 1500-strong Accounting faculty, and then a few weeks later, to the entire campus.
 
 To get the word out, we tried all sorts of things:
 
@@ -71,92 +71,95 @@ To get the word out, we tried all sorts of things:
 The most effective channel was social media -- Facebook and Reddit. Posters and other physical media were among the least effective -- we saw no discernible impact the week we had posters like this all over campus:
 
 <div style="text-align: center;">
-  <img src="/images/flow-poster.jpg" alt="Flow poster" width="400"/>
+  <img src="/images/flow-poster.jpg" alt="Flow poster" width="300"/>
 </div>
 
-The first few months after launch were a really exciting time. We had 450 sign-ups the first day, and got lots of [positive feedback](http://www.reddit.com/r/uwaterloo/comments/12csk0) and [ideas for features](https://uwflow.uservoice.com/forums/179420-general/filters/top). We ran a focus group, and one keen user typed up this sheet of feedback (which, even today, are still mostly TODOs):
+The first few months after launch were a really exciting time. We had 450 sign-ups the first day, and got lots of [positive feedback](http://www.reddit.com/r/uwaterloo/comments/12csk0) and [ideas for features](https://uwflow.uservoice.com/forums/179420-general/filters/top). We ran a focus group, and one keen user typed up all of this of her own initiative:
 
 <div style="text-align: center;">
-  <img src="/images/flow-focus-group-feedback.jpg" width="400" alt="Flow focus group feedback" />
+  <img src="/images/flow-focus-group-feedback.jpg" width="300" alt="Flow focus group feedback" />
 </div>
 
-To seed our ratings and reviews, we scraped sources including official, publicly-released course critiques. Terrance hosted a "beer and review night" -- a social event where we gave out beer in exchange for ratings and reviews -- at the VeloCity residence.
+(Today, a year after, most of these are still TODOs. Yep, we're lazy bums.)
 
-We also ran a raffle contest, giving out a Nexus 7 and some other goodies. This effectively doubled our ratings and reviews. If you're a Flow user, that's why you (still) get points for reviewing courses.
+To seed our ratings and reviews, we scraped sources including official, publicly-released course critiques. We then hosted a "beer and review night" at the VeloCity residence, where we gave out beer in exchange for ratings and reviews.
 
-## Today
+We also ran a raffle contest, giving out a Nexus 7 and other goodies. This effectively doubled our ratings and reviews. If you're a Flow user, that's why you (still) get those mysterious points for reviewing courses.
 
-- summary of stats
-
+We've found that our biggest traffic gains came from announcing new, useful features, such as our [launch of class sections info](http://www.reddit.com/r/uwaterloo/comments/1qe1xl).
 
 ## Business?
 
-- though we got lots of great traction and usage, didn't work out as a monetizable business
-- we weren't interested in selling to universities -- didn't want to do enterprise sales, long sales cycles, bloatware, can't serve users
-- were not fans of ads or textbook rentals, especially given that first-year only year bought textbooks
-- we thought about expanding to online courses, but our core userbase was students. we already have features built out for waterloo students. we didn't really have the enthusiasm to pivot
+Though we had some good traction, Flow didn't really work out as a monetizable business. We interviewed at YCombinator, but didn't get further. &#91;3\]
 
-- we made it as far as an interview at YC, but got feedback from harjeet:
+We realized we weren't enamoured with selling to universities -- we wanted to build things our users would love. We didn't want Flow to turn into mandate-ridden enterprise bloatware that would alert you every 20 minutes whether you want to log out. Or sell that in Powerpoint presentations to "decision makers" who wouldn't be the end-users.
 
-- thought reasonable and fair
-- so, after, decided that we'd rather see this used and maintained long after we graduate, than to try to figure out what bits of money we could extract from this
+We thought about possibly serving the expanding online courses market, but our core userbase was college students on campus. We did not have the heart to pivot and abandon them.
+
+Neither did the idea of squeezing money from students greatly appeal to us -- whether that's through ads (that we never even look at ourselves), or through textbooks (that we haven't bought since being clueless first-years).
+
+We did, however, all agree on one thing. We wanted Flow to continue to be used and maintained long after we graduate, whether as a sustainable business or some other means.
+
+We then realized that we much preferred to see Flow sustained as a community-supported, open-sourced project, than to submit to the whims of the highest bidder.
 
 ## Open-source
 
-so, we're open-sourcing. why?
+So, that's why we're open-soucing. Explicitly, the reasons are:
 
-We've always wanted to bring Flow to other universities, but we had enough on our hands with just Waterloo. We don't have time.
+- We'll (hopefully) be graduating in two months.
+- We hope Flow continues to help students plan courses long after we graduate.
+- We want to see Flow continue as a student-driven project for students.
+- We have lots of features and improvements we wanted to make, but didn't get the time. For example, analyzing prerequisites, recommending courses, building a conflict-free timetable, and auditing degree requirements. <sup>Oh, and mobile, ephemeral chat with photo-uploading filters, of course. /s</sup>
+- We've always wanted to bring Flow to other universities (and others have asked us), but had our hands full with just Waterloo.
 
-- we want to bring Flow to other universites, but don't have time anymore
-- lot more exciting as an open-sourced project that could be used by many universities, especially after yale bluebook shutdown?
-- lots of students have told us they wish something like this existed at their school
+So over the past few days and months, we've prepared the codebase to be open-sourced:
 
-- we have lots of planned features, but no time
-- we're graduating soon
-- want this to be maintained
+- Wrote developer docs.
+- Ensured tests were in good order.
+- Wrote a style guide and set up a linter.
+- Tested setup on fresh installs of Mac and Linux (Ubuntu 12).
+- Picked the permissive MIT license so you can fork, modify, and host this for your school.
 
+**Want to contribute?** Check out the [code on GitHub](https://github.com/UWFlow/rmc).
 
-- if you'd like to contribute and dunno where to get started, check out some of these issues
-- development setup tested on linux and mac
+**Not sure where to start?** Perhaps you can tackle [one of these issues](https://github.com/UWFlow/rmc/issues).
 
-- we chose a permissive license to make it easier for other schools to adopt this platform to their use
-- we'd love to see you take this to another university.
-- if you like help, talk to us on hipchat
-- you are free to take the code and use it for your school
-- though, much of the scraping code is tied to Waterloo's services
+**Have questions or just want to talk?** Come hang out with us in [our public chat room](https://www.hipchat.com/gAUVWHvA3).
 
-- thank you for all the feedback
-- keep them coming
-- has been very fun working on this
-- we hope flow continues to be used after we leave
+**Want to fork Flow to be a white-labelled platform for your school?** Awesome -- go for it. Just be wary that the data scrapers are tied to [Waterloo's APIs](https://github.com/uwaterloo/opendata).
 
 
+## What's next?
 
-## What next?
+We'll still be the primary maintainers of Flow for a while, but we'll be gradually handing off responsibility to Justin and Kartik.
 
-- email logins coming soon
-- whatever you contribute!
+[Justin][] is a second-year Software Engineering student who's done lots of open-source and interned at Shopify. [Kartik][] is a second-year Physics student who's the co-founder of TrySignal and maintainer of uWaterloo's OpenData API.
 
-- justin and kartik official maintainers after we graduate
+Thanks to everyone who gave us a shot. Thank you for rating courses, writing reviews, making searches, sharing schedules, giving us feedback, or just reading this far.
 
-We're also really excited to announce that Justin Li and Kartik Talwar will be the official maintainers after we graduate. Justin has contributed to much open-source and interned at Shopify while still in high school. Kartik is the founder of trysignal and the creator and maintainer of U Waterloo's open data API.
+In the next month, you can expect:
 
-Looking back, we set out
-- to build something useful
-- launch really early -- well before
+- Email logins! We're thinking of you, non-Facebook friends.
+- We'll be boothing at the [SE Capstone Symposium](https://uwaterloo.ca/engineering/events/software-engineerings-capstone-design-symposium) on March 21 in DC. Drop by and say hi!
+- Secret surprise.
 
-done and done. startup viable, yes, but not quite.
+Our favourite part about building Flow is that it help us and it helps our peers. We hope that continues into the foreseeable future.
 
-What did we learn from this project? A lot. But that's a blog post for another day.
-
-
-<hr>
+<hr class="article-divider">
 
 ## Footnotes
 
 &#91;1\] Also known as the Fourth Year Design Project, this is a 3-course sequence where Software Engineering students at Waterloo work on a single project in teams of 3-4 over the span of 16 months. Instead of a purely educational school project, we thought of this as the perfect opportunity to do a startup while we were still in school (and get course time and credit at the same time).
 
+&#91;2\] Although Jamie is one of the most competent programmers I've worked with, and we've pair-programmed in ACM contest practices, I just _had_ to ask him Fizz Buzz anyway. You know. Just in case. We also asked him his favourite interview question ever: "What's your greatest weakness?" If you ever interview him, make sure to ask him questions like that.
 
-Jamie is one of the most competent programmers I've worked with, but we just _had_ to ask him Fizz Buzz. You know. Just in case. We also asked him his favourite type of questions, HR questions like "what's your greatest weakenss".
+&#91;3\] Here's the email Harj sent us:
+> I'm sorry to say we decided not to fund you guys. It was a tough decision because we enjoyed meeting you and it's clear you're good programmers.  Our concern is that while you've build good software, we couldn't see how you'll be able to acquire enough users to grow this into the kind of large, independent company that investors are hoping to fund.  We think it would be best if you finished college and in the meantime worked on projects because they were interesting rather than trying to come up with a startup idea right now. That approach actually often leads to better startup ideas anyway and we'd encourage you to reapply again in the future, we'd be happy to hear from you.
 
-2 regardless, i had to ask him interview questions though i had known jamie for years and he was one of the best programmers i knew, and we pair-programed at ACM, i still had to ask him to implement fizz buzz and ask him his favourite thing, HR questionsl ike "what is your greatest weakness". i then asked him a real-world question: get us to 1 million users in the next 10 mins. he failed that
+ We agree with pretty much all points.
+
+ [Mack]: https://github.com/mduan
+ [Sandy]: https://github.com/jswu
+ [Jamie]: http://jamie-wong.com
+ [Justin]: http://j-li.net/
+ [Kartik]: http://kartikt.com/

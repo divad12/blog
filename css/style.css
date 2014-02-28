@@ -311,7 +311,7 @@ img.maruku-png {
 blockquote {
     margin-left: 0;
     padding-left: 30px;
-    border-left: 6px solid #DDD;
+    border-left: 6px solid #E8E8E8;
 }
 
 li > p {
@@ -402,7 +402,6 @@ nav .centre.gradient {
   background-image:         linear-gradient(top, #F5F5F5, #FFF);
             filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ECF3F9', EndColorStr='#FFF'); /* IE6-IE9 */
 }
-
 
 /* =============================================================================
    Specific content
