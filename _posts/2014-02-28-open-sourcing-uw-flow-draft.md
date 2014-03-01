@@ -28,7 +28,8 @@ Two years ago, I met up with Mack and Sandy to hack on a side project with these
 - Make something useful
 - Be startup viable
 
-The idea was to also use this as our engineering capstone project &#91;1\], as well as potentially be a business that we could continue after we graduate. We could get course credit for doing a startup while still in school!
+The idea was to also use this as our engineering capstone project
+<a href="#f1">&#91;1]</a>, as well as potentially be a business that we could continue after we graduate. We could get course credit for doing a startup while still in school!
 
 Over the next few months, we came up with about 300 ideas. But, nothing stuck. Nothing met all our criteria _and_ that we'd be dying to work on everyday for the next two years.
 
@@ -53,7 +54,7 @@ Of these, I regret the all-nighters. They helped with hitting deadlines (such as
 
 Our tech stack and codebase came to be heavily influenced by where we had interned -- in particular, Khan Academy and ContextLogic. We borrowed practices, technologies, tools, and coding styles. We owe Flow to those internship experiences.
 
-We were fortunate to have some awesome people join us. Two students in the Accounting faculty whom we met at the VeloCity residence, Terrance and Shubham, volunteered to help us out with growth and marketing. Two months after we started coding, our classmate and good friend Jamie asked to join us to form our engineering capstone project team. &#91;2]
+We were fortunate to have some awesome people join us. Two students in the Accounting faculty whom we met at the VeloCity residence, Terrance and Shubham, volunteered to help us out with growth and marketing. Two months after we started coding, our classmate and good friend Jamie asked to join us to form our engineering capstone project team. <a href="#f2">&#91;2]</a>
 
 ## Launch
 
@@ -90,7 +91,7 @@ We've found that our biggest traffic gains came from announcing new, useful feat
 
 ## Business?
 
-Though we had some good traction, Flow didn't really work out as a monetizable business. We were fortunate to have won a pitch contest from Waterloo's [Velocity startup incubator](http://velocity.uwaterloo.ca/), and we are thankful for all the assistance and mentorship they've provided us. We also interviewed at YCombinator, but didn't get further. &#91;3\]
+Though we had some good traction, Flow didn't really work out as a monetizable business. We were fortunate to have won a pitch contest from Waterloo's [Velocity startup incubator](http://velocity.uwaterloo.ca/), and we are thankful for all the assistance and mentorship they've provided us. We also interviewed at YCombinator, but didn't get further. <a href="#f3">&#91;3]</a>
 
 We realized we weren't enamoured with selling to universities -- we wanted to build things our users would love. We didn't want Flow to turn into mandate-ridden enterprise bloatware that would alert you every 20 minutes to ask if you don't want to be logged out. Or sell that in Powerpoint presentations to "decision makers" who wouldn't be the end-users.
 
@@ -126,7 +127,7 @@ So over the past few days and months, we've prepared the codebase to be open-sou
 
 **Have questions or just want to talk?** Come hang out with us in [our public chat room](https://www.hipchat.com/gAUVWHvA3).
 
-**Want to fork Flow to be a white-labelled platform for your school?** Awesome -- go for it. Just be wary that the data scrapers are tied to [Waterloo's APIs](https://github.com/uwaterloo/opendata).
+**Want to fork Flow to be a white-labelled platform for your school?** Awesome -- go for it. Just be wary that the data scrapers are tied to [Waterloo's APIs](https://github.com/uWaterloo/api-documentation).
 
 
 ## What's next?
@@ -146,11 +147,14 @@ Thanks to everyone who gave us a shot. Thank you for rating courses, writing rev
 
 ## Footnotes
 
-&#91;1\] Also known as the Fourth Year Design Project, this is a 3-course sequence where Software Engineering students at Waterloo work on a single project in teams of 3-4 over the span of 20 months. Instead of a purely educational school project, we thought of this as the perfect opportunity to do a startup while we were still in school (and get course time and credit at the same time).
+<a name="f1"> </a>
+&#91;1] Also known as the Fourth Year Design Project, this is a 3-course sequence where Software Engineering students at Waterloo work on a single project in teams of 3-4 over the span of 20 months. Instead of a purely educational school project, we thought of this as the perfect opportunity to do a startup while we were still in school (and get course time and credit at the same time).
 
-&#91;2\] Although Jamie is one of the most competent programmers I've worked with, and we've pair-programmed in ACM contest practices, we just _had_ to ask him Fizz Buzz anyway. You know. Just in case. We also asked him his favourite interview question ever: "What's your greatest weakness?" If you ever interview him, make sure to ask him questions like that.
+<a name="f2"> </a>
+&#91;2] Although Jamie is one of the most competent programmers I've worked with, and we've pair-programmed in ACM contest practices, we just _had_ to ask him Fizz Buzz anyway. You know. Just in case. We also asked him his favourite interview question ever: "What's your greatest weakness?" If you ever interview him, make sure to ask him questions like that.
 
-&#91;3\] Here's the email Harj sent us:
+<a name="f3"> </a>
+&#91;3] Here's the email Harj sent us:
 > I'm sorry to say we decided not to fund you guys. It was a tough decision because we enjoyed meeting you and it's clear you're good programmers.  Our concern is that while you've build good software, we couldn't see how you'll be able to acquire enough users to grow this into the kind of large, independent company that investors are hoping to fund.  We think it would be best if you finished college and in the meantime worked on projects because they were interesting rather than trying to come up with a startup idea right now. That approach actually often leads to better startup ideas anyway and we'd encourage you to reapply again in the future, we'd be happy to hear from you.
 
  We agree with pretty much all points.
@@ -161,12 +165,8 @@ Thanks to everyone who gave us a shot. Thank you for rating courses, writing rev
 
 ... fixing things we broke the previous night.
 
-
-
  [Mack]: https://github.com/mduan
  [Sandy]: https://github.com/jswu
  [Jamie]: http://jamie-wong.com
- [Justin]: http://j-li.net/
- [Kartik]: http://kartikt.com/
  [Terrance]: https://twitter.com/TerranceKwok
  [Shubham]: https://medium.com/@Shubham
